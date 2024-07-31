@@ -51,7 +51,7 @@ header {
 /*Dropdown menu for mobile devices*/
 #menu {
     position: absolute;
-    top: 136px;
+    top: 100%;
     background-color: #1f113e;
     padding: .5rem 1rem;
     display: none;
