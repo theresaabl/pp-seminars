@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     color: #f5f5f5;
     font-family: "Mukta Vaani", sans-serif;
+    /*Dark blue-purple background color*/
     background-color: #1d0f39;
 }
 
@@ -26,8 +27,7 @@ h1, h2, h3 {
 
 /*Header*/
 header {
-    /*Dark blue-purple background color*/
-    /* background-color: #1f113e; */
+    background-color: #1d0f39;
     position: fixed;
     width: 100%;
     padding: .5rem 1rem;
