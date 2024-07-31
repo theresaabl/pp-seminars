@@ -69,6 +69,8 @@ header a {
 }
 
 /*Dropdown menu for mobile devices*/
+/*Code inspiration for this feature from: Code Institute love running walkthrough project*/
+/*https://github.com/Code-Institute-Solutions/love-running-v3*/
 #menu {
     position: absolute;
     top: 100%;

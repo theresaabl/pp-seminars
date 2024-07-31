@@ -6,3 +6,7 @@ The [emoji graphics](https://github.com/twitter/twemoji/blob/master/assets/svg/2
 image sources:
 hero image:
 https://hips.hearstapps.com/hmg-prod/images/higgs-boson-conceptual-illustration-royalty-free-illustration-1659096743.jpg
+
+dropdown menu:
+Code inspiration for this feature from: Code Institute love running walkthrough project*/
+/*https://github.com/Code-Institute-Solutions/love-running-v3
