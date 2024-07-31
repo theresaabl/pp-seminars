@@ -36,6 +36,11 @@ header {
     box-shadow: 0 3px 10px #a8a8ff;
 }
 
+header a {
+    text-decoration: none;
+    color: #a8a8ff;
+}
+
 #logo {
     color: #a8a8ff;
     letter-spacing: 3px;
@@ -47,14 +52,20 @@ header {
 }
 
 #menu a {
-    text-decoration: none;
     color: #f5f5f5;
     font-size: 120%;
+    padding: 0 1rem;
 }
 
 #menu a:hover {
     color: #a8a8ff;
     border-bottom: solid 1px #a8a8ff;
+}
+
+.active {
+    border-bottom: 1px solid #a8a8ff; 
+    /* background-color: #a8a8ff;
+    color: #1f113e;  */
 }
 
 /*Dropdown menu for mobile devices*/
