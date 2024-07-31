@@ -1,0 +1,17 @@
+body {
+    color: whitesmoke;
+    min-height: 100vh;
+}
+
+
+header {
+    background-color: rgb(62, 62, 124);
+}
+
+main {
+    background-color: rgb(58, 0, 58);
+}
+
+footer {
+    background-color: rgb(51, 78, 77);
+}
