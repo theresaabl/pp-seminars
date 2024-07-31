@@ -62,10 +62,9 @@ header a {
     border-bottom: solid 1px #a8a8ff;
 }
 
-.active {
+#menu a.active {
     border-bottom: 1px solid #a8a8ff; 
-    /* background-color: #a8a8ff;
-    color: #1f113e;  */
+    color: #a8a8ff;
 }
 
 /*Dropdown menu for mobile devices*/
