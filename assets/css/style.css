@@ -29,10 +29,15 @@ h1, h2, h3 {
 
 /*Header*/
 header {
+    /*Dark blue-purple background color*/
     background-color: #1f113e;
     position: fixed;
     width: 100%;
     padding: .5rem 1rem;
+}
+
+#menu li {
+    list-style-type: none;
 }
 
 /*Main content*/
