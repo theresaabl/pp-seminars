@@ -1,17 +1,35 @@
+/* Asterisk wildcard selector to override browser default styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*General styles*/
 body {
     color: whitesmoke;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-
+/*Header*/
 header {
     background-color: rgb(62, 62, 124);
+    position: fixed;
+    width: 100%;
 }
 
+/*Main content*/
 main {
     background-color: rgb(58, 0, 58);
+    /*Fill up space to push footer down*/
+    flex: 1 0;
+    /*Push main content down to display below header*/
+    margin-top: 18px;
 }
 
+/*Footer*/
 footer {
     background-color: rgb(51, 78, 77);
 }
