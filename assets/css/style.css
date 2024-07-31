@@ -78,10 +78,19 @@ main {
     /*Fill up space to push footer down*/
     flex: 1 0;
     /*Push main content down to display below header*/
-    margin-top: 100px;
+    margin-top: 153px;
 }
 
 /*Footer*/
 footer {
     background-color: rgb(51, 78, 77);
+}
+
+/*Media query: device width where logo breaks into two lines (482px and up)*/
+@media screen and (min-width: 482px) {
+    /*Main content starts directly below header*/
+   main {
+    margin-top: 111px;
+   }
+
 }
