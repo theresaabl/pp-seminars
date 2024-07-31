@@ -38,8 +38,9 @@ header {
     flex-direction: column;
 }
 
-#menu ul {
+#menu li {
     list-style-type: none;
+    margin-bottom: .5rem;
 }
 
 #menu a {
