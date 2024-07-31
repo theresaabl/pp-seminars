@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     color: #f5f5f5;
     font-family: "Mukta Vaani", sans-serif;
+    background-color: #1f113e;
 }
 
 h1, h2, h3 {
@@ -24,6 +25,7 @@ h1, h2, h3 {
 }
 
 #logo {
+    color: #a8a8ff;
     letter-spacing: 3px;
 }
 
@@ -36,6 +38,7 @@ header {
     padding: .5rem 1rem;
     display: flex;
     flex-direction: column;
+    box-shadow: 0 3px 10px #a8a8ff;
 }
 
 #menu li {
@@ -53,12 +56,15 @@ header {
 #menu {
     position: absolute;
     top: 100%;
+    left: 0%;
     background-color: #1f113e;
-    padding: .5rem 1rem;
+    padding: .5rem 2rem;
     display: none;
+    box-shadow: 3px 3px 10px #a8a8ff;
 }
 
 #dropdown-label {
+    color: #a8a8ff;
     font-size: 2rem;
     margin-left: 1rem;
 }
@@ -75,11 +81,10 @@ header {
 
 /*Main content*/
 main {
-    background-color: rgb(58, 0, 58);
     /*Fill up space to push footer down*/
     flex: 1 0;
     /*Push main content down to display below header*/
-    margin-top: 153px;
+    margin-top: 156px;
 }
 
 /*Footer*/
@@ -91,7 +96,7 @@ footer {
 @media screen and (min-width: 482px) {
     /*Main content starts directly below header*/
    main {
-    margin-top: 111px;
+    margin-top: 114px;
    }
 
 }
