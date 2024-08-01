@@ -113,6 +113,31 @@ main {
     height: 25rem;
 }
 
+#hero-image-text-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 1rem;
+    /*Add opacity to background-color of div*/
+    background-color: #a8a8ffe6;
+    border-radius: 5px;
+}
+
+#hero-image-text-2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 1rem;
+    background-color: #a8a8ffe6;
+    border-radius: 5px;
+}
+
+#hero-image p {
+    padding: .5rem 1rem;
+    color: #1d0f39;
+    font-weight: bold;
+}
+
 /*Footer*/
 footer {
     box-shadow: 0 -3px 10px #a8a8ff;
