@@ -164,6 +164,15 @@ main {
     padding: 1rem;
     padding-bottom: 1.5rem;
     height: 100%;
+    text-align: center;
+}
+
+.seminar-type div {
+    
+}
+
+.seminar-type h2 {
+    margin-bottom: 1.5rem;
 }
 
 .seminar-type h3 {
