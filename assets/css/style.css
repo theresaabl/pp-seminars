@@ -142,11 +142,12 @@ main {
 #about{
     box-shadow: 0 -3px 10px #a8a8ff;
     background-color: #a8a8ff;
+    display: flex;
+    flex-direction: column;
 }
 
 .seminar-type-container {
-    margin: .3rem;
-    margin-bottom: 0;
+    margin: 0 .3rem;
 }
 
 #lunch-seminar-container {
@@ -155,15 +156,18 @@ main {
 
 #journal-club-container {
     background: url(../images/group-discussion.jpg) no-repeat center center/cover;
+    margin-top: .3rem;
 } 
 
 .seminar-type {
     background-color: #1d0f39e0;
     padding: 1rem;
+    padding-bottom: 1.5rem;
+    height: 100%;
 }
 
 .seminar-type h3 {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 #about a {
@@ -263,7 +267,7 @@ logo breaks into two lines for most mobile devices (308-481px)*/
     /*About section*/
     /*Add flex styles for larger devices*/
     #about {
-        display: flex;
+        flex-direction: row;
     }
 
     .seminar-type-container {
@@ -272,6 +276,7 @@ logo breaks into two lines for most mobile devices (308-481px)*/
 
     #journal-club-container {
         margin-left: 0;
+        margin-top: 0;
     }
 
     /*Footer*/
