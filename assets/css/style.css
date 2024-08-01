@@ -111,6 +111,7 @@ main {
     width: 100%;
     position: relative;
     height: 25rem;
+    z-index: -1;
 }
 
 .hero-image-text{
@@ -135,6 +136,41 @@ main {
     padding: .5rem 1rem;
     color: #1d0f39;
     font-weight: 600;
+}
+
+/*About section*/
+#about{
+    box-shadow: 0 -3px 10px #a8a8ff;
+    background-color: #a8a8ff;
+}
+
+#lunch-seminar-container {
+    background: url(../images/woman-with-blackboard-physics.jpg) no-repeat center center/cover;
+    margin: .3rem;
+}
+
+#journal-club-container {
+    background: url(../images/group-discussion.jpg) no-repeat center center/cover;
+    margin: .3rem;
+}
+
+.seminar-type {
+    background-color: #1d0f39e0;
+    padding: 1rem;
+}
+
+.seminar-type h3 {
+    margin-top: 1rem;
+}
+
+
+
+#about a {
+    color:#f5f5f5;
+}
+
+#about a:hover {
+    color:#a8a8ff;
 }
 
 /*Footer*/
