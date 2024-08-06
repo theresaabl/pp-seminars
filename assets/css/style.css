@@ -286,7 +286,7 @@ logo breaks into two lines for most mobile devices (308-481px)*/
 }
 
 /*Media query: very narrow windows, upcoming talks page, luch seminar h3 heading breaks into two lines (336px and down)*/
-@media screen and (max-width: 336px) {
+@media screen and (max-width: 352px) {
     /*Main content*/
     /*Upcoming talks section*/
     /*Keep Week date in same line as date of lunch seminar*/

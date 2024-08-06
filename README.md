@@ -10,6 +10,8 @@ lunch-seminar background image:
 https://www.u-tokyo.ac.jp/content/400117925.jpg
 journal-club background image:
 https://cdn-ontesol.pressidium.com/wp-content/uploads/2014/06/iStock_000021014694Small.jpg
+upcoming section background image:
+https://mrwallpaper.com/images/hd/quantum-particle-collision-in-high-energy-physics-7456mziexm479eca.jpg
 
 dropdown menu:
 Code inspiration for this feature from: Code Institute love running walkthrough project*/
