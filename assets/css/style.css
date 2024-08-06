@@ -272,23 +272,21 @@ main {
 }
 
 #participate-form {
-    width: fit-content;
+    width: 50%;
     align-self: center;
-    text-align: center;
-    background-color: #a8a8ffc8;
+    background-color: #a8a8ffb0;
     padding: 1rem;
-
-    /* position: absolute;
-    top: 2rem;
-    left: 2rem; */
     display: flex;
     flex-direction: column;
-
-    /* flex: 1 1 auto; */
-    /* display: flex;
-    flex-direction: column; */
 }
 
+#participate-form div {
+    align-self: center;
+}
+
+#participate-form-headings {
+    text-align: center;
+}
 
 #participate-form h3 {
     margin: 1rem 0;
@@ -299,8 +297,9 @@ main {
     background: transparent;
     color: inherit;
     border: 1px solid #f5f5f5;
-    /* width: 100%; */
+    width: 100%;
 }
+
 
 /* #participate-form > div {
     margin-bottom: 1rem;
@@ -466,6 +465,11 @@ logo breaks into two lines for most mobile devices (308-481px)*/
 
     .journal-club-upcoming h2 {
         margin-top: inherit;
+    }
+
+    /*Sign up form*/
+    #participate-form {
+        padding: 2rem;
     }
 
     /*Footer*/
