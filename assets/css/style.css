@@ -184,7 +184,7 @@ main {
 }
 
 #about a {
-    color:#f5f5f5;
+    color: inherit;
 }
 
 #about a:hover {
@@ -192,23 +192,39 @@ main {
 }
 
 /*Upcoming Talks page*/
+#upcoming-talks-section {
+    background: url("../images/quantum-particle-collision-in-high-energy-physics.jpg") no-repeat center center / cover;
+}
+
+#upcoming-talks-section h2 {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+#upcoming-talks-section h3, #upcoming-talks-section p {
+    margin-bottom: 1rem;
+}
+
 .upcoming-row {
     display: flex;
+    background-color:#1d0f39d0;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+#upcoming-3 {
+    border-bottom: none;
 }
 
 .week-upcoming {
     flex: 0 0 8.5rem;
     padding: .6rem;
-    background-color:#a8a8ff;
-    border: 1px solid #f5f5f5;
+    border-right: 1px solid #f5f5f5;
 }
 
 .talks-upcoming {
     flex: 1 1 auto;
     padding: .6rem;
     padding-bottom: 1rem;
-    background-color:#a8a8ffe8;
-    border: 1px solid #f5f5f5;
     display: flex;
     flex-direction: column;
 }
@@ -218,7 +234,7 @@ main {
 }
 
 .talks-upcoming a:hover {
-    color: #1d0f39;
+    color: #a8a8ff;
 }
 
 .journal-club-upcoming h2 {
