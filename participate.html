@@ -31,14 +31,16 @@
             <form action="https://www.formdump.codeinstitute.net" method="POST" id="participate-form">
                 <h2>Wish to contribute to one of our seminars?</h2>
                 <h3>Leave your idea here:</h3>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <br>
-                <label for="university">University:</label>
-                <input type="text" id="university" name="university" required>
-                <br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <div id="participate-form-personal-details">        
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" class="input-text" required>
+                    <br>
+                    <label for="university">University:</label>
+                    <input type="text" id="university" name="university" class="input-text" required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="input-text" required>
+                </div>
                 <div class="radio-buttons">
                     <div>
                         <input type="radio" name="type-participation" value="talk" id="talk" required checked>
@@ -49,11 +51,16 @@
                          <label for="paper">I'd like to propose a paper to discuss at the journal club</label>
                     </div>
                </div>
-               <label for="title">Title:</label>
-               <input type="text" id="title" name="title">
-               <br>
-               <button class="reset-button" type="reset">Reset</button>
-               <button class="submit-button" type="submit">Submit</button>
+               <div id="participate-form-suggestion">
+                    <label for="title">Title:</label>
+                    <input type="text" id="title" name="title" class="input-text" required>
+                    <br>
+                    <textarea id="abstract" name="abstract" class="input-text" rows="5" cols="50" required>Please share abstract, links and other relevant information here.</textarea>
+                </div>
+                <div id="participate-form-buttons">
+                    <button class="reset-button" type="reset">Reset</button>
+                    <button class="submit-button" type="submit">Submit</button>
+                </div>
             </form>
         </section>
     </main>
