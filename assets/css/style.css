@@ -193,7 +193,7 @@ main {
 
 /*Upcoming Talks page*/
 #upcoming-talks-section {
-    background: url("../images/quantum-particle-collision-in-high-energy-physics.jpg") no-repeat center center / cover;
+    background: url("../images/quantum-particle-collision-in-high-energy-physics.jpg") no-repeat fixed 55% bottom/ cover;
 }
 
 #upcoming-talks-section h2 {
@@ -293,6 +293,10 @@ logo breaks into two lines for most mobile devices (308-481px)*/
     .week-upcoming p {
         margin-top: 3.5rem;
     }
+
+    #upcoming-talks-section {
+        background-position: center bottom;
+    }
 }
 
 /*Media query: device width where logo is contained in one line (482px and up)*/
@@ -359,6 +363,10 @@ logo breaks into two lines for most mobile devices (308-481px)*/
     }
 
     /*Upcoming talks page*/
+    #upcoming-talks-section {
+        background-position: 70% bottom;
+    }
+
     .week-upcoming {
         margin-left: 1.5rem;
     }
@@ -423,6 +431,10 @@ logo breaks into two lines for most mobile devices (308-481px)*/
         }
 
     /*Upcoming talks page*/
+    #upcoming-talks-section {
+        background-position: 85% bottom;
+    }
+
     .week-upcoming {
         margin-left: 2rem;
     }
@@ -475,6 +487,10 @@ logo breaks into two lines for most mobile devices (308-481px)*/
     }
 
     /*Upcoming talks page*/
+    #upcoming-talks-section {
+        background-position: right 10%;
+    }
+
     .week-upcoming {
         margin-left: 3rem;
     }
