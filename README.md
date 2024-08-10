@@ -12,6 +12,14 @@ journal-club background image:
 https://cdn-ontesol.pressidium.com/wp-content/uploads/2014/06/iStock_000021014694Small.jpg
 upcoming section background image:
 https://mrwallpaper.com/images/hd/quantum-particle-collision-in-high-energy-physics-7456mziexm479eca.jpg
+participate page background image:
+https://static.spektrum.de/fm/912/f2000x857/iStock-936903524_i000pixels.jpg
+contact page background image:
+https://cdn.mos.cms.futurecdn.net/P6zNb5J9FM6V2KjLJTGVQS.jpg
+newsletter page background image:
+https://caltechsites-prod.s3.amazonaws.com/scienceexchange/images/Quantum_Physics-HeaderImage-F.2e16d0ba.fill-933x525-c100.jpg
+error page:
+https://smd-cms.nasa.gov/wp-content/uploads/2023/06/PIA16695_large-jpg.webp
 
 dropdown menu:
 Code inspiration for this feature from: Code Institute love running walkthrough project*/
