@@ -310,7 +310,7 @@ main {
 
 .input-text:focus {
     outline: none;
-    background-color: #a8a8ff;
+    background-color: #aeabd7;
 }
 
 #participate-form-buttons {
