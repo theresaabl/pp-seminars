@@ -334,14 +334,6 @@ main {
     border-radius: 4px;
 }
 
-/* #participate-form > div {
-    margin-bottom: 1rem;
-}
-
-#participate-form-suggestion {
-    margin-bottom: 0;
-} */
-
 #participate-form-personal-details {
     margin-bottom: 1rem;
 }
@@ -349,7 +341,6 @@ main {
 .radio-buttons {
     margin-bottom: 1rem;
 }
-
 
 /*Footer*/
 footer {
