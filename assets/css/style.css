@@ -308,6 +308,11 @@ main {
     color:#f5f5f5;
 }
 
+.input-text:focus {
+    outline: none;
+    background-color: #a8a8ff;
+}
+
 #participate-form-buttons {
     width: 100%;
 }
