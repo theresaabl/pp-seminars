@@ -433,6 +433,22 @@ main {
     border-bottom: 1px solid #a8a8ff;
 }
 
+/*Newsletter signup page*/
+#newsletter-section {
+    background: url("../images/quantum-physics-waves.jpg") no-repeat fixed center center / cover;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#newsletter-form-container {
+    background-color: #1d0f39b0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 /*Footer*/
 footer {
     box-shadow: 0 -3px 10px #a8a8ff;
