@@ -391,28 +391,30 @@ main {
 
 /*Error page*/
 #error-page {
-    background: url("../images/black-hole-image.webp") no-repeat fixed center bottom / cover;
+    background: url("../images/black-hole-image.webp") no-repeat fixed 40% bottom / cover;
     flex-grow: 1;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 #error-message {
     width: 80%;
-    background-color: #1d0f39b0;
+    background-color: #1d0f39d0;
     color: #f5f5f5;
-    align-self: center;
     padding: 2rem;
     border-radius: 20px;
     text-align: center;
+    align-self: center;
 }
 
 #error-message h2 {
     margin-bottom: 2rem;
+    font-size: 200%;
 }
 
 #error-message p {
-    font-size: 110%;
+    font-size: 120%;
 }
 
 #error-message a {
@@ -606,8 +608,15 @@ logo breaks into two lines for most mobile devices (308-481px)*/
     }
 
     /*Error page*/
+    #error-page {
+        background-position: 20% bottom;
+    }
+
     #error-message {
         width: 60%;
+        position: absolute;
+        left: 3rem;
+        bottom: 3rem;
     }
 
     /*Footer*/
@@ -672,6 +681,10 @@ logo breaks into two lines for most mobile devices (308-481px)*/
     }
 
     /*Error page*/
+    #error-page {
+        background-position: 15% bottom;
+    }
+
     #error-message {
         width: 50%;
     }
@@ -738,6 +751,10 @@ logo breaks into two lines for most mobile devices (308-481px)*/
     }
 
     /*Error page*/
+    #error-page {
+        background-position: left bottom;
+    }
+
     #error-message {
         width: 40%;
     }
