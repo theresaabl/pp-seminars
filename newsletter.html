@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Meta tags for search engines-->
+    <meta name="description" content="Particle Physics Seminars. Weekly seminars to learn about and discuss recent developments in particle physics.">
+    <meta name="keywords" content="particle physics, physical sciences, seminar, journal club, research, publications, papers, journals, lunch seminar">
+    <title>Particle Physics Seminars</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1 id="logo"><a href="index.html">Particle Physics Seminars</a></h1>
+        <label for="dropdown" id="dropdown-label"><i class="fa-solid fa-bars"></i></label>
+        <input id="dropdown" name="dropdown" type="checkbox">
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="upcoming.html">Upcoming</a></li>
+                <li><a href="participate.html">Participate</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="participate-section">
+            <div id="participate-form-container">
+                <form action="https://formdump.codeinstitute.net" method="POST" id="participate-form">
+                    <div id="participate-form-headings">
+                        <h2 class="participate-form-heading">Sign up to our newsletter!</h2>
+                        <h3 class="participate-form-heading">Get weekly reminders of upcoming seminars.</h3>
+                    </div>
+                    <div id="participate-form-personal-details">        
+                        <label for="participate-form-name">Name:</label>
+                        <input type="text" id="participate-form-name" name="name" class="input-text" required>
+                        <br>
+                        <label for="participate-form-university">University:</label>
+                        <input type="text" id="participate-form-university" name="university" class="input-text" required>
+                        <br>
+                        <label for="participate-form-email">Email:</label>
+                        <input type="email" id="participate-form-email" name="email" class="input-text" required>
+                    </div>
+                    <p>Which seminar are you most interested in?</p>
+                    <div class="radio-buttons">
+                        <div>
+                            <input type="radio" name="newsletter-interest" value="lunch-seminar" id="newsletter-form-radio-lunch-seminar" required checked>
+                            <label for="newsletter-form-radio-lunch-seminar">Lunch seminar</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="newsletter-interest" value="journal-club" id="newsletter-form-radio-journal-club" required> 
+                            <label for="newsletter-form-radio-journal-club">Journal club</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="newsletter-interest" value="both" id="newsletter-form-radio-both" required> 
+                            <label for="newsletter-form-radio-both">Both</label>
+                        </div>
+                    </div>
+                    <div id="participate-form-suggestion">
+                        <textarea id="participate-form-abstract" name="abstract" class="input-text" rows="5" cols="60" required placeholder="Your message."></textarea>
+                        <button class="form-button" type="reset">Reset</button>
+                        <button class="form-button" type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+        <span>&copy 2024 Research University</span>
+        <span id="social-media">
+            <a href="https://x.com/" target="_blank" rel="noopener" aria-label="Visit our X page (opens in a new tab)"><i class="fa-brands fa-square-x-twitter" title="Go to X"></i></a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube" title="Go to Youtube"></i></a>
+        </span>
+    </footer>
+
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/e1363dc097.js" crossorigin="anonymous"></script>
+</body>
+</html>

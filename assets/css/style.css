@@ -110,6 +110,12 @@ header a {
     display: block;
 }
 
+#newsletter-link {
+    font-size: 2rem;
+    position: absolute;
+    top: 90px;
+    right: 5rem;
+}
 
 /*Main content*/
 main {
