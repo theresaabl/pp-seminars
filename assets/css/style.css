@@ -359,10 +359,15 @@ main {
     justify-content: center;
 }
 
+#contact-info {
+    font-size: 110%;
+}
+
 #contact-info i {
     vertical-align: top;
     margin-right: 1rem;
     margin-top: .4rem;
+    font-size: 120%;
 }
 
 #contact-info p {
@@ -385,6 +390,7 @@ main {
 #contact-map {
     align-self: center;
     width: 80%;
+    height: 18rem;
 }
 
 /*Footer*/
@@ -557,7 +563,7 @@ logo breaks into two lines for most mobile devices (308-481px)*/
         padding: 2rem;
     }
 
-    #contact-form-personal-details, #contact-form-message {
+    #contact-form-personal-details, #contact-form-message, #contact-form-buttons {
         width: 80%;
         align-self: center;
     }
@@ -614,7 +620,7 @@ logo breaks into two lines for most mobile devices (308-481px)*/
     }
 
     /*Contact page*/
-    #contact-form-personal-details, #contact-form-message {
+    #contact-form-personal-details, #contact-form-message, #contact-form-buttons {
         width: 60%;
     }
 
