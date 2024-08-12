@@ -389,6 +389,17 @@ main {
     height: 18rem;
 }
 
+/*Error page*/
+#error-page {
+    background: url("../images/black-hole-image.webp") no-repeat fixed center center / cover;
+    flex-grow: 1;
+}
+
+#error-message {
+    background-color: #aeabd7b0;
+    color: #f5f5f5;
+}
+
 /*Footer*/
 footer {
     box-shadow: 0 -3px 10px #a8a8ff;
