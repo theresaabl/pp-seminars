@@ -360,8 +360,8 @@ main {
 }
 
 #contact-info i {
-    margin-right: 1rem;
     vertical-align: top;
+    margin-right: 1rem;
     margin-top: .4rem;
 }
 
@@ -373,7 +373,7 @@ main {
     display: inline-block;
 }
 
-#contact-info {
+#contact-info, #contact-form {
     width: 80%;
     align-self: center;
     background-color: #aeabd7c0;
@@ -385,15 +385,6 @@ main {
 #contact-map {
     align-self: center;
     width: 80%;
-}
-
-#contact-form {
-    width: 80%;
-    align-self: center;
-    background-color: #aeabd7c0;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
 }
 
 /*Footer*/
