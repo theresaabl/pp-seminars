@@ -359,10 +359,6 @@ main {
     justify-content: center;
 }
 
-.align-center {
-    /* text-align: center; */
-}
-
 #contact-info i {
     margin-right: 1rem;
     vertical-align: top;
@@ -550,6 +546,22 @@ logo breaks into two lines for most mobile devices (308-481px)*/
         padding: 2rem;
     }
 
+     /*Contact page*/
+    #contact-info {
+        width: 50%;
+        padding: 2rem;
+    }
+
+    #contact-form-personal-details {
+        width: 80%;
+        align-self: center;
+    }
+
+    #contact-form {
+        width: 50%;
+        padding: 2rem;
+    }
+
     /*Footer*/
     #social-media a {
         font-size: 130%;
@@ -599,6 +611,11 @@ logo breaks into two lines for most mobile devices (308-481px)*/
 
     .lunch-seminar-upcoming, .journal-club-upcoming {
         padding: 0 1.5rem;
+    }
+
+    /*Contact page*/
+    #contact-form-personal-details {
+        width: 60%;
     }
 
     /*Footer*/
