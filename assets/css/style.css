@@ -382,6 +382,11 @@ main {
     flex-direction: column;
 }
 
+#contact-map {
+    align-self: center;
+    width: 80%;
+}
+
 #contact-form {
     width: 80%;
     align-self: center;
@@ -552,14 +557,18 @@ logo breaks into two lines for most mobile devices (308-481px)*/
         padding: 2rem;
     }
 
-    #contact-form-personal-details {
-        width: 80%;
-        align-self: center;
+    #contact-map {
+        width: 50%;
     }
 
     #contact-form {
         width: 50%;
         padding: 2rem;
+    }
+
+    #contact-form-personal-details, #contact-form-message {
+        width: 80%;
+        align-self: center;
     }
 
     /*Footer*/
@@ -614,7 +623,7 @@ logo breaks into two lines for most mobile devices (308-481px)*/
     }
 
     /*Contact page*/
-    #contact-form-personal-details {
+    #contact-form-personal-details, #contact-form-message {
         width: 60%;
     }
 
