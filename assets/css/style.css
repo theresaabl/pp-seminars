@@ -772,6 +772,11 @@ logo breaks into two lines for most mobile devices (308-481px)*/
         width: 40%;
     }
 
+    /*Contact page*/
+    #contact-info, #contact-map, #contact-form {
+        width: 40%;
+    }
+
     /*Error page*/
     #error-page {
         background-position: left bottom;
