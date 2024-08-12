@@ -313,11 +313,7 @@ main {
     background-color: #aeabd7;
 }
 
-#participate-form-buttons {
-    width: 100%;
-}
-
-.participate-form-button {
+.form-button {
     font-size: 90%;
     padding: .3rem .6rem;
     margin-right: 1.5rem;
@@ -327,7 +323,7 @@ main {
     border-radius: 4px;
 }
 
-.participate-form-button:active {
+.form-button:active {
     background-color: #aeabd7;
     color: #1d0f39;
     border: 1px solid #1d0f39;
@@ -548,7 +544,12 @@ logo breaks into two lines for most mobile devices (308-481px)*/
         padding: 2rem;
     }
 
-     /*Contact page*/
+    #participate-form-suggestion {
+        width: 80%;
+        align-self: center;
+    }
+
+    /*Contact page*/
     #contact-info {
         width: 50%;
         padding: 2rem;
@@ -563,7 +564,7 @@ logo breaks into two lines for most mobile devices (308-481px)*/
         padding: 2rem;
     }
 
-    #contact-form-personal-details, #contact-form-message, #contact-form-buttons {
+    #contact-form-personal-details, #contact-form-message {
         width: 80%;
         align-self: center;
     }
@@ -619,8 +620,13 @@ logo breaks into two lines for most mobile devices (308-481px)*/
         padding: 0 1.5rem;
     }
 
+    /*Participate form*/
+    #participate-form-suggestion {
+        width: 60%;
+    }
+
     /*Contact page*/
-    #contact-form-personal-details, #contact-form-message, #contact-form-buttons {
+    #contact-form-personal-details, #contact-form-message {
         width: 60%;
     }
 
