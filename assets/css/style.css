@@ -640,11 +640,15 @@ logo breaks into two lines for most mobile devices (308-481px)*/
         background-position: 20% bottom;
     }
 
+    #error-page {
+        justify-content: start;
+    }
+
     #error-message {
         width: 60%;
-        position: absolute;
-        left: 3rem;
-        bottom: 3rem;
+        align-self: flex-end;
+        margin-left: 3rem;
+        margin-bottom: 3rem;
     }
 
     /*Footer*/
