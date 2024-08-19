@@ -129,7 +129,7 @@ main {
 
 /*Hero image section*/
 #hero-image {
-    background: url(../images/higgs-boson-conceptual-illustration.jpg) no-repeat center center/cover;
+    background: url(../images/higgs-boson-conceptual-illustration.webp) no-repeat center center/cover;
     width: 100%;
     position: relative;
     height: 25rem;
@@ -173,11 +173,11 @@ main {
 }
 
 #lunch-seminar-container {
-    background: url(../images/woman-with-blackboard-physics.jpg) no-repeat center center/cover;
+    background: url(../images/woman-with-blackboard-physics.webp) no-repeat center center/cover;
 }
 
 #journal-club-container {
-    background: url(../images/group-discussion.jpg) no-repeat left center/cover;
+    background: url(../images/group-discussion.webp) no-repeat left center/cover;
     margin-top: .3rem;
 } 
 
@@ -207,7 +207,7 @@ main {
 
 /*Upcoming Talks page*/
 #upcoming-talks-section {
-    background: url("../images/quantum-particle-collision-in-high-energy-physics.jpg") no-repeat fixed 55% bottom/ cover;
+    background: url("../images/quantum-particle-collision-in-high-energy-physics.webp") no-repeat fixed 55% bottom/ cover;
 }
 
 #upcoming-talks-section h2 {
@@ -388,7 +388,7 @@ main {
 
 /*Contact page*/
 #contact-section, #contact-confirmation-section {
-    background: url("../images/cosmic-web.jpg") no-repeat fixed center center / cover;
+    background: url("../images/cosmic-web.webp") no-repeat fixed center center / cover;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -439,7 +439,7 @@ main {
 
 /*Newsletter signup page*/
 #newsletter-section, #newsletter-confirmation-section {
-    background: url("../images/quantum-physics-waves.jpg") no-repeat fixed center top / cover;
+    background: url("../images/quantum-physics-waves.webp") no-repeat fixed center top / cover;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
