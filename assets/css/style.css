@@ -451,6 +451,23 @@ main {
     justify-content: center;
 }
 
+.newsletter-radio-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+
+#newsletter-radio-button-text {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.form-buttons {
+    width: 100%;
+}
+
 /*Footer*/
 footer {
     box-shadow: 0 -3px 10px #a8a8ff;
