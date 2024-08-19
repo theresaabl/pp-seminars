@@ -437,6 +437,39 @@ main {
     height: 18rem;
 }
 
+/*Newsletter signup page*/
+#newsletter-section, #newsletter-confirmation-section {
+    background: url("../images/quantum-physics-waves.jpg") no-repeat fixed center top / cover;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#newsletter-form-container {
+    background-color: #1d0f39a0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.newsletter-radio-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+
+#newsletter-radio-button-text {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.form-buttons {
+    width: 100%;
+}
+
 /*Error page*/
 #error-page {
     background: url("../images/black-hole-image.webp") no-repeat fixed 40% bottom / cover;
@@ -473,39 +506,6 @@ main {
 #error-message a:hover {
     color: #a8a8ff;
     border-bottom: 1px solid #a8a8ff;
-}
-
-/*Newsletter signup page*/
-#newsletter-section {
-    background: url("../images/quantum-physics-waves.jpg") no-repeat fixed center top / cover;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-#newsletter-form-container {
-    background-color: #1d0f39a0;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.newsletter-radio-buttons {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-bottom: 1rem;
-}
-
-#newsletter-radio-button-text {
-    margin-bottom: 1rem;
-    width: 100%;
-}
-
-.form-buttons {
-    width: 100%;
 }
 
 /*Footer*/
