@@ -262,7 +262,7 @@ main {
 }
 
 /*Participate form*/
-#participate-section {
+#participate-section, #participate-confirmation-section {
     background: url("../images/theoretical-physics-formulas.webp") no-repeat fixed left center / cover;
     flex-grow: 1;
     display: flex;
@@ -271,6 +271,13 @@ main {
 
 /*Put dark-purple-blue layer on top of background image*/
 #participate-form-container {
+    background-color: #1d0f39df;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
     background-color: #1d0f39df;
     flex-grow: 1;
     display: flex;
@@ -286,12 +293,45 @@ main {
     flex-direction: column;
 }
 
+.form-style {
+    width: 80%;
+    align-self: center;
+    background-color: #aeabd7c0;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
 #participate-form div {
     align-self: center;
 }
 
+.form-style div {
+    align-self: center;
+}
+
+.form-style p {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.form-style a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.form-style a:active {
+    color: #1d0f39;
+    border-bottom: 1px solid #1d0f39;
+}
+
 #participate-form-headings {
     text-align: center;
+}
+
+.form-heading {
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 #participate-form h3 {
@@ -437,14 +477,14 @@ main {
 
 /*Newsletter signup page*/
 #newsletter-section {
-    background: url("../images/quantum-physics-waves.jpg") no-repeat fixed center center / cover;
+    background: url("../images/quantum-physics-waves.jpg") no-repeat fixed center top / cover;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
 }
 
 #newsletter-form-container {
-    background-color: #1d0f39b0;
+    background-color: #1d0f39a0;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -623,6 +663,11 @@ logo breaks into two lines for most mobile devices (308-481px)*/
 
     /*Participate form*/
     #participate-form {
+        width: 50%;
+        padding: 2rem;
+    }
+
+    .form-style {
         width: 50%;
         padding: 2rem;
     }
@@ -806,6 +851,10 @@ logo breaks into two lines for most mobile devices (308-481px)*/
 
     /*Participate form*/
     #participate-form {
+        width: 40%;
+    }
+
+    .form-style {
         width: 40%;
     }
 
