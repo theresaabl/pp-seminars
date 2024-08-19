@@ -387,7 +387,7 @@ main {
 }
 
 /*Contact page*/
-#contact-section {
+#contact-section, #contact-confirmation-section {
     background: url("../images/cosmic-web.jpg") no-repeat fixed center center / cover;
     flex-grow: 1;
     display: flex;
