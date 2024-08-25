@@ -382,11 +382,7 @@ main {
 
 /*Put dark-purple-blue layer on top of background image*/
 #contact-container {
-    background-color: #1d0f39b0;
-    flex-grow: 1;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 #contact-info {
@@ -401,7 +397,7 @@ main {
 }
 
 #contact-info p {
-    margin-bottom: 1rem;
+    text-align: left;
 }
 
 #contact-info p span {
@@ -410,11 +406,6 @@ main {
 
 #contact-info, #contact-form {
     width: 90%;
-    align-self: center;
-    background-color: #aeabd7c0;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
 }
 
 #contact-map-container {
