@@ -40,22 +40,22 @@
                     <iframe src="https://bit.ly/3M12v2r" title="University location on google maps" id="contact-map">
                     </iframe>
                 </div>
-                <form action="contact-confirmation.html" id="contact-form">
-                    <div id="participate-form-headings">
-                        <h2 class="participate-form-heading">Or leave a message here:</h2>
+                <form action="contact-confirmation.html" id="contact-form" class="form-style">
+                    <div class="form-headings">
+                        <h2>Or leave a message here:</h2>
                     </div>
-                    <div id="contact-form-personal-details">        
-                        <label for="participate-form-name">Name:</label>
-                        <input type="text" id="participate-form-name" name="name" class="input-text" required>
+                    <div class="form-personal-details">        
+                        <label for="contact-form-name">Name:</label>
+                        <input type="text" id="contact-form-name" name="name" class="input-text" required>
                         <br>
-                        <label for="participate-form-university">University:</label>
-                        <input type="text" id="participate-form-university" name="university" class="input-text" required>
+                        <label for="contact-form-university">University:</label>
+                        <input type="text" id="contact-form-university" name="university" class="input-text" required>
                         <br>
-                        <label for="participate-form-email">Email:</label>
-                        <input type="email" id="participate-form-email" name="email" class="input-text" required>
+                        <label for="contact-form-email">Email:</label>
+                        <input type="email" id="contact-form-email" name="email" class="input-text" required>
                     </div>
-                    <div id="contact-form-message">
-                        <textarea id="participate-form-abstract" name="abstract" class="input-text" rows="5" cols="60" required placeholder="Your message."></textarea>
+                    <div id="contact-form-message-container">
+                        <textarea id="contact-form-message" name="abstract" class="input-text form-message" rows="5" cols="60" required placeholder="Your message."></textarea>
                         <button class="form-button" type="reset">Reset</button>
                         <button class="form-button" type="submit">Send</button>
                     </div>
