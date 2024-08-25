@@ -554,7 +554,7 @@ footer {
 /*Media queries: designs above are mobile first,
 logo breaks into two lines for most mobile devices (308-481px)*/
 /*Media query: very narrow windows, logo breaks into three lines (307px and down)*/
-@media screen and (max-width: 307.5px) {
+@media screen and (max-width: 308px) {
     /*Main content starts directly below header*/
    main {
     margin-top: 12.4rem;
