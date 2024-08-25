@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,9 +13,16 @@
     <!--Stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
+
+    <!-- Header -->
     <header>
+
+        <!-- Logo -->
         <h1 id="logo"><a href="index.html">Particle Physics Seminars</a></h1>
+
+        <!-- Navbar / Dropdown menu for mobile devices -->
         <label for="dropdown" id="dropdown-label"><i class="fa-solid fa-bars"></i></label>
         <input id="dropdown" name="dropdown" type="checkbox">
         <nav id="menu">
@@ -25,25 +33,42 @@
                 <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
         </nav>
+
+        <!-- Newsletter icon -->
         <a href="newsletter.html" id="newsletter-link"><i class="fa-regular fa-envelope" title="Sign up for our newsletter"></i></a>
+        
     </header>
+
+    <!-- Main content -->
     <main>
+
+        <!-- Contact section -->
         <section id="contact-section" class="form-section">
             <div id="contact-container" class="form-container">
+
+                <!-- Contact information -->
                 <div id="contact-info" class="form-style contact-large-screen-style">
                     <p>Seminars take place in the physics seminar room on the 2nd floor of the physics building.</p>
                     <p><i class="fa-solid fa-location-dot" title="Address"></i>
                     <span>Research University<br>33 University Road<br>AA1 3BB University Town <br> United Kingdom</span></p>
                     <p><i class="fa-solid fa-envelope" title="Email"></i>research-group@physics.ac.uk</p>
                 </div>
+
+                <!-- Interactive map -->
                 <div id="contact-map-container" class="contact-large-screen-style">
                     <iframe src="https://bit.ly/3M12v2r" title="University location on google maps" id="contact-map">
                     </iframe>
                 </div>
+
+                <!-- Contact form -->
                 <form action="contact-confirmation.html" id="contact-form" class="form-style contact-large-screen-style">
+
+                    <!-- Headings -->
                     <div class="form-headings">
                         <h2>Leave a message here:</h2>
                     </div>
+
+                    <!-- Personal details -->
                     <div class="form-personal-details">        
                         <label for="contact-form-name">Name:</label>
                         <input type="text" id="contact-form-name" name="name" class="input-text" required>
@@ -54,17 +79,23 @@
                         <label for="contact-form-email">Email:</label>
                         <input type="email" id="contact-form-email" name="email" class="input-text" required>
                     </div>
+
+                    <!-- Message and buttons -->
                     <div id="contact-form-message-container" class="form-message-container">
                         <textarea id="contact-form-message" class="input-text form-message" name="abstract" rows="5" cols="60" required placeholder="Your message."></textarea>
                         <button class="form-button" type="reset">Reset</button>
                         <button class="form-button" type="submit">Send</button>
                     </div>
+
                 </form>
+
             </div>
         </section>
-    </main>
-    <footer>
 
+    </main>
+
+    <!-- Footer -->
+    <footer>
         <span>&copy; 2024 Research University</span>
         <span id="social-media">
             <a href="https://x.com/" target="_blank" rel="noopener" aria-label="Visit our X page (opens in a new tab)"><i class="fa-brands fa-square-x-twitter" title="Go to X"></i></a>
@@ -75,4 +106,5 @@
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/e1363dc097.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
