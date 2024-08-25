@@ -858,11 +858,15 @@ logo breaks into two lines for most mobile devices (308-481px)*/
     }
 
     .talks-upcoming {
-        margin-right: 3rem;
+        margin-right: 5rem;
     }
 
     .lunch-seminar-upcoming, .journal-club-upcoming {
         padding: 0 2rem;
+    }
+
+    .lunch-seminar-upcoming {
+        margin-right: 3rem;
     }
 
     /*Participate form*/
