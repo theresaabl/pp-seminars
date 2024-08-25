@@ -308,9 +308,7 @@ main {
 }
 
 .form-style a:active {
-    text-decoration: none;
     color: #eebb62;
-    border-bottom: 1px solid #eebb62;
 }
 
 .form-headings {
@@ -476,9 +474,7 @@ main {
 }
 
 #error-message a:hover {
-    text-decoration: none;
     color: #a8a8ff;
-    border-bottom: 1px solid #a8a8ff;
 }
 
 /*Footer*/
