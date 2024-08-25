@@ -577,7 +577,7 @@ logo breaks into two lines for most mobile devices (308-481px)*/
 }
 
 /*Media query: device width where logo is contained in one line (482px and up)*/
-@media screen and (min-width: 482px) {
+@media screen and (min-width: 484px) {
     /*Main content starts directly below header*/
    main {
     margin-top: 7.1rem;
