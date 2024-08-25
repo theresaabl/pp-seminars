@@ -267,13 +267,16 @@ main {
 /*Participate page*/
 #participate-section, #participate-confirmation-section {
     background: url("../images/theoretical-physics-formulas.webp") no-repeat fixed left center / cover;
+}
+
+/*General form styles that are reused for all forms*/
+/*Put dark-purple-blue layer on top of background image*/
+.form-section {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
 }
 
-/*General form styles that are reused for all forms*/
-/*Put dark-purple-blue layer on top of background image*/
 .form-container {
     background-color: #1d0f39df;
     flex-grow: 1;
@@ -398,6 +401,7 @@ main {
 
 #contact-info p {
     text-align: left;
+    margin-left: 1rem;
 }
 
 #contact-info p span {
@@ -644,35 +648,20 @@ logo breaks into two lines for most mobile devices (308-481px)*/
         margin-top: inherit;
     }
 
-    /*Participate form*/
-    #participate-form {
-        width: 50%;
-        padding: 2rem;
-    }
-
+    /*Form styles*/
     .form-style {
         width: 50%;
         padding: 2rem;
     }
 
-    #participate-form-suggestion {
+    .form-message {
         width: 80%;
         align-self: center;
     }
 
     /*Contact page*/
-    #contact-info {
-        width: 50%;
-        padding: 2rem;
-    }
-
     #contact-map-container {
         width: 50%;
-    }
-
-    #contact-form {
-        width: 50%;
-        padding: 2rem;
     }
 
     #contact-form-personal-details, #contact-form-message {
