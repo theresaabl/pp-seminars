@@ -42,7 +42,6 @@ h1, h2, h3 {
 /*Header*/
 header {
     background-color: #1d0f39;
-    /* background-color: #100031; */
     position: fixed;
     width: 100%;
     padding: .5rem 1rem;
@@ -79,8 +78,8 @@ header a {
 }
 
 #menu a.active {
-    border-bottom: 1px solid #a8a8ff; 
     color: #a8a8ff;
+    border-bottom: 1px solid #a8a8ff; 
 }
 
 /*Dropdown menu for mobile devices*/
@@ -111,7 +110,7 @@ header a {
     display: block;
 }
 
-/*Newsletter sign-up icon*/
+/*Newsletter icon*/
 #newsletter-link {
     font-size: 2.3rem;
     align-self: flex-end;
@@ -140,7 +139,7 @@ main {
 .hero-image-text{
     position: absolute;
     margin: 1rem;
-    /*Add opacity to background-color of div*/
+    /*Add opacity to background-color of div using hex*/
     background-color: #a8a8ffe6;
     border-radius: 5px;
 }
@@ -269,8 +268,7 @@ main {
     background: url("../images/theoretical-physics-formulas.webp") no-repeat fixed left center / cover;
 }
 
-/*General form styles that are reused for all forms*/
-/*Put dark-purple-blue layer on top of background image*/
+/*General form styles, reuse for all forms*/
 .form-section {
     flex-grow: 1;
     display: flex;
@@ -278,6 +276,7 @@ main {
 }
 
 .form-container {
+    /*Put dark-purple-blue layer on top of background image*/
     background-color: #1d0f39df;
     flex-grow: 1;
     display: flex;
@@ -416,7 +415,7 @@ main {
     width: 100%;
 }
 
-/*Newsletter signup page*/
+/*Newsletter sign-up page*/
 #newsletter-section, #newsletter-confirmation-section {
     background: url("../images/quantum-physics-waves.webp") no-repeat fixed center top / cover;
 }
@@ -504,19 +503,21 @@ footer {
 }
 
 
-/*Media queries: designs above are mobile first,
-logo breaks into two lines for most mobile devices (308-481px)*/
-/*Media query: very narrow windows, logo breaks into three lines (307px and down)*/
+/*Media queries: designs above are mobile first (up to 767px)*/
+/*Media queries for narrow device widths, some exceptions:*/
+
+/*Media query: very narrow windows, logo breaks into three lines (308px and down)*/
 @media screen and (max-width: 308px) {
+
     /*Main content starts directly below header*/
    main {
     margin-top: 12.4rem;
    }
-
 }
 
-/*Media query: very narrow windows, upcoming talks page, luch seminar h3 heading breaks into two lines (336px and down)*/
+/*Media query: very narrow windows, upcoming talks page: luch seminar h3 heading breaks into two lines (352px and down)*/
 @media screen and (max-width: 352px) {
+
     /*Main content*/
     /*Upcoming talks section*/
     /*Keep Week date in same line as date of lunch seminar*/
@@ -529,8 +530,9 @@ logo breaks into two lines for most mobile devices (308-481px)*/
     }
 }
 
-/*Media query: device width where logo is contained in one line (482px and up)*/
+/*Media query: device width where logo is contained in one line (484px and up)*/
 @media screen and (min-width: 484px) {
+
     /*Main content starts directly below header*/
    main {
     margin-top: 7.1rem;
@@ -540,6 +542,7 @@ logo breaks into two lines for most mobile devices (308-481px)*/
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header*/
     #menu {
         display: block;
@@ -675,6 +678,7 @@ logo breaks into two lines for most mobile devices (308-481px)*/
 
 /* Media query: laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
+
     /* Header*/
     #menu {
         padding: 0 6rem;
@@ -763,6 +767,7 @@ logo breaks into two lines for most mobile devices (308-481px)*/
 
 /* Media query: large laptops and larger (1200px and up) */
 @media screen and (min-width: 1200px) {
+    
     /* Header*/
     #menu {
         padding: 0 9rem;
