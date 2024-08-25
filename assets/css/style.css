@@ -446,6 +446,7 @@ main {
     display: flex;
     justify-content: center;
     position: relative;
+    padding: 1rem 0;
 }
 
 #error-message {
@@ -656,9 +657,6 @@ footer {
     /*Error page*/
     #error-page {
         background-position: 20% bottom;
-    }
-
-    #error-page {
         justify-content: start;
     }
 
@@ -767,7 +765,7 @@ footer {
 
 /* Media query: large laptops and larger (1200px and up) */
 @media screen and (min-width: 1200px) {
-    
+
     /* Header*/
     #menu {
         padding: 0 9rem;
