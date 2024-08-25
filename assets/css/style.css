@@ -421,17 +421,14 @@ main {
 /*Newsletter signup page*/
 #newsletter-section, #newsletter-confirmation-section {
     background: url("../images/quantum-physics-waves.webp") no-repeat fixed center top / cover;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
 }
 
-#newsletter-form-container {
-    background-color: #1d0f39a0;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+#newsletter-radio-button-text {
+    width: 100%; 
+}
+
+#newsletter-radio-button-text p {
+    text-align: left;
 }
 
 .newsletter-radio-buttons {
@@ -439,15 +436,9 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-bottom: 1rem;
 }
 
-#newsletter-radio-button-text {
-    margin-bottom: 1rem;
-    width: 100%;
-}
-
-.form-buttons {
+.newsletter-form-buttons {
     width: 100%;
 }
 
