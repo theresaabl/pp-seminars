@@ -735,6 +735,20 @@ logo breaks into two lines for most mobile devices (308-481px)*/
         width: 60%;
     }
 
+    /*Contact page*/
+    #contact-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 3rem;
+    }
+
+    .contact-large-screen-style {
+        margin: 1rem;
+        min-height: 20rem;
+        flex: 1 1 40%;
+        max-width: 50%;
+    }
+
     /*Error page*/
     #error-page {
         background-position: 15% bottom;
@@ -811,11 +825,6 @@ logo breaks into two lines for most mobile devices (308-481px)*/
 
     /*Form styles*/
     .form-style {
-        width: 40%;
-    }
-
-    /* Contact page */
-    #contact-map-container {
         width: 40%;
     }
 
