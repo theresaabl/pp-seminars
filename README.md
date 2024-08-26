@@ -150,6 +150,9 @@ reference the specific project files that implement the features. Include screen
 
 ### Existing Features
 
+<details>
+<summary> Click here to see all existing features. </summary>
+
 - **Logo**
 
     - Details 
@@ -162,13 +165,17 @@ reference the specific project files that implement the features. Include screen
 
 ![screenshot](documentation/features/dropdown-menu-mobile-devices.png)
 
+    - dropdown menu open:
+
 ![screenshot](documentation/features/dropdown-menu-mobile-open.png)
+
+    - Navbar for larger tablets, laptops and desktops:
 
 ![screenshot](documentation/features/navbar-larger-screens.png)
 
 - **Newsletter icon**
 
-![screenshot](documentation/features/newsletter.png)
+![screenshot](documentation/features/newsletter-icon.png)
 
 - **Footer**
 
@@ -254,6 +261,7 @@ reference the specific project files that implement the features. Include screen
 
 ![screenshot](documentation/features/error-404.png)
 
+</details>
 
 ### Future Features
 
@@ -265,12 +273,18 @@ reference the specific project files that implement the features. Include screen
 
     - In the initial wireframes I included an Archive page and then decided in the planning stages that this was beyond the scope of this project. Therefore, it would be very desirable to implement an Archive page as a future feature. This page would contain details, such as dates, titles, speakers etc. of past seminars. Most notably it would include videos of all past talks. 
 
-![screenshot](documentation/wireframes/wireframe-archive.png.png)
+<details>
+<summary> Click here to see the desktop wireframe for a possible Archive page.</summary>
+
+![screenshot](documentation/wireframes/wireframe-archive.png)
+
+</details>
 
 - **Online participation sign-up**
 
     - It would add to the value of the page, if users from anywhere in the world could sign up to participate in any of the seminars remotely. This could be done through a sign-up page where users can register to participate in a zoom webinar or meeting.
 
+</details>
 
 ## Tools & Technologies Used
 
@@ -285,7 +299,7 @@ reference the specific project files that implement the features. Include screen
 - [![Balsamiq](https://img.shields.io/badge/Balsamiq-grey?logo=barmenia&logoColor=CE0908)](https://balsamiq.com/wireframes) used for creating wireframes.
 - [![Google Maps API](https://img.shields.io/badge/Google_Maps_API-grey?logo=googlemaps&logoColor=4285F4)](https://developers.google.com/maps) used as an interactive map on my site.
 - [![Font Awesome](https://img.shields.io/badge/Font_Awesome-grey?logo=fontawesome&logoColor=528DD7)](https://fontawesome.com) used for the icons.
-- [![ChatGPT](https://img.shields.io/badge/ChatGPT-grey?logo=chromatic&logoColor=75A99C)](https://chat.openai.com) used to help come up with an error message for the 404 page.
+- [![ChatGPT](https://img.shields.io/badge/ChatGPT-grey?logo=chromatic&logoColor=75A99C)](https://chat.openai.com) used to help come up with an error message for the 404 page and themes for the backgrounds of the participate, contact and newsletter pages.
 - [![Cloudconvert](https://cloudconvert.com/webp-converter)](https://cloudconvert.com/webp-converter) to convert all images to webp for faster website.
 - [![Tinypng](https://tinypng.com/)](https://tinypng.com/) used to compress images for faster website.
 - [![Bitly](https://bitly.com/)](https://bitly.com/) used to shorten link for interactive map on contact site.
@@ -354,7 +368,6 @@ any differences between the local version, and the live deployment site on GitHu
 | --- | --- | --- |
 | [Code Institute Love Running walkthrough project](https://github.com/Code-Institute-Solutions/love-running-v3) | Header | code inspiration for the dropdown menu for mobile devices |
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
-| [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
 
 ... papers?
 
