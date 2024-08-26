@@ -55,9 +55,9 @@ callouts:
 - `#595492` used as form background color. 
 
 
-I used [coolors.co](https://coolors.co/1d0f39-a8a8ff-f5f5f5-595492-eebb62) to generate my colour palette.
+I used [coolors.co](https://coolors.co/1d0f39-a8a8ff-f5f5f5-595492-eebb62) to generate my color palette.
 
-![screenshot](documentation/coolors.png)
+![screenshot](documentation/color-palette-small.png)
 
 
 
@@ -348,30 +348,19 @@ any differences between the local version, and the live deployment site on GitHu
 
 ### Media
 
-educational purpose only
+This project is for educational purpose only.
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
-| [s](https://github.com/twitter/twemoji/blob/master/assets/svg/269b.svg) | entire page | image | favicon on all pages |
-| [s](https://hips.hearstapps.com/hmg-prod/images/higgs-boson-conceptual-illustration-royalty-free-illustration-1659096743.jpg) | home page | image | hero image background |
-| [s](https://www.u-tokyo.ac.jp/content/400117925.jpg) | home page | image | about section background for lunch seminar div |
-| [s](https://cdn-ontesol.pressidium.com/wp-content/uploads/2014/06/iStock_000021014694Small.jpg) | home page | image | about section background for journal club div |
+| [Twemoji](https://github.com/twitter/twemoji/blob/master/assets/svg/269b.svg) | entire page | image | favicon on all pages |
+| [Popular Mechanics](https://hips.hearstapps.com/hmg-prod/images/higgs-boson-conceptual-illustration-royalty-free-illustration-1659096743.jpg) | home page | image | hero image background |
+| [The University of Tokyo](https://www.u-tokyo.ac.jp/content/400117925.jpg) | home page | image | about section background for lunch seminar div |
+| [ontesol](https://cdn-ontesol.pressidium.com/wp-content/uploads/2014/06/iStock_000021014694Small.jpg) | home page | image | about section background for journal club div |
 | [MrWallpaper](https://mrwallpaper.com/images/hd/quantum-particle-collision-in-high-energy-physics-7456mziexm479eca.jpg) | upcoming page | image | background |
 | [Spektrum](https://static.spektrum.de/fm/912/f2000x857/iStock-936903524_i000pixels.jpg) | participate and participate confirmation pages | image | background |
 | [Space.com](https://cdn.mos.cms.futurecdn.net/P6zNb5J9FM6V2KjLJTGVQS.jpg) | contact and contact confirmation pages | image | background |
 | [Caltech Science Exchange](https://caltechsites-prod.s3.amazonaws.com/scienceexchange/images/Quantum_Physics-HeaderImage-F.2e16d0ba.fill-933x525-c100.jpg) | newsletter and newsletter confirmation pages | image | background |
 | [Nasa Science](https://smd-cms.nasa.gov/wp-content/uploads/2023/06/PIA16695_large-jpg.webp) | error page | image | background |
-
-favicon notes:
-
-The [emoji graphics](https://github.com/twitter/twemoji/blob/master/assets/svg/269b.svg) are from the open source project [Twemoji](https://github.com/twitter/twemoji) . The graphics are copyright 2020 Twitter, Inc and other contributors. The graphics are licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/). 
-
-This favicon was generated using the following graphics from Twitter Twemoji:
-
-- Graphics Title: 269b.svg
-- Graphics Author: Copyright 2020 Twitter, Inc and other contributors (https://github.com/twitter/twemoji)
-- Graphics Source: https://github.com/twitter/twemoji/blob/master/assets/svg/269b.svg
-- Graphics License: CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
 
 
@@ -380,33 +369,3 @@ This favicon was generated using the following graphics from Twitter Twemoji:
 
 
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for his support throughout the development of this project.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-image sources:
-hero image:
-https://hips.hearstapps.com/hmg-prod/images/higgs-boson-conceptual-illustration-royalty-free-illustration-1659096743.jpg
-lunch-seminar background image:
-https://www.u-tokyo.ac.jp/content/400117925.jpg
-journal-club background image:
-https://cdn-ontesol.pressidium.com/wp-content/uploads/2014/06/iStock_000021014694Small.jpg
-
-
-
