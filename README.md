@@ -42,7 +42,7 @@ callouts:
 
 **explain design processes**
 
-
+### Target Audience
 
 ### Color Scheme
 
@@ -101,16 +101,16 @@ user stories:
 
 ## Wireframes
 
-Explain why chose desktop wireframes only
+I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes. 
 
-(To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.)
+Note that I deliberately chose to develop wireframes with a focus on laptop/desktop screen sizes, even though the project was developed using a mobile-first approach. This is because the target audience of this site (see [Target Audience](#target-audience)) are particle physics researchers. We can safely assume that this group would access the site from a laptop or desktop most of the time, while working on their research or administration tasks.
 
-I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
+Any differences between the wireframes and the final website are due to creative decisions in the development process. The site was designed in a way that made the adaptations for mobile devices almost obvious.
 
 ### Desktop Wireframes
 
 <details>
-<summary> Click here to see the Desktop Wireframes </summary>
+<summary> Click here to see the desktop wireframes </summary>
 
  - Home
 
@@ -139,6 +139,7 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 ![screenshot](documentation/wireframes/wireframe-404.png)
 
 </details>
+
 
 
 ## Features
