@@ -44,30 +44,29 @@ callouts:
 
 
 
-### Colour Scheme
+### Color Scheme
 
-
-
-- `#F5F5F5` used for primary text. (?)
-- `#A8A8FF` used for primary highlights. (?) 
-- `#EEBB62` used for secondary highlights. 
-- `#1D0F39` used as background color. 
-- `#595492` used as form background color. 
-
-
-I used [coolors.co](https://coolors.co/1d0f39-a8a8ff-f5f5f5-595492-eebb62) to generate my color palette.
+The goal for the color scheme was to give the website a clean and scientific but also dark and mysterious look. I used [coolors.co](https://coolors.co/1d0f39-a8a8ff-f5f5f5-595492-eebb62) to generate my color palette:
 
 ![screenshot](documentation/color-palette-small.png)
 
+The following colors are used throughout the site:
 
+- `#a8a8ff` used for primary highlights.
+- `#eebb62` used for secondary highlights.
+- `#f5f5f5` used for other text.
+- `#1d0f39` used as background color. 
+- `#595492` used as background color for forms. 
+
+These colors fit the theme of particle physics. The site is generally dark-purple with light-purple highlights and off-white text and the orange highlights are reminiscent of images of particle collisions.
 
 ### Typography
 
-Fonts and icons
+I used the following fonts and icons:
 
-- [Exo](https://fonts.google.com/specimen/Exo) was used for the logo and headings.
+- [Exo](https://fonts.google.com/specimen/Exo) was used for the logo and headings (the fall-back font is 'sans-serif').
 
-- [Mukta Vaani](https://fonts.google.com/specimen/Mukta+Vaani) was used for all other secondary **(?)** text.
+- [Mukta Vaani](https://fonts.google.com/specimen/Mukta+Vaani) was used for all other text (the fall-back font is 'sans-serif').
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the newsletter icon in the header or the social media icons in the footer.
 
@@ -366,14 +365,11 @@ any differences between the local version, and the live deployment site on GitHu
 
 | Source | Location | Notes |
 | --- | --- | --- |
-| [Code Institute Love Running walkthrough project](https://github.com/Code-Institute-Solutions/love-running-v3) | Header | code inspiration for the dropdown menu for mobile devices |
+| [Code Institute Love Running walkthrough project](https://github.com/Code-Institute-Solutions/love-running-v3) | Header on all pages | code inspiration for the dropdown menu for mobile devices |
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
-
-... papers?
+| [ArXiv](https://arxiv.org) | Upcoming page | paper titles and abstracts |
 
 ### Media
-
-This project is for educational purpose only.
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
