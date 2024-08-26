@@ -154,91 +154,105 @@ reference the specific project files that implement the features. Include screen
 
     - Details 
 
-![screenshot](documentation/features/feature01.png)
+![screenshot](documentation/features/logo.png)
 
 - **Navbar/ Dropdown menu**
 
     - Details
 
-![screenshot](documentation/features/feature02.png)
+![screenshot](documentation/features/dropdown-menu-mobile-devices.png)
+
+![screenshot](documentation/features/dropdown-menu-mobile-open.png)
+
+![screenshot](documentation/features/navbar-larger-screens.png)
+
+- **Newsletter icon**
+
+![screenshot](documentation/features/newsletter.png)
 
 - **Footer**
 
     - Details
 
-![screenshot](documentation/features/feature03.png)
+![screenshot](documentation/features/footer.png)
 
 - **Hero image section**
 
     - Details
 
-![screenshot](documentation/features/feature03.png)
+![screenshot](documentation/features/hero-image.png)
 
 - **About section**
 
     - Details
 
-![screenshot](documentation/features/feature03.png)
+![screenshot](documentation/features/about-mobile.png)
+
+![screenshot](documentation/features/about-laptop.png)
 
 - **Upcoming Talks**
 
     - Details
 
-![screenshot](documentation/features/feature03.png)
+![screenshot](documentation/features/upcoming-mobile.png)
+
+![screenshot](documentation/features/upcoming-laptop.png)
 
 - **Participate form**
 
     - Details
 
-![screenshot](documentation/features/feature03.png)
+![screenshot](documentation/features/participate-form.png)
 
 - **Participate form confirmation**
 
     - Details
 
-![screenshot](documentation/features/feature03.png)
+![screenshot](documentation/features/participate-confirmation.png)
 
 - **Contact information**
 
     - Details
 
-![screenshot](documentation/features/feature03.png)
+![screenshot](documentation/features/contact-info.png)
 
 - **Interactive map**
 
     - Details
 
-![screenshot](documentation/features/feature03.png)
+![screenshot](documentation/features/interactive-map.png)
 
 - **Contact form**
 
     - Details
 
-![screenshot](documentation/features/feature03.png)
+![screenshot](documentation/features/contact-form.png)
+
+![screenshot](documentation/features/contact-laptop.png)
 
 - **Contact form confirmation**
 
     - Details
 
-![screenshot](documentation/features/feature03.png)
+![screenshot](documentation/features/contact-confirmation.png)
 
 - **Newsletter sign-up form**
 
     - Details
 
-![screenshot](documentation/features/feature03.png)
+![screenshot](documentation/features/newsletter-signup.png)
 
 - **Newsletter sign-up form confirmation**
 
     - Details
 
-![screenshot](documentation/features/feature03.png)
+![screenshot](documentation/features/newsletter-confirmation.png)
 
 - **Error 404 page**
 
     - Details
 
-![screenshot](documentation/features/feature03.png)
+![screenshot](documentation/features/error-404.png)
 
 
 ### Future Features
@@ -268,28 +282,16 @@ reference the specific project files that implement the features. Include screen
 - [![Markdown Builder](https://img.shields.io/badge/Markdown_Builder-grey?logo=markdown&logoColor=000000)](https://tim.2bn.dev/markdown-builder) used to generate README and TESTING templates.
 - [![Git](https://img.shields.io/badge/Git-grey?logo=git&logoColor=F05032)](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [![GitHub](https://img.shields.io/badge/GitHub-grey?logo=github&logoColor=181717)](https://github.com) used for secure online code storage.
-
 - [![Gitpod](https://img.shields.io/badge/Gitpod-grey?logo=gitpod&logoColor=FFAE33)](https://gitpod.io) used as a cloud-based IDE for development.
-
-
 - [![HTML](https://img.shields.io/badge/HTML-grey?logo=html5&logoColor=E34F26)](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [![CSS](https://img.shields.io/badge/CSS-grey?logo=css3&logoColor=1572B6)](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
-
-
 - [![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-grey?logo=githubpages&logoColor=222222)](https://pages.github.com) used for hosting the deployed front-end site.
-
-
 - [![Balsamiq](https://img.shields.io/badge/Balsamiq-grey?logo=barmenia&logoColor=CE0908)](https://balsamiq.com/wireframes) used for creating wireframes.
-
 - [![Google Maps API](https://img.shields.io/badge/Google_Maps_API-grey?logo=googlemaps&logoColor=4285F4)](https://developers.google.com/maps) used as an interactive map on my site.
-
 - [![Font Awesome](https://img.shields.io/badge/Font_Awesome-grey?logo=fontawesome&logoColor=528DD7)](https://fontawesome.com) used for the icons.
-
-- favicon, google fonts, coolors
-
 - [![ChatGPT](https://img.shields.io/badge/ChatGPT-grey?logo=chromatic&logoColor=75A99C)](https://chat.openai.com) used to help come up with an error message for the 404 page.
-
-- convert images to webp, bitly for map
+- favicon, google fonts, coolors
+- convert images to webp, bitly for map, https://tinypng.com/ for image compression for performance
 
 ## Testing
 
