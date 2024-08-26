@@ -155,21 +155,23 @@ reference the specific project files that implement the features. Include screen
 
 - **Logo**
 
-    - Details 
+    - The logo appears in the header across the entire website. The goal is for the user to know the site purpose at first sight. It has a clean and straight-forward look, as this is what the target audience is looking for.
 
 ![screenshot](documentation/features/logo.png)
 
 - **Navbar/ Dropdown menu**
 
-    - Details
+    - The navigation menu must allow the user to quickly assess what content they can find on the site as well as what action they can take and where.
+
+    - The navbar shows as a dropdown menu for mobile devices (see [code inspiration source](#content))
 
 ![screenshot](documentation/features/dropdown-menu-mobile-devices.png)
 
-    - dropdown menu open:
+    - Dropdown menu is open:
 
 ![screenshot](documentation/features/dropdown-menu-mobile-open.png)
 
-    - Navbar for larger tablets, laptops and desktops:
+    - For larger tablets, as well as laptops and desktops the navbar is fully visible:
 
 ![screenshot](documentation/features/navbar-larger-screens.png)
 
