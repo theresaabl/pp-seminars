@@ -286,8 +286,11 @@ reference the specific project files that implement the features. Include screen
 - [![Google Maps API](https://img.shields.io/badge/Google_Maps_API-grey?logo=googlemaps&logoColor=4285F4)](https://developers.google.com/maps) used as an interactive map on my site.
 - [![Font Awesome](https://img.shields.io/badge/Font_Awesome-grey?logo=fontawesome&logoColor=528DD7)](https://fontawesome.com) used for the icons.
 - [![ChatGPT](https://img.shields.io/badge/ChatGPT-grey?logo=chromatic&logoColor=75A99C)](https://chat.openai.com) used to help come up with an error message for the 404 page.
-- favicon, google fonts, coolors
-- convert images to webp, bitly for map, https://tinypng.com/ for image compression for performance
+- [![Cloudconvert](https://cloudconvert.com/webp-converter)](https://cloudconvert.com/webp-converter) to convert all images to webp for faster website.
+- [![Tinypng](https://tinypng.com/)](https://tinypng.com/) used to compress images for faster website.
+- [![Bitly](https://bitly.com/)](https://bitly.com/) used to shorten link for interactive map on contact site.
+- [![Favicon](https://favicon.io/emoji-favicons/atom-symbol)](https://favicon.io) used to generate favicon for the website.
+
 
 ## Testing
 
