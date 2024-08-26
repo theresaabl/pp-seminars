@@ -259,21 +259,17 @@ reference the specific project files that implement the features. Include screen
 
 - **Calendar in upcoming talks section**
 
-    - Details
-
-![screenshot](documentation/features/feature03.png)
+    - It would be interesting to include an interactive calendar in the upcoming talks page to display all past and upcoming seminars and export calender entries to personal calendars.
 
 - **Archive**
 
-    - Details, wireframe screenshot
+    - In the initial wireframes I included an Archive page and then decided in the planning stages that this was beyond the scope of this project. Therefore, it would be very desirable to implement an Archive page as a future feature. This page would contain details, such as dates, titles, speakers etc. of past seminars. Most notably it would include videos of all past talks. 
 
 ![screenshot](documentation/wireframes/wireframe-archive.png.png)
 
 - **Online participation sign-up**
 
-    - Details
-
-![screenshot](documentation/features/feature03.png)
+    - It would add to the value of the page, if users from anywhere in the world could sign up to participate in any of the seminars remotely. This could be done through a sign-up page where users can register to participate in a zoom webinar or meeting.
 
 
 ## Tools & Technologies Used
