@@ -67,11 +67,11 @@ Fonts and icons
 
 - [Exo](https://fonts.google.com/specimen/Exo) was used for the logo and headings.
 
-- [Mukta Vaani](https://fonts.google.com/specimen/Mukta+Vaani) was used for all other secondary (?) text.
+- [Mukta Vaani](https://fonts.google.com/specimen/Mukta+Vaani) was used for all other secondary **(?)** text.
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the newsletter icon in the header or the social media icons in the footer.
 
-- favicon 
+
 
 ## User Stories
 
@@ -113,20 +113,31 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 <details>
 <summary> Click here to see the Desktop Wireframes </summary>
 
-Home
-  - ![screenshot](documentation/wireframes/mobile-home.png)
+ - Home
 
-Upcoming
-  - ![screenshot](documentation/wireframes/mobile-about.png)
+![screenshot](documentation/wireframes/wireframe-home.png)
 
-Participate
-  - ![screenshot](documentation/wireframes/mobile-contact.png)
+ - Upcoming
 
-Contact
-  - ![screenshot](documentation/wireframes/mobile-gallery.png)
+![screenshot](documentation/wireframes/wireframe-upcoming.png)
 
-Newsletter
-  - ![screenshot](documentation/wireframes/mobile-gallery.png)
+ - Participate
+
+![screenshot](documentation/wireframes/wireframe-participate.png)
+
+ - Archive (see [Future Features](#future-features))
+
+ - Contact
+
+![screenshot](documentation/wireframes/wireframe-contact.png)
+
+ - Newsletter
+
+![screenshot](documentation/wireframes/wireframe-newsletter.png)
+
+ - Error 404 page
+
+![screenshot](documentation/wireframes/wireframe-404.png)
 
 </details>
 
@@ -242,7 +253,7 @@ reference the specific project files that implement the features. Include screen
 
     - Details, wireframe screenshot
 
-![screenshot](documentation/features/feature03.png)
+![screenshot](documentation/wireframes/wireframe-archive.png.png)
 
 - **Online participation sign-up**
 
