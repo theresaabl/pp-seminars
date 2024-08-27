@@ -52,18 +52,11 @@ If applicable, mention how user feedback has been taken into account and impleme
 
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
-When validating the html code in the index.html file, one warning came up:
-
-![screenshot](documentation/validation/html-index-warning.png)
-
-A heading was missing in the hero image section. This was quickly fixed by adding a hidden heading to this section, as I did not want to show a heading for design purposes.
-See [Missing heading in hero-image section](https://github.com/theresaabl/pp-seminars/issues/8) to track this issue.
-
-After that, all of the html files came through with no errors or warnings:
+When validating the index.html file, one warning came up which could be easily fixed (see screenshots below). After that, all files were validated with no errors or warnings.
 
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
-|  | index.html | ![screenshot](documentation/validation/html-index.png) | |
+|  | index.html | ![screenshot](documentation/validation/html-index.png) | On first validation, one warning was shown:<br>  ![screenshot](documentation/validation/html-index-warning.png)<br> A heading was missing in the hero image section, this was quickly fixed by adding a hidden heading and can be tracked in [this issue](https://github.com/theresaabl/pp-seminars/issues/8) .|
 |  | upcoming.html | ![screenshot](documentation/validation/html-upcoming.png) | |
 |  | participate.html | ![screenshot](documentation/validation/html-participate.png) | |
 |  | participate-confirmation.html | ![screenshot](documentation/validation/html-participate-confirmation.png) | |
@@ -75,11 +68,11 @@ After that, all of the html files came through with no errors or warnings:
 
 ### CSS
 
-I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate my CSS file.
 
-| Directory | File | Screenshot | Notes |
-| --- | --- | --- | --- |
-| assets/css | style.css | ![screenshot](documentation/validation/css.png) | |
+| Directory | File | Screenshot | 
+| --- | --- | --- | 
+| assets/css | style.css | ![screenshot](documentation/validation/css.png) | 
 
 ## Browser Compatibility
 
