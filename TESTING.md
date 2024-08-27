@@ -48,32 +48,30 @@ If applicable, mention how user feedback has been taken into account and impleme
 
 ## Code Validation
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-Use the space to discuss code validation for any of your own code files (where applicable).
-You are not required to validate external libraries/frameworks, such as imported Bootstrap, Materialize, Font Awesome, etc.
-
-**IMPORTANT**: You must provide a screenshot for each file you validate.
-
-**PRO TIP**: Always validate the live site pages, not your local code. There could be subtle/hidden differences.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
 ### HTML
 
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
+When validating the html code in the index.html file, one warning came up:
+
+![screenshot](documentation/validation/html-index-warning.png)
+
+A heading was missing in the hero image section. This was quickly fixed by adding a hidden heading to this section, as I did not want to show a heading for design purposes.
+See [Missing heading in hero-image section](https://github.com/theresaabl/pp-seminars/issues/8) to track this issue.
+
+After that, all of the html files came through with no errors or warnings:
+
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
-|  | 404.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | contact-confirmation.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | contact.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | index.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | newsletter-confirmation.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | newsletter.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | participate-confirmation.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | participate.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | upcoming.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+|  | index.html | ![screenshot](documentation/validation/html-index.png) | |
+|  | upcoming.html | ![screenshot](documentation/validation/html-upcoming.png) | |
+|  | participate.html | ![screenshot](documentation/validation/html-participate.png) | |
+|  | participate-confirmation.html | ![screenshot](documentation/validation/html-participate-confirmation.png) | |
+|  | contact.html | ![screenshot](documentation/validation/html-contact.png) | |
+|  | contact-confirmation.html | ![screenshot](documentation/validation/html-contact-confirmation.png) | |
+|  | newsletter.html | ![screenshot](documentation/validation/html-newsletter.png) | |
+|  | newsletter-confirmation.html | ![screenshot](documentation/validation/html-newsletter-confirmation.png) | |
+|  | 404.html | ![screenshot](documentation/validation/html-404.png) | |
 
 ### CSS
 
@@ -81,7 +79,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
-| assets | style.css | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| assets/css | style.css | ![screenshot](documentation/validation/css.png) | |
 
 ## Browser Compatibility
 
