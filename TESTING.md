@@ -126,7 +126,7 @@ The site got full scores for accessibility, best practices and SEO, except for i
 |As a student, I would like to see an overview of upcoming talks, so that I can attend seminars to network with researchers and find someone to hire me. | ![screenshot](documentation/features/feature01.png) |
 |As a student, I would like to see details of upcoming talks, so that I can prepare myself before attending. | ![screenshot](documentation/features/feature01.png) |
 |As a student, I would like to sign up to a weekly newsletter with details on upcoming talks, so that I can attend seminars regularly without having to look up details every week. | ![screenshot](documentation/features/feature01.png) |
-|As an external researcher, I would like to acces contact information, so that I can contact the organisers with any questions. | ![screenshot](documentation/features/feature01.png) |
+|As a student, I would like to acces contact information, so that I can contact the organisers with any questions. | ![screenshot](documentation/features/feature01.png) |
 
 ## Bugs
 

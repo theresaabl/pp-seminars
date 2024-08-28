@@ -77,7 +77,7 @@ There are three primary user groups:
 - As a student, I would like to see an overview of upcoming talks, so that I can attend seminars to network with researchers and find someone to hire me.
 - As a student, I would like to see details of upcoming talks, so that I can prepare myself before attending.
 - As a student, I would like to sign up to a weekly newsletter with details on upcoming talks, so that I can attend seminars regularly without having to look up details every week.
-- As an external researcher, I would like to acces contact information, so that I can contact the organisers with any questions.
+- As a student, I would like to acces contact information, so that I can contact the organisers with any questions.
 
 ## Wireframes
 
