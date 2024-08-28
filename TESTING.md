@@ -9,33 +9,37 @@ I tested the following features of the deployed website in a manual testing proc
 
 | Feature | Expectation | Action | Outcome |
 | --- | --- | --- | --- |
-| Logo | When clicked the home page will open | Click the logo | Home page opened when clicked |
-| Home navbar button | When clicked the home page will open | Click the logo | Home page opened when clicked |
-| Upcoming navbar button | When clicked the upcoming talks page will open | Click the Home nav button | Upcoming talks page opened when clicked |
-| Participate navbar button | When clicked the participate page will open | Click the Participate nav button | Participate page opened when clicked |
-| Contact navbar button | When clicked the contact page will open | Click the Contact nav button | Contact page opened when clicked |
-| Dropdown menu for mobile devices | When clicked the dropdown menu opens <br>  When clicked again the dropdown menu closes | Click the burger icon <br> Click the burger icon again | Dropdown menu opens <br> Dropdown menu closes |
-| Newsletter icon button | When clicked the newsletter sign-up page will open | Click the newsletter icon button | Newsletter sign-up page opened when clicked |
-| Social media icons in footer | When clicked the social media pages will open in new tab | Click the social media icons | Social media pages are opened in new tab when clicked |
-| Links in the about section | When clicked the contact page will open | Click the links in the about section | The contact page opens when clicked |
-| Links in the upcoming talks section | When clicked correct page opens in new tab | Click the links in the upcoming talks section | The correct page opens when clicked |
-| Participate form name and email fields | When active autocomplete suggestions show | Activate the name and email fields | The name and email fields show autocomplete suggestions when active |
-| Participate form reset button | When clicked the form will be reset | Click the form reset button | The form is reset when the reset button is clicked |
-| Participate form submit button | When clicked with valid input the form will send and the participate confirmation page will show <br> When clicked with invalid input or empty fields a warning will show | Click the submit button  <br>  | The form sends and the confirmation page shows when submit button is clicked with valid input <br> A warning shows when there is invalid input or empty fields |
-| Participate confirmation page | After 10 seconds the home page shows | Wait 10 seconds | The home page shows after 10 seconds |
-| Links on the Participate confirmation page | When clicked the contact page or home page will show respectively | Click the contact or home page links | The contact or home page show when the respective link is clicked |
-| Contact form name and email fields | When active autocomplete suggestions show | Activate the name and email fields | The name and email fields show autocomplete suggestions when active |
-| Contact form reset button | When clicked the form will be reset | Click the form reset button | The form is reset when the reset button is clicked |
-| Contact form submit button | When clicked with valid input the form will send and the contact confirmation page will show <br> When clicked with invalid input or empty fields a warning will show | Click the submit button  <br>  | The form sends and the confirmation page shows when submit button is clicked with valid input <br> A warning shows when there is invalid input or empty fields |
-| Contact confirmation page | After 10 seconds the home page shows | Wait 10 seconds | The home page shows after 10 seconds |
-| Links on the Contact confirmation page | When clicked the contact page or home page will show respectively | Click the contact or home page links | The contact or home page show when the respective link is clicked |
-| Newsletter form name and email fields | When active autocomplete suggestions show | Activate the name and email fields | The name and email fields show autocomplete suggestions when active |
-| Newsletter form reset button | When clicked the form will be reset | Click the form reset button | The form is reset when the reset button is clicked |
-| Newsletter form submit button | When clicked with valid input the form will send and the newsletter confirmation page will show <br> When clicked with invalid input or empty fields a warning will show | Click the submit button  <br>  | The form sends and the confirmation page shows when submit button is clicked with valid input <br> A warning shows when there is invalid input or empty fields |
-| Newsletter confirmation page | After 10 seconds the home page shows | Wait 10 seconds | The home page shows after 10 seconds |
-| Link on the Newsletter confirmation page | When clicked the home page will show | Click the home page link | The home page shows when the link is clicked |
-| Error 404 page | When entering a URL to a page that does not exist on this website an error page will show | Enter a URL to a page that does not exist on this website | An error page shows when entering a URL to a page that does not exist on this website |
-| Link on the error 404 page | When clicked the home page will show | Click the link on the error 404 page | The home page shows when the link is clicked |
+| **Logo** | When clicked the home page will open | Click the logo | Home page opened when clicked |
+| **Home navbar button** | When clicked the home page will open | Click the logo | Home page opened when clicked |
+| **Upcoming navbar button** | When clicked the upcoming talks page will open | Click the Home nav button | Upcoming talks page opened when clicked |
+| **Participate navbar button** | When clicked the participate page will open | Click the Participate nav button | Participate page opened when clicked |
+| **Contact navbar button** | When clicked the contact page will open | Click the Contact nav button | Contact page opened when clicked |
+| **Dropdown menu for mobile devices** | When clicked the dropdown menu opens |  Click the burger icon |  Dropdown menu opens |
+|   | When clicked again the dropdown menu closes |  Click the burger icon again |   Dropdown menu closes |
+| **Newsletter icon button** | When clicked the newsletter sign-up page will open | Click the newsletter icon button | Newsletter sign-up page opened when clicked |
+| **Social media icons in footer** | When clicked the social media pages will open in new tab | Click the social media icons | Social media pages are opened in new tab when clicked |
+| **Links in the about section** | When clicked the contact page will open | Click the links in the about section | The contact page opens when clicked |
+| **Links in the upcoming talks section** | When clicked correct page opens in new tab | Click the links in the upcoming talks section | The correct page opens when clicked |
+| **Participate form name and email fields** | When active autocomplete suggestions show | Activate the name and email fields | The name and email fields show autocomplete suggestions when active |
+| **Participate form reset button** | When clicked the form will be reset | Click the form reset button | The form is reset when the reset button is clicked |
+| **Participate form submit button** | When clicked with valid input the form will send and the participate confirmation page will show  | Click the submit button  | The form sends and the confirmation page shows when submit button is clicked with valid input | 
+|  | When clicked with invalid input or empty fields a warning will show | Click the submit button |  A warning shows when there is invalid input or empty fields |
+| **Participate confirmation page** | After 10 seconds the home page shows | Wait 10 seconds | The home page shows after 10 seconds |
+| **Links on the Participate confirmation page** | When clicked the contact page or home page will show respectively | Click the contact or home page links | The contact or home page show when the respective link is clicked |
+| **Contact form name and email fields** | When active autocomplete suggestions show | Activate the name and email fields | The name and email fields show autocomplete suggestions when active |
+| **Contact form reset button** | When clicked the form will be reset | Click the form reset button | The form is reset when the reset button is clicked |
+| **Contact form submit button** | When clicked with valid input the form will send and the contact confirmation page will show | Click the submit button | The form sends and the confirmation page shows when submit button is clicked with valid input |
+| |  When clicked with invalid input or empty fields a warning will show | Click the submit button | A warning shows when there is invalid input or empty fields |
+| **Contact confirmation page** | After 10 seconds the home page shows | Wait 10 seconds | The home page shows after 10 seconds |
+| **Links on the Contact confirmation page** | When clicked the contact page or home page will show respectively | Click the contact or home page links | The contact or home page show when the respective link is clicked |
+| **Newsletter form name and email fields** | When active autocomplete suggestions show | Activate the name and email fields | The name and email fields show autocomplete suggestions when active |
+| **Newsletter form reset button** | When clicked the form will be reset | Click the form reset button | The form is reset when the reset button is clicked |
+| **Newsletter form submit button** | When clicked with valid input the form will send and the newsletter confirmation page will show | Click the submit button | The form sends and the confirmation page shows when submit button is clicked with valid input |
+| | When clicked with invalid input or empty fields a warning will show | Click the submit button | A warning shows when there is invalid input or empty fields |
+| **Newsletter confirmation page** | After 10 seconds the home page shows | Wait 10 seconds | The home page shows after 10 seconds |
+| **Link on the Newsletter confirmation page** | When clicked the home page will show | Click the home page link | The home page shows when the link is clicked |
+| **Error 404 page** | When entering a URL to a page that does not exist on this website an error page will show | Enter a URL to a page that does not exist on this website | An error page shows when entering a URL to a page that does not exist on this website |
+| **Link on the error 404 page** | When clicked the home page will show | Click the link on the error 404 page | The home page shows when the link is clicked |
 
 ## Code Validation
 
