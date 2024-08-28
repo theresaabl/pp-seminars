@@ -92,7 +92,7 @@ I have tested my deployed project on multiple browsers to check for compatibilit
 
 I have tested my deployed project on multiple devices to check for responsiveness issues. I first tested many different device sizes in Chrome DevTools (part of which are shown in the screenshots below). I then tested the site on different physical devices.
 
-Note: For better readabilty I have not included screenshots of the form confirmation pages in this section. Since they are styled using the same css classes as the actual form pages, it is sufficient to include the form pages only.
+Note: For better readabilty I have not included screenshots of the form confirmation pages in this section (and following sections). Since they are styled using the same css classes as the actual form pages, it is sufficient to include the form pages only.
 
 | Device | Home | Upcoming | Participate | Contact | Newsletter | 404 page | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -121,31 +121,16 @@ Therefore, this issue is left as an [unfixed bug](#unfixed-bugs) for this releas
 
 ## Lighthouse Audit
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
+I have tested my deployed project using the Lighthouse Audit tool to check for any major issues.
 
-Use this space to discuss testing the live/deployed site's Lighthouse Audit reports.
-Avoid testing the local version (especially if developing in Gitpod), as this can have knock-on effects of performance.
+| Page | Mobile | Notes | Desktop | Notes |
+| --- | --- | --- | --- | --- |
+| Home | ![screenshot](documentation/lighthouse/lighthouse-home-mobile.png) | Slower response time due to large images and layout shifts | ![screenshot](documentation/lighthouse/lighthouse-home-desktop.png) | Some minor warnings |
+| Upcoming | ![screenshot](documentation/lighthouse/lighthouse-upcoming-mobile.png) | Slower response time due to large images and layout shifts | ![screenshot](documentation/lighthouse/lighthouse-upcoming-desktop.png) | Some minor warnings |
+| Participate | ![screenshot](documentation/lighthouse/lighthouse-participate-mobile.png) | | ![screenshot](documentation/lighthouse/lighthouse-participate-desktop.png) | Slow response time due to large images |
+| Contact | ![screenshot](documentation/lighthouse/lighthouse-contact-mobile.png) | f | ![screenshot](documentation/lighthouse/lighthouse-contact-desktop.png) | Slow response time due to large images |
+| Newsletter | ![screenshot](documentation/lighthouse/lighthouse-newsletter-mobile.png) | b | ![screenshot](documentation/lighthouse/lighthouse-newsletter-desktop.png) | Slow response time due to large images |
 
-If you don't have Lighthouse in your Developer Tools,
-it can be added as an [extension](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk).
-
-Don't just test the home page (unless it's a single-page application).
-Make sure to test the Lighthouse Audit results for all of your pages.
-
-**IMPORTANT**: You must provide screenshots of the results, to "prove" that you've actually tested them.
-
-Sample Lighthouse testing documentation:
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
-
-| Page | Mobile | Desktop | Notes |
-| --- | --- | --- | --- |
-| Home | ![screenshot](documentation/lighthouse/lighthouse-home-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-home-desktop.png) | Some minor warnings |
-| About | ![screenshot](documentation/lighthouse/lighthouse-about-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-about-desktop.png) | Some minor warnings |
-| Gallery | ![screenshot](documentation/lighthouse/lighthouse-gallery-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-gallery-desktop.png) | Slow response time due to large images |
-| x | x | x | repeat for any other tested pages/sizes |
 
 ## User Story Testing
 
