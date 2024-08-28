@@ -27,15 +27,15 @@ When validating the index.html file, one warning came up which could be easily f
 
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
-|  | index.html | ![screenshot](documentation/validation/html-index.png) | On first validation, one warning was shown:<br>  ![screenshot](documentation/validation/html-index-warning.png)<br> A heading was missing in the hero image section, this was quickly fixed by adding a hidden heading and can be tracked in [this issue](https://github.com/theresaabl/pp-seminars/issues/8) .|
-|  | upcoming.html | ![screenshot](documentation/validation/html-upcoming.png) | |
-|  | participate.html | ![screenshot](documentation/validation/html-participate.png) | |
-|  | participate-confirmation.html | ![screenshot](documentation/validation/html-participate-confirmation.png) | |
-|  | contact.html | ![screenshot](documentation/validation/html-contact.png) | |
-|  | contact-confirmation.html | ![screenshot](documentation/validation/html-contact-confirmation.png) | |
-|  | newsletter.html | ![screenshot](documentation/validation/html-newsletter.png) | |
-|  | newsletter-confirmation.html | ![screenshot](documentation/validation/html-newsletter-confirmation.png) | |
-|  | 404.html | ![screenshot](documentation/validation/html-404.png) | |
+|  | [index.html](https://validator.w3.org/nu/?doc=https://theresaabl.github.io/pp-seminars/index.html) | ![screenshot](documentation/validation/html-index.png) | On first validation, one warning was shown:<br>  ![screenshot](documentation/validation/html-index-warning.png)<br> A heading was missing in the hero image section, this was quickly fixed by adding a hidden heading and can be tracked in [this issue](https://github.com/theresaabl/pp-seminars/issues/8) .|
+|  | [upcoming.html](https://validator.w3.org/nu/?doc=https://theresaabl.github.io/pp-seminars/upcoming.html) | ![screenshot](documentation/validation/html-upcoming.png) | |
+|  | [participate.html](https://validator.w3.org/nu/?doc=https://theresaabl.github.io/pp-seminars/participate.html) | ![screenshot](documentation/validation/html-participate.png) | |
+|  | [participate-confirmation.html](https://validator.w3.org/nu/?doc=https://theresaabl.github.io/pp-seminars/participate-confirmation.html) | ![screenshot](documentation/validation/html-participate-confirmation.png) | |
+|  | [contact.html](https://validator.w3.org/nu/?doc=https://theresaabl.github.io/pp-seminars/contact.html) | ![screenshot](documentation/validation/html-contact.png) | |
+|  | [contact-confirmation.html](https://validator.w3.org/nu/?doc=https://theresaabl.github.io/pp-seminars/contact-confirmation.html) | ![screenshot](documentation/validation/html-contact-confirmation.png) | |
+|  | [newsletter.html](https://validator.w3.org/nu/?doc=https://theresaabl.github.io/pp-seminars/newsletter.html) | ![screenshot](documentation/validation/html-newsletter.png) | |
+|  | [newsletter-confirmation.html](https://validator.w3.org/nu/?doc=https://theresaabl.github.io/pp-seminars/newsletter-confirmation.html) | ![screenshot](documentation/validation/html-newsletter-confirmation.png) | |
+|  | [404.html](https://validator.w3.org/nu/?doc=https://theresaabl.github.io/pp-seminars/404.html) | ![screenshot](documentation/validation/html-404.png) | |
 
 ### CSS
 
@@ -43,7 +43,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 | Directory | File | Screenshot | 
 | --- | --- | --- | 
-| assets/css | style.css | ![screenshot](documentation/validation/css.png) | 
+| assets/css | [style.css](https://jigsaw.w3.org/css-validator/validator?uri=https://theresaabl.github.io/pp-seminars) | ![screenshot](documentation/validation/css.png) | 
 
 ## Browser Compatibility
 
