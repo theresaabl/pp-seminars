@@ -53,26 +53,6 @@ There are three primary user groups:
 - As a student, I would like to sign up to a weekly newsletter with details on upcoming talks, so that I can attend seminars regularly without having to look up details every week.
 - As a student, I would like to acces contact information, so that I can contact the organisers with any questions.
 
-## Wireframes
-
-I have used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes. 
-
-Note that I deliberately chose to develop wireframes with a focus on laptop/desktop screen sizes, even though the project was developed using a mobile-first approach. This is because the target audience of this site (see [Target Audience](#target-audience)) are particle physics researchers. We can safely assume that this group would access the site from a laptop or desktop most of the time, while working on their research or administration tasks.
-
-Any differences between the wireframes and the final website are due to creative decisions in the development process. The site was designed in a way that made the adaptations for mobile devices almost obvious.
-
-### Desktop Wireframes
-
-| Page | Screenshots |
-| --- | --- |
-| Home | ![screenshot](documentation/wireframes/wireframe-home.png) |
-| Upcoming | ![screenshot](documentation/wireframes/wireframe-upcoming.png) |
-| Participate | ![screenshot](documentation/wireframes/wireframe-participate.png) |
-| Archive | (see [Future Features](#future-features)) |
-| Contact | ![screenshot](documentation/wireframes/wireframe-contact.png) |
-| Newsletter | ![screenshot](documentation/wireframes/wireframe-newsletter.png) |
-| Error 404 page | ![screenshot](documentation/wireframes/wireframe-404.png) | 
-
 ### Color Scheme
 
 The goal for the color scheme was to give the website a clean and scientific but also dark and mysterious look. I used [coolors.co](https://coolors.co/1d0f39-a8a8ff-f5f5f5-595492-eebb62) to generate my color palette:
@@ -98,6 +78,26 @@ I used the following fonts and icons:
 - [Mukta Vaani](https://fonts.google.com/specimen/Mukta+Vaani) was used for all other text (the fall-back font is 'sans-serif').
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the newsletter icon in the header or the social media icons in the footer.
+
+## Wireframes
+
+I have used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes. 
+
+Note that I deliberately chose to develop wireframes with a focus on laptop/desktop screen sizes, even though the project was developed using a mobile-first approach. This is because the target audience of this site (see [Target Audience](#target-audience)) are particle physics researchers. We can safely assume that this group would access the site from a laptop or desktop most of the time, while working on their research or administration tasks.
+
+Any differences between the wireframes and the final website are due to creative decisions in the development process. The site was designed in a way that made the adaptations for mobile devices almost obvious.
+
+### Desktop Wireframes
+
+| Page | Screenshots |
+| --- | --- |
+| Home | ![screenshot](documentation/wireframes/wireframe-home.png) |
+| Upcoming | ![screenshot](documentation/wireframes/wireframe-upcoming.png) |
+| Participate | ![screenshot](documentation/wireframes/wireframe-participate.png) |
+| Archive | (see [Future Features](#future-features)) |
+| Contact | ![screenshot](documentation/wireframes/wireframe-contact.png) |
+| Newsletter | ![screenshot](documentation/wireframes/wireframe-newsletter.png) |
+| Error 404 page | ![screenshot](documentation/wireframes/wireframe-404.png) | 
 
 ## Features
 
