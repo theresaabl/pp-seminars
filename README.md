@@ -6,7 +6,7 @@
 
 Particle Physics Seminars is a website dedicated to particle physics seminars organised by an academic research group. The goal is to provide clear and easily accessible information about upcoming talks and journal clubs for academic researchers and students in the field of particle physics. Users can quickly get information about the types of seminars provided as well as the time and location they take place in. They can access a list of upcoming talks, sign up to contribute to a seminar themselves, contact the organizers or sign up to a newsletter.
 
-Plase view the live site here - [Particle Physics Seminars](https://theresaabl.github.io/pp-seminars))
+Plase view the live site here - [Particle Physics Seminars](https://theresaabl.github.io/pp-seminars)
 
 ![screenshot](documentation/mockup.png)
 
@@ -14,8 +14,9 @@ source: [amiresponsive](https://ui.dev/amiresponsive?url=https://theresaabl.gith
 
 ## UX
 
+### Target Audience
 
-**explain design processes**
+This page was designed always having the target audience in mind. The target audience are academic researchers in particle physics, as well as students in the field. This audience is looking to get the most precise and concise information as quickly as possible. They are always busy with their research and most likely access the website from a laptop or desktop. The site has to be very straightforward so they do not lose any time looking for information. They can find out what they are looking for at first sight. It also has to be very simple to see what actions they can take and where. Furthermore, the goal is to provide a visually pleasing website fitting the theme of particle physics.
 
 ### Color Scheme
 
@@ -43,38 +44,44 @@ I used the following fonts and icons:
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the newsletter icon in the header or the social media icons in the footer.
 
-
-
 ## User Stories
 
-user stories:
+There are three primary user groups:
 
-- internal researcher
-- external researcher
-- student
-- researcher looking to hire
-- researcher looking to be hired
-- researcher looking for collaborators
+- Internal researchers (members of the university which organises the seminars)
+- External researchers (work at different universities)
+- students
 
-### New Site Users
+### Internal Researchers
 
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
+- As an internal researcher, I would like to see an overview of upcoming talks, so that I can attend seminars and stay up-to-date on lates research developments.
+- As an internal researcher, I would like to see details of upcoming talks, so that I can prepare myself before attending.
+- As an internal researcher, I would like to sign up to a weekly newsletter with details on upcoming talks, so that I can attend seminars regularly without having to look up details every week.
+- As an internal researcher, I would like to sign up to give a talk in the lunch seminar, so that I can promote my own research or find possible collaborators.
+- As an internal researcher, I would like to sign up to suggest a paper for the journal club, so that I can discuss recent developments and get input from my peers.
+- As an internal researcher, I would like to access information about external speakers of upcoming talks, so that I can find new talent to hire.
 
-### Returning Site Users
+### External Researchers
 
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
+- As an external researcher, I would like to see what types of seminars are organised and where and when they take place, so I can see which ones I want to attend or contribute to.
+- As an external researcher, I would like to see an overview of upcoming talks, so that I can attend seminars and stay up-to-date on latest research developments.
+- As an external researcher, I would like to see details of upcoming talks, so that I can prepare myself before attending.
+- As an external researcher, I would like to acces contact information, so that I can see how to get to the seminars or how to contact the organisers with any questions.
+- As an external researcher, I would like to sign up to give a talk in the lunch seminar, so that I can promote my own research, find possible collaborators or find someone to hire me.
+- As an external researcher, I would like to sign up to suggest a paper for the journal club, so that I can discuss recent developments and network with researchers from the organising group.
+
+### Students
+
+- As a student, I would like to see what types of seminars are organised and where and when they take place, so I can see which ones I want to attend.
+- As a student, I would like to see an overview of upcoming talks, so that I can attend seminars and stay up-to-date on latest research developments.
+- As a student, I would like to see an overview of upcoming talks, so that I can attend seminars to network with researchers and find someone to hire me.
+- As a student, I would like to see details of upcoming talks, so that I can prepare myself before attending.
+- As a student, I would like to sign up to a weekly newsletter with details on upcoming talks, so that I can attend seminars regularly without having to look up details every week.
+- As an external researcher, I would like to acces contact information, so that I can contact the organisers with any questions.
 
 ## Wireframes
 
-I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes. 
+I have used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes. 
 
 Note that I deliberately chose to develop wireframes with a focus on laptop/desktop screen sizes, even though the project was developed using a mobile-first approach. This is because the target audience of this site (see [Target Audience](#target-audience)) are particle physics researchers. We can safely assume that this group would access the site from a laptop or desktop most of the time, while working on their research or administration tasks.
 
@@ -107,8 +114,7 @@ Any differences between the wireframes and the final website are due to creative
 | [**Hero image section**](index.html) | The hero image on the home page is a large image of a particle collision fitting the theme of the page perfectly. The goal is to leave a positiv visual impression and to provide a short and informative slogan through the overlayed text, as to what this website is about. | ![screenshot](documentation/features/hero-image.png) |
 | [**About section**](index.html) | The about section on the home page provides concise information about the two types of seminars that are organised. The goal is for the user to quickly know which types of seminars there are, when and where they take place and whether drinks and snacks are provided. | ![screenshot](documentation/features/about-mobile.png) |
 | About section for desktop devices |   | ![screenshot](documentation/features/about-laptop.png) |
-| [**Upcoming Talks**](upcoming.html) | The upcoming talks page shows a list of upcoming talks, including the date, as well as the speaker or discussion chair 
- and the title and abstract of papers presented or discussed. It also provides a link to the relevant publication. The goal is to provide this information to the users, such that they not only know which talks take place but can also look at the speakers and publications in advance to prepare for the seminar. | ![screenshot](documentation/features/upcoming-mobile.png) |
+| [**Upcoming Talks**](upcoming.html) | The upcoming talks page shows a list of upcoming talks, including the date, as well as the speaker or discussion chair and the title and abstract of papers presented or discussed. It also provides a link to the relevant publication. The goal is to provide this information to the users, such that they not only know which talks take place but can also look at the speakers and publications in advance to prepare for the seminar. | ![screenshot](documentation/features/upcoming-mobile.png) |
 | Upcoming Talks for desktop devices |   | ![screenshot](documentation/features/upcoming-laptop.png) |
 | [**Participate form**](participate.html) | The participate form provides the option to sign up to contribute to a seminar. The goal is that any user that wants to participate can easily know how to sign up and then do so. They can choose whether they want to give a talk at the lunch seminar or suggest a paper for discussion at the journal club. They can also provide information about the publications they want to present or discuss and of course, enter there personal information. | ![screenshot](documentation/features/participate-form.png) |
 | [**Participate form confirmation**](participate-confirmation.html) | Once a user submits a participate form (with valid input), a confirmation page is shown. This page includes links to the home and contact pages, and the user is redirected to the home page automatically after 10 seconds. The goal is to provide the user with clear feedback, so that they know that their message was indeed sent. | ![screenshot](documentation/features/participate-confirmation.png) |
@@ -125,21 +131,17 @@ Any differences between the wireframes and the final website are due to creative
 
 - **Calendar in upcoming talks section**
 
-    - It would be interesting to include an interactive calendar in the upcoming talks page to display all past and upcoming seminars and export calender entries to personal calendars.
+    It would be interesting to include an interactive calendar in the upcoming talks page to display all past and upcoming seminars and export calender entries to personal calendars.
 
 - **Archive**
 
-    - In the initial wireframes I included an Archive page and then decided in the planning stages that this was beyond the scope of this project. Therefore, it would be very desirable to implement an Archive page as a future feature. This page would contain details, such as dates, titles, speakers etc. of past seminars. Most notably it would include videos of all past talks. 
+    In the initial wireframes I included an Archive page (see below) and then decided in the planning stages that this was beyond the scope of this project. Therefore, it would be very desirable to implement an Archive page as a future feature. This page would contain details, such as dates, titles, speakers etc. of past seminars. Most notably it would include videos of all past talks. 
 
     ![screenshot](documentation/wireframes/wireframe-archive.png)
 
-
-
 - **Online participation sign-up**
 
-    - It would add to the value of the page, if users from anywhere in the world could sign up to participate in any of the seminars remotely. This could be done through a sign-up page where users can register to participate in a zoom webinar or meeting.
-
-</details>
+    It would add to the value of the page, if users from anywhere in the world could sign up to participate in any of the seminars remotely. This could be done through a sign-up page where users can register to participate in a zoom webinar or meeting.
 
 ## Tools & Technologies Used
 
@@ -170,11 +172,11 @@ Any differences between the wireframes and the final website are due to creative
 
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
 
-- In the [GitHub repository](https://github.com/theresaabl/pp-seminars), navigate to the Settings tab 
+- In the [GitHub repository](https://github.com/theresaabl/pp-seminars), navigate to the Settings tab. 
 - From the source section drop-down menu, select the **Main** Branch, then click "Save".
 - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found [here](https://theresaabl.github.io/pp-seminars)
+The live link can be found [here](https://theresaabl.github.io/pp-seminars).
 
 ### Local Deployment
 
@@ -184,11 +186,11 @@ This project can be cloned or forked in order to make a local copy on your own s
 
 You can clone the repository by following these steps:
 
-1. Go to the [GitHub repository](https://github.com/theresaabl/pp-seminars) 
-2. Locate the Code button above the list of files and click it 
-3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
-4. Open Git Bash or Terminal
-5. Change the current working directory to the one where you want the cloned directory
+1. Go to the [GitHub repository](https://github.com/theresaabl/pp-seminars).
+2. Locate the Code button above the list of files and click it.
+3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard.
+4. Open Git Bash or Terminal.
+5. Change the current working directory to the one where you want the cloned directory.
 6. In your IDE Terminal, type the following command to clone my repository:
 	- `git clone https://github.com/theresaabl/pp-seminars.git`
 7. Press Enter to create your local clone.
@@ -205,17 +207,15 @@ A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/conf
 By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
 You can fork this repository by using the following steps:
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/theresaabl/pp-seminars)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/theresaabl/pp-seminars).
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
 ### Local VS Deployment
 
-There are no  differences between the local version, and the live deployment site on GitHub Pages..
-
+There are no notable differences between the local version in Gitpod and the live deployment site on GitHub Pages.
 
 ## Credits
-
 
 ### Content
 
@@ -239,10 +239,6 @@ There are no  differences between the local version, and the live deployment sit
 | [Caltech Science Exchange](https://caltechsites-prod.s3.amazonaws.com/scienceexchange/images/Quantum_Physics-HeaderImage-F.2e16d0ba.fill-933x525-c100.jpg) | newsletter and newsletter confirmation pages | image | background |
 | [Nasa Science](https://smd-cms.nasa.gov/wp-content/uploads/2023/06/PIA16695_large-jpg.webp) | error page | image | background |
 
-
-
 ### Acknowledgements
 
-
-
-- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for his support throughout the development of this project.
+I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for his support and insight throughout the development of this project.
