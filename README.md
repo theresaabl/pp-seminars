@@ -54,7 +54,7 @@ There are three primary user groups:
 
 ### Internal Researchers
 
-- As an internal researcher, I would like to see an overview of upcoming talks, so that I can attend seminars and stay up-to-date on lates research developments.
+- As an internal researcher, I would like to see an overview of upcoming talks, so that I can attend seminars and stay up-to-date on latest research developments.
 - As an internal researcher, I would like to see details of upcoming talks, so that I can prepare myself before attending.
 - As an internal researcher, I would like to sign up to a weekly newsletter with details on upcoming talks, so that I can attend seminars regularly without having to look up details every week.
 - As an internal researcher, I would like to sign up to give a talk in the lunch seminar, so that I can promote my own research or find possible collaborators.

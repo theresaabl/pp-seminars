@@ -107,26 +107,28 @@ The site got full scores for accessibility, best practices and SEO, except for i
 
 ## User Story Testing
 
+The user stories were presented in the [README.md](README.md) file. To test them, I checked whether there is a feature that clearly fulfills the users goal for each of the user stories.
+
 | User Story | Screenshot |
 | --- | --- |
-|As an internal researcher, I would like to see an overview of upcoming talks, so that I can attend seminars and stay up-to-date on lates research developments. | ![screenshot](documentation/features/feature01.png) |
-|As an internal researcher, I would like to see details of upcoming talks, so that I can prepare myself before attending. | ![screenshot](documentation/features/feature01.png) |
-|As an internal researcher, I would like to sign up to a weekly newsletter with details on upcoming talks, so that I can attend seminars regularly without having to look up details every week. | ![screenshot](documentation/features/feature01.png) |
-|As an internal researcher, I would like to sign up to give a talk in the lunch seminar, so that I can promote my own research or find possible collaborators. | ![screenshot](documentation/features/feature01.png) |
-|As an internal researcher, I would like to sign up to suggest a paper for the journal club, so that I can discuss recent developments and get input from my peers. | ![screenshot](documentation/features/feature01.png) |
-|As an internal researcher, I would like to access information about external speakers of upcoming talks, so that I can find new talent to hire. | ![screenshot](documentation/features/feature01.png) |
-|As an external researcher, I would like to see what types of seminars are organised and where and when they take place, so I can see which ones I want to attend or contribute to. | ![screenshot](documentation/features/feature01.png) |
-|As an external researcher, I would like to see an overview of upcoming talks, so that I can attend seminars and stay up-to-date on latest research developments. | ![screenshot](documentation/features/feature01.png) |
-|As an external researcher, I would like to see details of upcoming talks, so that I can prepare myself before attending. | ![screenshot](documentation/features/feature01.png) |
-|As an external researcher, I would like to acces contact information, so that I can see how to get to the seminars or how to contact the organisers with any questions. | ![screenshot](documentation/features/feature01.png) |
-|As an external researcher, I would like to sign up to give a talk in the lunch seminar, so that I can promote my own research, find possible collaborators or find someone to hire me. | ![screenshot](documentation/features/feature01.png) |
-|As an external researcher, I would like to sign up to suggest a paper for the journal club, so that I can discuss recent developments and network with researchers from the organising group. | ![screenshot](documentation/features/feature01.png) |
-|As a student, I would like to see what types of seminars are organised and where and when they take place, so I can see which ones I want to attend. | ![screenshot](documentation/features/feature01.png) |
-|As a student, I would like to see an overview of upcoming talks, so that I can attend seminars and stay up-to-date on latest research developments. | ![screenshot](documentation/features/feature01.png) |
-|As a student, I would like to see an overview of upcoming talks, so that I can attend seminars to network with researchers and find someone to hire me. | ![screenshot](documentation/features/feature01.png) |
-|As a student, I would like to see details of upcoming talks, so that I can prepare myself before attending. | ![screenshot](documentation/features/feature01.png) |
-|As a student, I would like to sign up to a weekly newsletter with details on upcoming talks, so that I can attend seminars regularly without having to look up details every week. | ![screenshot](documentation/features/feature01.png) |
-|As a student, I would like to acces contact information, so that I can contact the organisers with any questions. | ![screenshot](documentation/features/feature01.png) |
+|As an internal researcher, I would like to see an overview of upcoming talks, so that I can attend seminars and stay up-to-date on latest research developments. | ![screenshot](documentation/features/upcoming-laptop.png) |
+|As an internal researcher, I would like to see details of upcoming talks, so that I can prepare myself before attending. | ![screenshot](documentation/features/upcoming-laptop.png) |
+|As an internal researcher, I would like to sign up to a weekly newsletter with details on upcoming talks, so that I can attend seminars regularly without having to look up details every week. | ![screenshot](documentation/features/newsletter-form.png) |
+|As an internal researcher, I would like to sign up to give a talk in the lunch seminar, so that I can promote my own research or find possible collaborators. | ![screenshot](documentation/features/participate-form.png) |
+|As an internal researcher, I would like to sign up to suggest a paper for the journal club, so that I can discuss recent developments and get input from my peers. | ![screenshot](documentation/features/participate-form.png) |
+|As an internal researcher, I would like to access information about external speakers of upcoming talks, so that I can find new talent to hire. | ![screenshot](documentation/features/upcoming-laptop.png) |
+|As an external researcher, I would like to see what types of seminars are organised and where and when they take place, so I can see which ones I want to attend or contribute to. | ![screenshot](documentation/features/about-laptop.png) |
+|As an external researcher, I would like to see an overview of upcoming talks, so that I can attend seminars and stay up-to-date on latest research developments. | ![screenshot](documentation/features/upcoming-laptop.png) |
+|As an external researcher, I would like to see details of upcoming talks, so that I can prepare myself before attending. | ![screenshot](documentation/features/upcoming-laptop.png) |
+|As an external researcher, I would like to acces contact information, so that I can see how to get to the seminars or how to contact the organisers with any questions. | ![screenshot](documentation/features/contact-laptop.png) |
+|As an external researcher, I would like to sign up to give a talk in the lunch seminar, so that I can promote my own research, find possible collaborators or find someone to hire me. | ![screenshot](documentation/features/participate-form.png) |
+|As an external researcher, I would like to sign up to suggest a paper for the journal club, so that I can discuss recent developments and network with researchers from the organising group. | ![screenshot](documentation/features/participate-form.png) |
+|As a student, I would like to see what types of seminars are organised and where and when they take place, so I can see which ones I want to attend. | ![screenshot](documentation/features/about-laptop.png) |
+|As a student, I would like to see an overview of upcoming talks, so that I can attend seminars and stay up-to-date on latest research developments. | ![screenshot](documentation/features/upcoming-laptop.png) |
+|As a student, I would like to see an overview of upcoming talks, so that I can attend seminars to network with researchers and find someone to hire me. | ![screenshot](documentation/features/upcoming-laptop.png) |
+|As a student, I would like to see details of upcoming talks, so that I can prepare myself before attending. | ![screenshot](documentation/features/upcoming-laptop.png) |
+|As a student, I would like to sign up to a weekly newsletter with details on upcoming talks, so that I can attend seminars regularly without having to look up details every week. | ![screenshot](documentation/features/newsletter-form.png) |
+|As a student, I would like to acces contact information, so that I can contact the organisers with any questions. | ![screenshot](documentation/features/contact-laptop.png) |
 
 ## Bugs
 
