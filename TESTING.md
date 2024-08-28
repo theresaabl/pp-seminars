@@ -105,32 +105,28 @@ Before performing these audits I had already converted all images to .webp using
 
 The site got full scores for accessibility, best practices and SEO, except for issues with third party cookies in the contact page.
 
-## User Story Testing (TO DO)
-
- already got the stories defined on your README.
-
-Most of your project's **features** should already align with the **user stories**,
-so this should as simple as creating a table with the user story, matching with the re-used screenshot
-from the respective feature.
-
-User Experience Testing:
-
-- Usability Testing: Have users (or simulated users) interact with the site and provide feedback. Document any issues encountered and the resolutions implemented.
-- Accessibility Testing: Confirm compliance with accessibility standards (e.g., screen reader compatibility, proper alt text for images, keyboard navigation).
-
+## User Story Testing
 
 | User Story | Screenshot |
 | --- | --- |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature01.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature02.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature03.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature04.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature05.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature06.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/features/feature07.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/features/feature08.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/features/feature09.png) |
-| repeat for all remaining user stories | x |
+|As an internal researcher, I would like to see an overview of upcoming talks, so that I can attend seminars and stay up-to-date on lates research developments. | ![screenshot](documentation/features/feature01.png) |
+|As an internal researcher, I would like to see details of upcoming talks, so that I can prepare myself before attending. | ![screenshot](documentation/features/feature01.png) |
+|As an internal researcher, I would like to sign up to a weekly newsletter with details on upcoming talks, so that I can attend seminars regularly without having to look up details every week. | ![screenshot](documentation/features/feature01.png) |
+|As an internal researcher, I would like to sign up to give a talk in the lunch seminar, so that I can promote my own research or find possible collaborators. | ![screenshot](documentation/features/feature01.png) |
+|As an internal researcher, I would like to sign up to suggest a paper for the journal club, so that I can discuss recent developments and get input from my peers. | ![screenshot](documentation/features/feature01.png) |
+|As an internal researcher, I would like to access information about external speakers of upcoming talks, so that I can find new talent to hire. | ![screenshot](documentation/features/feature01.png) |
+|As an external researcher, I would like to see what types of seminars are organised and where and when they take place, so I can see which ones I want to attend or contribute to. | ![screenshot](documentation/features/feature01.png) |
+|As an external researcher, I would like to see an overview of upcoming talks, so that I can attend seminars and stay up-to-date on latest research developments. | ![screenshot](documentation/features/feature01.png) |
+|As an external researcher, I would like to see details of upcoming talks, so that I can prepare myself before attending. | ![screenshot](documentation/features/feature01.png) |
+|As an external researcher, I would like to acces contact information, so that I can see how to get to the seminars or how to contact the organisers with any questions. | ![screenshot](documentation/features/feature01.png) |
+|As an external researcher, I would like to sign up to give a talk in the lunch seminar, so that I can promote my own research, find possible collaborators or find someone to hire me. | ![screenshot](documentation/features/feature01.png) |
+|As an external researcher, I would like to sign up to suggest a paper for the journal club, so that I can discuss recent developments and network with researchers from the organising group. | ![screenshot](documentation/features/feature01.png) |
+|As a student, I would like to see what types of seminars are organised and where and when they take place, so I can see which ones I want to attend. | ![screenshot](documentation/features/feature01.png) |
+|As a student, I would like to see an overview of upcoming talks, so that I can attend seminars and stay up-to-date on latest research developments. | ![screenshot](documentation/features/feature01.png) |
+|As a student, I would like to see an overview of upcoming talks, so that I can attend seminars to network with researchers and find someone to hire me. | ![screenshot](documentation/features/feature01.png) |
+|As a student, I would like to see details of upcoming talks, so that I can prepare myself before attending. | ![screenshot](documentation/features/feature01.png) |
+|As a student, I would like to sign up to a weekly newsletter with details on upcoming talks, so that I can attend seminars regularly without having to look up details every week. | ![screenshot](documentation/features/feature01.png) |
+|As an external researcher, I would like to acces contact information, so that I can contact the organisers with any questions. | ![screenshot](documentation/features/feature01.png) |
 
 ## Bugs
 
