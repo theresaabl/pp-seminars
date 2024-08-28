@@ -3,19 +3,37 @@
 > [!NOTE]  
 > Return back to the [README.md](README.md) file.
 
-## Feature-by-Feature Testing (TO DO)
+## Feature-by-Feature Testing
 
-In this section, you need to convince the assessors that you have conducted enough testing to legitimately believe that the site works well.
-Essentially, in this part, you should go over all of your project's features, and ensure that they all work as intended,
-with the project providing an easy and straightforward way for the users to achieve their goals.
-Go through each feature of your portfolio site and detail the testing process for each.
-
-Explain the functionality and demonstrate how it aligns with the intended purpose. This could include:
-
-- Navigation: Ensuring smooth transitions between pages, links directing to the correct destinations.
-- Responsive Design: Checking for compatibility across various devices and screen sizes.
-- Portfolio Display: Verifying that projects are properly showcased with accurate descriptions, images, and links.
-- Contact Form: Testing the form submission process, ensuring the user receives a confirmation, and you receive the message.
+| Feature | Expectation | Action | Outcome |
+| --- | --- | --- | --- |
+| Logo | When clicked the home page will open | Click the logo | Home page opened when clicked |
+| Home navbar button | When clicked the home page will open | Click the logo | Home page opened when clicked |
+| Upcoming navbar button | When clicked the upcoming talks page will open | Click the Home nav button | Upcoming talks page opened when clicked |
+| Participate navbar button | When clicked the participate page will open | Click the Participate nav button | Participate page opened when clicked |
+| Contact navbar button | When clicked the contact page will open | Click the Contact nav button | Contact page opened when clicked |
+| Dropdown menu for mobile devices | When clicked the dropdown menu opens <br>  When clicked again the dropdown menu closes | Click the burger icon <br> Click the burger icon again | Dropdown menu opens <br> Dropdown menu closes |
+| Newsletter icon button | When clicked the newsletter sign-up page will open | Click the newsletter icon button | Newsletter sign-up page opened when clicked |
+| Social media icons in footer | When clicked the social media pages will open in new tab | Click the social media icons | Social media pages are opened in new tab when clicked |
+| Links in the about section | When clicked the contact page will open | Click the links in the about section | The contact page opens when clicked |
+| Links in the upcoming talks section | When clicked correct page opens in new tab | Click the links in the upcoming talks section | The correct page opens when clicked |
+| Participate form name and email fields | When active autocomplete suggestions show | Activate the name and email fields | The name and email fields show autocomplete suggestions when active |
+| Participate form reset button | When clicked the form will be reset | Click the form reset button | The form is reset when the reset button is clicked |
+| Participate form submit button | When clicked with valid input the form will send and the participate confirmation page will show <br> When clicked with invalid input or empty fields a warning will show | Click the submit button  <br>  | The form sends and the confirmation page shows when submit button is clicked with valid input <br> A warning shows when there is invalid input or empty fields |
+| Participate confirmation page | After 10 seconds the home page shows | Wait 10 seconds | The home page shows after 10 seconds |
+| Links on the Participate confirmation page | When clicked the contact page or home page will show respectively | Click the contact or home page links | The contact or home page show when the respective link is clicked |
+| Contact form name and email fields | When active autocomplete suggestions show | Activate the name and email fields | The name and email fields show autocomplete suggestions when active |
+| Contact form reset button | When clicked the form will be reset | Click the form reset button | The form is reset when the reset button is clicked |
+| Contact form submit button | When clicked with valid input the form will send and the contact confirmation page will show <br> When clicked with invalid input or empty fields a warning will show | Click the submit button  <br>  | The form sends and the confirmation page shows when submit button is clicked with valid input <br> A warning shows when there is invalid input or empty fields |
+| Contact confirmation page | After 10 seconds the home page shows | Wait 10 seconds | The home page shows after 10 seconds |
+| Links on the Contact confirmation page | When clicked the contact page or home page will show respectively | Click the contact or home page links | The contact or home page show when the respective link is clicked |
+| Newsletter form name and email fields | When active autocomplete suggestions show | Activate the name and email fields | The name and email fields show autocomplete suggestions when active |
+| Newsletter form reset button | When clicked the form will be reset | Click the form reset button | The form is reset when the reset button is clicked |
+| Newsletter form submit button | When clicked with valid input the form will send and the newsletter confirmation page will show <br> When clicked with invalid input or empty fields a warning will show | Click the submit button  <br>  | The form sends and the confirmation page shows when submit button is clicked with valid input <br> A warning shows when there is invalid input or empty fields |
+| Newsletter confirmation page | After 10 seconds the home page shows | Wait 10 seconds | The home page shows after 10 seconds |
+| Link on the Newsletter confirmation page | When clicked the home page will show | Click the home page link | The home page shows when the link is clicked |
+| Error 404 page | When entering a URL to a page that does not exist on this website an error page will show | Enter a URL to a page that does not exist on this website | An error page shows when entering a URL to a page that does not exist on this website |
+| Link on the error 404 page | When clicked the home page will show | Click the link on the error 404 page | The home page shows when the link is clicked |
 
 ## Code Validation
 
@@ -75,6 +93,7 @@ Note: For better readabilty I have not included screenshots of the form confirma
 | Lenovo X1 Extreme (Laptop) | ![screenshot](documentation/responsiveness/responsive-lenovo-home.png) | ![screenshot](documentation/responsiveness/responsive-lenovo-upcoming.png) | ![screenshot](documentation/responsiveness/responsive-lenovo-participate.png) | ![screenshot](documentation/responsiveness/responsive-lenovo-contact.png) | ![screenshot](documentation/responsiveness/responsive-lenovo-newsletter.png) | ![screenshot](documentation/responsiveness/responsive-lenovo-404.png) | Works as expected |
 | Lenovo ThinkVision P24h-10 (Monitor) | ![screenshot](documentation/responsiveness/responsive-thinkvision-home.png) | ![screenshot](documentation/responsiveness/responsive-thinkvision-upcoming.png) | ![screenshot](documentation/responsiveness/responsive-thinkvision-participate.png) | ![screenshot](documentation/responsiveness/responsive-thinkvision-contact.png) | ![screenshot](documentation/responsiveness/responsive-thinkvision-newsletter.png) | ![screenshot](documentation/responsiveness/responsive-thinkvision-404.png) | Works as expected |
 
+Note, there is a typo in commit [0c4412e](https://github.com/theresaabl/pp-seminars/commit/0c4412e5392eed68cfa3d7dda98f8f54178e4f89). The screenshots were added to documentation/responsiveness and not to assets/responsiveness.
 
 ### Issues with Responsiveness
 
@@ -151,6 +170,8 @@ All previously closed/fixed bugs can be tracked [here](https://github.com/theres
 | [Contrast ratio too low in forms](https://github.com/theresaabl/pp-seminars/issues/7) | Closed |
 | [Missing heading in hero-image section](https://github.com/theresaabl/pp-seminars/issues/8) | Closed |
 | [Missing autocomplete attribute in forms](https://github.com/theresaabl/pp-seminars/issues/9) | Closed |
+
+Note, there is a typo in commit [b0b9f53](https://github.com/theresaabl/pp-seminars/commit/b0b9f53012f4becabd3c53748760d7618b1c9486). It should say "Fix" instead of "Solve" for the issue to be closed with the commit.
 
 ### Open Issues
 
