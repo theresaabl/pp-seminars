@@ -82,11 +82,7 @@ Any differences between the wireframes and the final website are due to creative
 
 ### Desktop Wireframes
 
-| Page | Home | Upcoming | Participate | Archive | Contact | Newsletter | Error 404 page |
-| --- | --- | --- | --- | --- | --- | --- | --- | 
-| Wireframes | ![screenshot](documentation/wireframes/wireframe-home.png) | ![screenshot](documentation/wireframes/wireframe-upcoming.png) | ![screenshot](documentation/wireframes/wireframe-participate.png) | (see [Future Features](#future-features)) | ![screenshot](documentation/wireframes/wireframe-contact.png) | ![screenshot](documentation/wireframes/wireframe-newsletter.png) | ![screenshot](documentation/wireframes/wireframe-404.png) |
-
-| Page | Wireframes |
+| Page | Screenshots |
 | --- | --- |
 | Home | ![screenshot](documentation/wireframes/wireframe-home.png) |
 | Upcoming | ![screenshot](documentation/wireframes/wireframe-upcoming.png) |
@@ -115,72 +111,20 @@ reference the specific project files that implement the features. Include screen
 | **Footer** | The footer appears on the bottom of the page across all pages. The goal is to show the copyright information and links to social media platforms. The social media links are icons, which show clearly which social media platforms are available related to this site. |  ![screenshot](documentation/features/footer.png) |
 | **Hero image section** | The hero image on the home page is a large image of a particle collision fitting the theme of the page perfectly. The goal is to leave a positiv visual impression and to provide a short and informative slogan through the overlayed text, as to what this website is about. | ![screenshot](documentation/features/hero-image.png) |
 | **About section** | The about section on the home page provides concise information about the two types of seminars that are organised. The goal is for the user to quickly know which types of seminars there are, when and where they take place and whether drinks and snacks are provided. | ![screenshot](documentation/features/about-mobile.png) |
-| About section for desktop devices | Flex styles are used for responsive design. | ![screenshot](documentation/features/about-laptop.png) |
+| About section for desktop devices |   | ![screenshot](documentation/features/about-laptop.png) |
 | **Upcoming Talks** | The upcoming talks page shows a list of upcoming talks, including the date, as well as the speaker or discussion chair 
- and the title and abstract of papers presented or discussed. It also provides a link to the relevant publication. The goal is to provide this information to the users, such that they not only know which talks take place but can also look at the speakers and publications in advance to prepare for the seminar. |
-
-    - Details
-
-![screenshot](documentation/features/upcoming-mobile.png)
-
-![screenshot](documentation/features/upcoming-laptop.png)
-
-- **Participate form**
-
-    - Details
-
-![screenshot](documentation/features/participate-form.png)
-
-- **Participate form confirmation**
-
-    - Details
-
-![screenshot](documentation/features/participate-confirmation.png)
-
-- **Contact information**
-
-    - Details
-
-![screenshot](documentation/features/contact-info.png)
-
-- **Interactive map**
-
-    - Details
-
-![screenshot](documentation/features/interactive-map.png)
-
-- **Contact form**
-
-    - Details
-
-![screenshot](documentation/features/contact-form.png)
-
-![screenshot](documentation/features/contact-laptop.png)
-
-- **Contact form confirmation**
-
-    - Details
-
-![screenshot](documentation/features/contact-confirmation.png)
-
-- **Newsletter sign-up form**
-
-    - Details
-
-![screenshot](documentation/features/newsletter-signup.png)
-
-- **Newsletter sign-up form confirmation**
-
-    - Details
-
-![screenshot](documentation/features/newsletter-confirmation.png)
-
-- **Error 404 page**
-
-    - Details
-
-![screenshot](documentation/features/error-404.png)
-
+ and the title and abstract of papers presented or discussed. It also provides a link to the relevant publication. The goal is to provide this information to the users, such that they not only know which talks take place but can also look at the speakers and publications in advance to prepare for the seminar. | ![screenshot](documentation/features/upcoming-mobile.png) |
+| Upcoming Talks for desktop devices |   | ![screenshot](documentation/features/upcoming-laptop.png) |
+| **Participate form** | The participate form provides the option to sign up to contribute to a seminar. The goal is that any user that wants to participate can easily know how to sign up and then do so. They can choose whether they want to give a talk at the lunch seminar or suggest a paper for discussion at the journal club. They can also provide information about the publications they want to present or discuss and of course, enter there personal information. | ![screenshot](documentation/features/participate-form.png) |
+| **Participate form confirmation** | Once a user submits a participate form (with valid input), a confirmation page is shown. This page includes links to the home and contact pages, and the user is redirected to the home page automatically after 10 seconds. The goal is to provide the user with clear feedback, so that they know that their message was indeed sent. | ![screenshot](documentation/features/participate-confirmation.png) |
+| **Contact information** | On top of the contact page the contact information with the seminars' location is provided, including an email address to contact the organisers. | ![screenshot](documentation/features/contact-info.png) |
+| **Interactive map** | Next on the contact page, is an interactive map that allows the user to directly look at the location of the seminars in Google Maps. | ![screenshot](documentation/features/interactive-map.png) |
+| **Contact form** | The contact page also includes a contact form, for the user to get in touch with any message that is beyond the scope of the participate or newsletter forms. | ![screenshot](documentation/features/contact-form.png) |
+| Contact page for desktop devices | | ![screenshot](documentation/features/contact-laptop.png) |
+| **Contact form confirmation** | Once a user submits a contact form (with valid input), a confirmation page is shown. See Participate form confirmation. | ![screenshot](documentation/features/contact-confirmation.png) |
+| **Newsletter sign-up form** | The newsletter sign-up page includes a form, where users can sign up to receive weekly reminders of upcoming seminars. Users leave their personal information and can indicate which type of seminar they are interested in. | ![screenshot](documentation/features/newsletter-signup.png) |
+| **Newsletter sign-up form confirmation** | Once a user submits a newsletter sign-up form (with valid input), a confirmation page is shown. See Participate form confirmation. | ![screenshot](documentation/features/newsletter-confirmation.png) |
+| **Error 404 page** | When a page is not found on the website, an error 404 occurs and the error page shows. The goal is to provide a clear and funny message to the user to show that something went wrong and how they can get back to the website. | ![screenshot](documentation/features/error-404.png) |
 
 ### Future Features
 
