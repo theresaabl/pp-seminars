@@ -6,43 +6,17 @@
 
 Particle Physics Seminars is a website dedicated to particle physics seminars organised by an academic research group. The goal is to provide clear and easily accessible information about upcoming talks and journal clubs for academic researchers and students in the field of particle physics. Users can quickly get information about the types of seminars provided as well as the time and location they take place in. They can access a list of upcoming talks, sign up to contribute to a seminar themselves, contact the organizers or sign up to a newsletter.
 
-Plase view the live site here - [Particle Physics Seminars](https://theresaabl.github.io/pp-seminars)
+Please view the live site here - [Particle Physics Seminars](https://theresaabl.github.io/pp-seminars)
 
 ![screenshot](documentation/mockup.png)
 
 source: [amiresponsive](https://ui.dev/amiresponsive?url=https://theresaabl.github.io/pp-seminars)
 
-## UX
+## User Experience - UX
 
 ### Target Audience
 
 This page was designed always having the target audience in mind. The target audience are academic researchers in particle physics, as well as students in the field. This audience is looking to get the most precise and concise information as quickly as possible. They are always busy with their research and most likely access the website from a laptop or desktop. The site has to be very straightforward so they do not lose any time looking for information. They can find out what they are looking for at first sight. It also has to be very simple to see what actions they can take and where. Furthermore, the goal is to provide a visually pleasing website fitting the theme of particle physics.
-
-### Color Scheme
-
-The goal for the color scheme was to give the website a clean and scientific but also dark and mysterious look. I used [coolors.co](https://coolors.co/1d0f39-a8a8ff-f5f5f5-595492-eebb62) to generate my color palette:
-
-![screenshot](documentation/color-palette-small.png)
-
-The following colors are used throughout the site:
-
-- `#a8a8ff` used for primary highlights.
-- `#eebb62` used for secondary highlights.
-- `#f5f5f5` used for other text.
-- `#1d0f39` used as background color. 
-- `#595492` used as background color for forms. 
-
-These colors fit the theme of particle physics. The site is generally dark-purple with light-purple highlights and off-white text and the orange highlights are reminiscent of images of particle collisions.
-
-### Typography
-
-I used the following fonts and icons:
-
-- [Exo](https://fonts.google.com/specimen/Exo) was used for the logo and headings (the fall-back font is 'sans-serif').
-
-- [Mukta Vaani](https://fonts.google.com/specimen/Mukta+Vaani) was used for all other text (the fall-back font is 'sans-serif').
-
-- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the newsletter icon in the header or the social media icons in the footer.
 
 ## User Stories
 
@@ -99,6 +73,32 @@ Any differences between the wireframes and the final website are due to creative
 | Newsletter | ![screenshot](documentation/wireframes/wireframe-newsletter.png) |
 | Error 404 page | ![screenshot](documentation/wireframes/wireframe-404.png) | 
 
+### Color Scheme
+
+The goal for the color scheme was to give the website a clean and scientific but also dark and mysterious look. I used [coolors.co](https://coolors.co/1d0f39-a8a8ff-f5f5f5-595492-eebb62) to generate my color palette:
+
+![screenshot](documentation/color-palette-small.png)
+
+The following colors are used throughout the site:
+
+- `#a8a8ff` used for primary highlights.
+- `#eebb62` used for secondary highlights.
+- `#f5f5f5` used for other text.
+- `#1d0f39` used as background color. 
+- `#595492` used as background color for forms. 
+
+These colors fit the theme of particle physics. The site is generally dark-purple with light-purple highlights and off-white text and the orange highlights are reminiscent of images of particle collisions.
+
+### Typography
+
+I used the following fonts and icons:
+
+- [Exo](https://fonts.google.com/specimen/Exo) was used for the logo and headings (the fall-back font is 'sans-serif').
+
+- [Mukta Vaani](https://fonts.google.com/specimen/Mukta+Vaani) was used for all other text (the fall-back font is 'sans-serif').
+
+- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the newsletter icon in the header or the social media icons in the footer.
+
 ## Features
 
 ### Existing Features
@@ -129,7 +129,7 @@ Any differences between the wireframes and the final website are due to creative
 
 ### Future Features
 
-- **Calendar in upcoming talks section**
+- **Calendar on upcoming talks page**
 
     It would be interesting to include an interactive calendar in the upcoming talks page to display all past and upcoming seminars and export calender entries to personal calendars.
 
@@ -144,7 +144,6 @@ Any differences between the wireframes and the final website are due to creative
     It would add to the value of the page, if users from anywhere in the world could sign up to participate in any of the seminars remotely. This could be done through a sign-up page where users can register to participate in a zoom webinar or meeting.
 
 ## Tools & Technologies Used
-
 
 - [![Markdown Builder](https://img.shields.io/badge/Markdown_Builder-grey?logo=markdown&logoColor=000000)](https://tim.2bn.dev/markdown-builder) used to generate README and TESTING templates.
 - [![Git](https://img.shields.io/badge/Git-grey?logo=git&logoColor=F05032)](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
@@ -161,7 +160,6 @@ Any differences between the wireframes and the final website are due to creative
 - [![Tinypng](https://img.shields.io/badge/Tinypng-grey?logo=foodpanda&logoColor=7EB631)](https://tinypng.com) used to compress images for faster website.
 - [![Bitly](https://img.shields.io/badge/Bitly-grey?logo=bitly&logoColor=EE6123)](https://bitly.com) used to shorten link for interactive map on contact site.
 - [![Favicon](https://img.shields.io/badge/Favicon-grey?logo=fi&logoColor=209CEE)](https://favicon.io/emoji-favicons/atom-symbol) used to generate favicon for the website.
-
 
 ## Testing
 
@@ -213,7 +211,7 @@ You can fork this repository by using the following steps:
 
 ### Local VS Deployment
 
-There are no notable differences between the local version in Gitpod and the live deployment site on GitHub Pages.
+There are no known differences between the local version in Gitpod and the live deployment site on GitHub Pages.
 
 ## Credits
 
