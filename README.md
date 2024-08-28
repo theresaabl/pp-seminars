@@ -18,7 +18,7 @@ source: [amiresponsive](https://ui.dev/amiresponsive?url=https://theresaabl.gith
 
 This page was designed always having the target audience in mind. The target audience are academic researchers in particle physics, as well as students in the field. This audience is looking to get the most precise and concise information as quickly as possible. They are always busy with their research and most likely access the website from a laptop or desktop. The site has to be very straightforward so they do not lose any time looking for information. They can find out what they are looking for at first sight. It also has to be very simple to see what actions they can take and where. Furthermore, the goal is to provide a visually pleasing website fitting the theme of particle physics.
 
-## User Stories
+### User Stories
 
 There are three primary user groups:
 
@@ -26,7 +26,7 @@ There are three primary user groups:
 - External researchers (work at different universities)
 - students
 
-### Internal Researchers
+**Internal Researchers**
 
 - As an internal researcher, I would like to see an overview of upcoming talks, so that I can attend seminars and stay up-to-date on latest research developments.
 - As an internal researcher, I would like to see details of upcoming talks, so that I can prepare myself before attending.
@@ -35,7 +35,7 @@ There are three primary user groups:
 - As an internal researcher, I would like to sign up to suggest a paper for the journal club, so that I can discuss recent developments and get input from my peers.
 - As an internal researcher, I would like to access information about external speakers of upcoming talks, so that I can find new talent to hire.
 
-### External Researchers
+**External Researchers**
 
 - As an external researcher, I would like to see what types of seminars are organised and where and when they take place, so I can see which ones I want to attend or contribute to.
 - As an external researcher, I would like to see an overview of upcoming talks, so that I can attend seminars and stay up-to-date on latest research developments.
@@ -44,7 +44,7 @@ There are three primary user groups:
 - As an external researcher, I would like to sign up to give a talk in the lunch seminar, so that I can promote my own research, find possible collaborators or find someone to hire me.
 - As an external researcher, I would like to sign up to suggest a paper for the journal club, so that I can discuss recent developments and network with researchers from the organising group.
 
-### Students
+**Students**
 
 - As a student, I would like to see what types of seminars are organised and where and when they take place, so I can see which ones I want to attend.
 - As a student, I would like to see an overview of upcoming talks, so that I can attend seminars and stay up-to-date on latest research developments.
