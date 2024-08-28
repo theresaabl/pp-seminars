@@ -541,6 +541,14 @@ footer {
     }
 }
 
+/*Media query: small devices where newsletter form radio buttons do not fit in a row (480px and down)*/
+@media screen and (max-width: 480px) {
+    .newsletter-radio-buttons {
+        display: block;
+        margin-left: 2rem;
+    }
+}
+
 /*Media query: device width where logo is contained in one line (484px and up)*/
 @media screen and (min-width: 484px) {
 
