@@ -81,7 +81,6 @@ I have tested my deployed project on multiple browsers to check for compatibilit
 - [Firefox](https://www.mozilla.org/firefox)
 - [Edge](https://www.microsoft.com/edge)
 
-
 | Browser | Home | Upcoming | Participate | Contact | Newsletter | Form confirmation pages| 404 page | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | -- |
 | Chrome | ![screenshot](documentation/browsers/browser-chrome-home.png) | ![screenshot](documentation/browsers/browser-chrome-upcoming.png) |![screenshot](documentation/browsers/browser-chrome-participate.png) | ![screenshot](documentation/browsers/browser-chrome-contact.png) | ![screenshot](documentation/browsers/browser-chrome-newsletter.png) | ![screenshot](documentation/browsers/browser-chrome-participate-confirmation.png)<br> ![screenshot](documentation/browsers/browser-chrome-contact-confirmation.png) <br> ![screenshot](documentation/browsers/browser-chrome-newsletter-confirmation.png) | ![screenshot](documentation/browsers/browser-chrome-404.png) |  Works as expected |
@@ -91,43 +90,34 @@ I have tested my deployed project on multiple browsers to check for compatibilit
 
 ## Responsiveness
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
+I have tested my deployed project on multiple devices to check for responsiveness issues. I first tested many different device sizes in Chrome DevTools (part of which are shown in the screenshots below). I then tested the site on different physical devices.
 
-Use this space to discuss testing the live/deployed site on various device sizes.
+Note: For better readabilty I have not included screenshots of the form confirmation pages in this section. Since they are styled using the same css classes as the actual form pages, it is sufficient to include the form pages only.
 
-The minimum requirement is for the following 3 tests:
-- Mobile
-- Tablet
-- Desktop
+| Device | Home | Upcoming | Participate | Contact | Newsletter | 404 page | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Mobile (DevTools Samsung Galaxy S8+) | ![screenshot](documentation/responsiveness/responsive-mobile-home.png) | ![screenshot](documentation/responsiveness/responsive-mobile-upcoming.png) | ![screenshot](documentation/responsiveness/responsive-mobile-participate.png) | ![screenshot](documentation/responsiveness/responsive-mobile-contact.png) | ![screenshot](documentation/responsiveness/responsive-mobile-newsletter.png) | ![screenshot](documentation/responsiveness/responsive-mobile-404.png) | Works as expected |
+| Tablet (iPad Mini) (DevTools) | ![screenshot](documentation/responsiveness/responsive-tablet-home.png) | ![screenshot](documentation/responsiveness/responsive-tablet-upcoming.png) | ![screenshot](documentation/responsiveness/responsive-tablet-participate.png) | ![screenshot](documentation/responsiveness/responsive-tablet-contact.png) | ![screenshot](documentation/responsiveness/responsive-tablet-newsletter.png) | ![screenshot](documentation/responsiveness/responsive-tablet-404.png) | Works as expected |
+| Desktop (DevTools Laptop L) | ![screenshot](documentation/responsiveness/responsive-laptop-home.png) | ![screenshot](documentation/responsiveness/responsive-laptop-upcoming.png) | ![screenshot](documentation/responsiveness/responsive-laptop-participate.png) | ![screenshot](documentation/responsiveness/responsive-laptop-contact.png) | ![screenshot](documentation/responsiveness/responsive-laptop-newsletter.png) | ![screenshot](documentation/responsiveness/responsive-laptop-404.png) | Works as expected |
+| XL Monitor (DevTools 4K) | ![screenshot](documentation/responsiveness/responsive-monitor-home.png) | ![screenshot](documentation/responsiveness/responsive-monitor-upcoming.png) | ![screenshot](documentation/responsiveness/responsive-monitor-participate.png) | ![screenshot](documentation/responsiveness/responsive-monitor-contact.png) | ![screenshot](documentation/responsiveness/responsive-monitor-newsletter.png) | ![screenshot](documentation/responsiveness/responsive-monitor-404.png) | Works as expected |
+| Samsung Galaxy A41 (Mobile) | ![screenshot](documentation/responsiveness/responsive-galaxy-home.jpg) | ![screenshot](documentation/responsiveness/responsive-galaxy-upcoming.jpg) | ![screenshot](documentation/responsiveness/responsive-galaxy-participate.jpg) | ![screenshot](documentation/responsiveness/responsive-galaxy-contact.jpg) | ![screenshot](documentation/responsiveness/responsive-galaxy-newsletter.jpg) | ![screenshot](documentation/responsiveness/responsive-galaxy-404.jpg) | Works as expected |
+| Galaxy Tab S6 Lite (Tablet) | ![screenshot](documentation/responsiveness/responsive-tab-s6-home.jpg) | ![screenshot](documentation/responsiveness/responsive-tab-s6-upcoming.jpg) | ![screenshot](documentation/responsiveness/responsive-tab-s6-participate.jpg) | ![screenshot](documentation/responsiveness/responsive-tab-s6-contact.jpg) | ![screenshot](documentation/responsiveness/responsive-tab-s6-newsletter.jpg) | ![screenshot](documentation/responsiveness/responsive-tab-s6-404.jpg) | Works as expected |
+| Lenovo X1 Extreme (Laptop) | ![screenshot](documentation/responsiveness/responsive-lenovo-home.png) | ![screenshot](documentation/responsiveness/responsive-lenovo-upcoming.png) | ![screenshot](documentation/responsiveness/responsive-lenovo-participate.png) | ![screenshot](documentation/responsiveness/responsive-lenovo-contact.png) | ![screenshot](documentation/responsiveness/responsive-lenovo-newsletter.png) | ![screenshot](documentation/responsiveness/responsive-lenovo-404.png) | Works as expected |
+| Lenovo ThinkVision P24h-10 (Monitor) | ![screenshot](documentation/responsiveness/responsive-thinkvision-home.png) | ![screenshot](documentation/responsiveness/responsive-thinkvision-upcoming.png) | ![screenshot](documentation/responsiveness/responsive-thinkvision-participate.png) | ![screenshot](documentation/responsiveness/responsive-thinkvision-contact.png) | ![screenshot](documentation/responsiveness/responsive-thinkvision-newsletter.png) | ![screenshot](documentation/responsiveness/responsive-thinkvision-404.png) | Works as expected |
 
-**IMPORTANT**: You must provide screenshots of the tested responsiveness, to "prove" that you've actually tested them.
 
-Using the "amiresponsive" mockup image (or similar) does not suffice the requirements.
-Consider using some of the built-in device sizes in the Developer Tools.
+### Issues with Responsiveness
 
-If you have tested the project on your actual mobile phone or tablet, consider also including screenshots of these as well.
-It showcases a higher level of manual tests, and can be seen as a positive inclusion!
+Everything works as expected for the different devices. However, an issue arises when looking at small window sizes on a laptop or desktop device. 
 
-Sample responsiveness testing documentation:
+When looking at very narrow screen widths, where the logo breaks into two or three lines, there is a very small pixel range, where the uppermost part of the main content is covered by the header. 
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
+![screenshot](documentation/responsiveness/responsive-desktop-small-window-issue.png)
 
-I've tested my deployed project on multiple devices to check for responsiveness issues. I first tested many different device sizes in Chrom DevTools (part of which are shown in the screenshots below). I then tested the site on different actual devices.
+This issue is due to the scrollbar in desktop devices, which causes the media query breakspoints to be inconsistent with mobile devices and DevTools where no scrollbar is present. It arises at around 500px screen width, as well as at around 320px (depending on the size of the scrollbar). Everything works perfectly well when no scrollbar is present (as is the case for mobile devices), and this is our priority in the case of such small screen sizes. It is very unlikely for people to look at such narrow windows on a desktop device, and further, the issue only arises for a very small pixel range. There is no satisfying solution using just HTML and CSS alone (that I am aware of), which is the scope of this project. 
 
-Note: For better readabilty I have not included screenshots of the form confirmation pages in this section. Since they are styled using the same css classes, so it sufficient to include the testing for the actual form pages only.
+Therefore, this issue is left as an [unfixed bug](#unfixed-bugs) for this release and it can be tracked in [Github Issues](https://github.com/theresaabl/pp-seminars/issues/10).
 
-| Device | Home | About | Contact | etc | Notes |
-| --- | --- | --- | --- | --- | --- |
-| Mobile (Samsung Galaxy S8+) (DevTools) | ![screenshot](documentation/responsiveness/responsive-mobile-home.png) | ![screenshot](documentation/responsiveness/responsive-mobile-about.png) | ![screenshot](documentation/responsiveness/responsive-mobile-contact.png) | ![screenshot](documentation/responsiveness/responsive-mobile-etc.png) | Works as expected |
-| Tablet (iPad Mini) (DevTools) | ![screenshot](documentation/responsiveness/responsive-tablet-home.png) | ![screenshot](documentation/responsiveness/responsive-tablet-about.png) | ![screenshot](documentation/responsiveness/responsive-tablet-contact.png) | ![screenshot](documentation/responsiveness/responsive-tablet-etc.png) | Works as expected |
-| Desktop (DevTools Laptop) | ![screenshot](documentation/responsiveness/responsive-desktop-home.png) | ![screenshot](documentation/responsiveness/responsive-desktop-about.png) | ![screenshot](documentation/responsiveness/responsive-desktop-contact.png) | ![screenshot](documentation/responsiveness/responsive-desktop-etc.png) | Works as expected |
-| XL Monitor (DevTools 4K) | ![screenshot](documentation/responsiveness/responsive-xl-home.png) | ![screenshot](documentation/responsiveness/responsive-xl-about.png) | ![screenshot](documentation/responsiveness/responsive-xl-contact.png) | ![screenshot](documentation/responsiveness/responsive-xl-etc.png) | Scaling starts to have minor issues |
-| Samsung Galaxy A41 (Mobile) | ![screenshot](documentation/responsiveness/responsive-4k-home.png) | ![screenshot](documentation/responsiveness/responsive-4k-about.png) | ![screenshot](documentation/responsiveness/responsive-4k-contact.png) | ![screenshot](documentation/responsiveness/responsive-4k-etc.png) | Noticeable scaling issues |
-| Galaxy Tab S6 Lite (Tablet) | ![screenshot](documentation/responsiveness/responsive-pixel-home.png) | ![screenshot](documentation/responsiveness/responsive-pixel-about.png) | ![screenshot](documentation/responsiveness/responsive-pixel-contact.png) | ![screenshot](documentation/responsiveness/responsive-pixel-etc.png) | Works as expected |
-| Lenovo X1 Extreme (Laptop) | ![screenshot](documentation/responsiveness/responsive-iphone-home.png) | ![screenshot](documentation/responsiveness/responsive-iphone-about.png) | ![screenshot](documentation/responsiveness/responsive-iphone-contact.png) | ![screenshot](documentation/responsiveness/responsive-iphone-etc.png) | Works as expected |
-| Lenovo ThinkVision P24h-10 (Monitor) | ![screenshot](documentation/responsiveness/responsive-iphone-home.png) | ![screenshot](documentation/responsiveness/responsive-iphone-about.png) | ![screenshot](documentation/responsiveness/responsive-iphone-contact.png) | ![screenshot](documentation/responsiveness/responsive-iphone-etc.png) | Works as expected |
-
-Everything works as expected. However an issue arises when looking at small window sizes on a laptop or desktop device. When looking at very narrow screen widths, where the logo breaks into two or three lines, there is a very small pixel range, where the uppermost part of the main content is covered by the header. This is due to the scrollbar in desktop devices, which causes the media query breakspoints to be inconsistent with mobile devices and DevTools where no scrollbar is present. Everything works perfectly well when no scrollbar is present, and this is our priority, as it is not likely for people to look at such narrow windows on a desktop device and we prefer for the responsive design for small screen sizes to work on mobile devices. This issue can not be resolved perfectly with just HTML and CSS alone. **Add Screenshots**
 
 ## Lighthouse Audit
 
