@@ -25,6 +25,9 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 When validating the index.html file, one warning came up which could be easily fixed (see screenshots below). After that, all files were validated with no errors or warnings.
 
+<details>
+<summary> Click here to see screenshots of the validation results. </summary>
+
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
 |  | index.html | ![screenshot](documentation/validation/html-index.png) | On first validation, one warning was shown:<br>  ![screenshot](documentation/validation/html-index-warning.png)<br> A heading was missing in the hero image section, this was quickly fixed by adding a hidden heading and can be tracked in [this issue](https://github.com/theresaabl/pp-seminars/issues/8) .|
@@ -37,9 +40,11 @@ When validating the index.html file, one warning came up which could be easily f
 |  | newsletter-confirmation.html | ![screenshot](documentation/validation/html-newsletter-confirmation.png) | |
 |  | 404.html | ![screenshot](documentation/validation/html-404.png) | |
 
+</details>
+
 ### CSS
 
-I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate my CSS file.
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate my CSS file and it passed with no errors or warnings.
 
 | Directory | File | Screenshot | 
 | --- | --- | --- | 
@@ -58,8 +63,6 @@ I have tested my deployed project on multiple browsers to check for compatibilit
 | Firefox | ![screenshot](documentation/browsers/browser-firefox-home.png) | ![screenshot](documentation/browsers/browser-firefox-upcoming.png) |![screenshot](documentation/browsers/browser-firefox-participate.png) | ![screenshot](documentation/browsers/browser-firefox-contact.png) | ![screenshot](documentation/browsers/browser-firefox-newsletter.png) |  ![screenshot](documentation/browsers/browser-firefox-participate-confirmation.png)<br> ![screenshot](documentation/browsers/browser-firefox-contact-confirmation.png) <br> ![screenshot](documentation/browsers/browser-firefox-newsletter-confirmation.png) | ![screenshot](documentation/browsers/browser-firefox-404.png) |  Works as expected, with a slight difference in opacity of form placeholder text.|
 | Edge | ![screenshot](documentation/browsers/browser-edge-home.png) | ![screenshot](documentation/browsers/browser-edge-upcoming.png) |![screenshot](documentation/browsers/browser-edge-participate.png) | ![screenshot](documentation/browsers/browser-edge-contact.png) | ![screenshot](documentation/browsers/browser-edge-newsletter.png) |  ![screenshot](documentation/browsers/browser-edge-participate-confirmation.png)<br> ![screenshot](documentation/browsers/browser-edge-contact-confirmation.png) <br> ![screenshot](documentation/browsers/browser-edge-newsletter-confirmation.png) | ![screenshot](documentation/browsers/browser-edge-404.png) |  Works as expected |
 
-Note that the radio buttons in the participate and contact forms have been restyled due to accessibility reasons after taking these screenshots, these are only slight design changes and I have tested that they don't impact these results.
-
 ## Responsiveness
 
 I have tested my deployed project on multiple devices to check for responsiveness issues. I first tested many different device sizes in Chrome DevTools (part of which are shown in the screenshots below). I then tested the site on different physical devices.
@@ -77,7 +80,6 @@ Note: For better readabilty I have not included screenshots of the form confirma
 | Lenovo X1 Extreme (Laptop) | ![screenshot](documentation/responsiveness/responsive-lenovo-home.png) | ![screenshot](documentation/responsiveness/responsive-lenovo-upcoming.png) | ![screenshot](documentation/responsiveness/responsive-lenovo-participate.png) | ![screenshot](documentation/responsiveness/responsive-lenovo-contact.png) | ![screenshot](documentation/responsiveness/responsive-lenovo-newsletter.png) | ![screenshot](documentation/responsiveness/responsive-lenovo-404.png) | Works as expected |
 | Lenovo ThinkVision P24h-10 (Monitor) | ![screenshot](documentation/responsiveness/responsive-thinkvision-home.png) | ![screenshot](documentation/responsiveness/responsive-thinkvision-upcoming.png) | ![screenshot](documentation/responsiveness/responsive-thinkvision-participate.png) | ![screenshot](documentation/responsiveness/responsive-thinkvision-contact.png) | ![screenshot](documentation/responsiveness/responsive-thinkvision-newsletter.png) | ![screenshot](documentation/responsiveness/responsive-thinkvision-404.png) | Works as expected |
 
-Note that the radio buttons in the participate and contact forms have been restyled due to accessibility reasons after taking these screenshots, these are only slight design changes and I have tested that they don't impact these results.
 
 ### Issues with Responsiveness
 
@@ -89,7 +91,7 @@ When looking at very narrow screen widths, where the logo breaks into two or thr
 
 This issue is due to the scrollbar in desktop devices, which causes the media query breakspoints to be inconsistent with mobile devices and DevTools where no scrollbar is present. It arises at around 500px screen width, as well as at around 320px (depending on the size of the scrollbar). Everything works perfectly well when no scrollbar is present (as is the case for mobile devices), and this is our priority in the case of such small screen sizes. It is very unlikely for people to look at such narrow windows on a desktop device, and further, the issue only arises for a very small pixel range. There is no satisfying solution using just HTML and CSS alone (that I am aware of), which is the scope of this project. 
 
-Therefore, this issue is left as an [unfixed bug](#unfixed-bugs) for this release and it can be tracked in [Github Issues](https://github.com/theresaabl/pp-seminars/issues/10).
+Therefore, this issue is left as an [open issue](#open-issues) for this release and it can be tracked in [Github Issues](https://github.com/theresaabl/pp-seminars/issues/10).
 
 
 ## Lighthouse Audit
@@ -137,88 +139,31 @@ User Experience Testing:
 
 ## Bugs
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
+I have tracked my bugs with **GitHub Issues** :
 
-This section is primarily used for JavaScript and Python applications,
-but feel free to use this section to document any HTML/CSS bugs you might run into.
+[![GitHub issue custom search](https://img.shields.io/github/issues-search?query=repo%3Atheresaabl%2Fpp-seminars%20label%3Abug&label=bugs)](https://github.com/theresaabl/pp-seminars/issues?q=is%3Aissue+is%3Aclosed+label%3Abug)
 
-It's very important to document any bugs you've discovered while developing the project.
-Make sure to include any necessary steps you've implemented to fix the bug(s) as well.
+### Fixed Bugs
 
-**PRO TIP**: screenshots of bugs are extremely helpful, and go a long way!
+All previously closed/fixed bugs can be tracked [here](https://github.com/theresaabl/pp-seminars/issues?q=is%3Aissue+is%3Aclosed).
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
+| Bug | Status |
+| --- | --- |
+| [file site.webmanifest:1 not found](https://github.com/theresaabl/pp-seminars/issues/1) | Closed |
+| [Font color change in .active class does not apply](https://github.com/theresaabl/pp-seminars/issues/2) | Closed |
+| [margins in about section different for different screen widths](https://github.com/theresaabl/pp-seminars/issues/3) | Closed |
+| [Fail to show mathematical formulas](https://github.com/theresaabl/pp-seminars/issues/4) | Closed |
+| [404 message not displayed correctly on all screens](https://github.com/theresaabl/pp-seminars/issues/5) | Closed |
+| [header covers main content for specific pixel range](https://github.com/theresaabl/pp-seminars/issues/6) | Closed |
+| [Contrast ratio too low in forms](https://github.com/theresaabl/pp-seminars/issues/7) | Closed |
+| [Missing heading in hero-image section](https://github.com/theresaabl/pp-seminars/issues/8) | Closed |
+| [Missing autocomplete attribute in forms](https://github.com/theresaabl/pp-seminars/issues/9) | Closed |
 
-- JS Uncaught ReferenceError: `foobar` is undefined/not defined
+### Open Issues
 
-    ![screenshot](documentation/bugs/bug01.png)
+[![GitHub issues](https://img.shields.io/github/issues/theresaabl/pp-seminars)](https://github.com/theresaabl/pp-seminars/issues)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/theresaabl/pp-seminars)](https://github.com/theresaabl/pp-seminars/issues?q=is%3Aissue+is%3Aclosed)
 
-    - To fix this, I _____________________.
+Any remaining open issues can be tracked [here](https://github.com/theresaabl/pp-seminars/issues).
 
-- JS `'let'` or `'const'` or `'template literal syntax'` or `'arrow function syntax (=>)'` is available in ES6 (use `'esversion: 11'`) or Mozilla JS extensions (use moz).
-
-    ![screenshot](documentation/bugs/bug02.png)
-
-    - To fix this, I _____________________.
-
-- Python `'ModuleNotFoundError'` when trying to import module from imported package
-
-    ![screenshot](documentation/bugs/bug03.png)
-
-    - To fix this, I _____________________.
-
-- Django `TemplateDoesNotExist` at /appname/path appname/template_name.html
-
-    ![screenshot](documentation/bugs/bug04.png)
-
-    - To fix this, I _____________________.
-
-- Python `E501 line too long` (93 > 79 characters)
-
-    ![screenshot](documentation/bugs/bug04.png)
-
-    - To fix this, I _____________________.
-
-## Unfixed Bugs
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-You will need to mention unfixed bugs and why they were not fixed.
-This section should include shortcomings of the frameworks or technologies used.
-Although time can be a big variable to consider, paucity of time and difficulty understanding
-implementation is not a valid reason to leave bugs unfixed.
-
-If you've identified any unfixed bugs, no matter how small, be sure to list them here.
-It's better to be honest and list them, because if it's not documented and an assessor finds the issue,
-they need to know whether or not you're aware of them as well, and why you've not corrected/fixed them.
-
-Some examples:
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-- On devices smaller than 375px, the page starts to have `overflow-x` scrolling.
-
-    ![screenshot](documentation/bugs/unfixed-bug01.png)
-
-    - Attempted fix: I tried to add additional media queries to handle this, but things started becoming too small to read.
-
-- For PP3, when using a helper `clear()` function, any text above the height of the terminal does not clear, and remains when you scroll up.
-
-    ![screenshot](documentation/bugs/unfixed-bug02.png)
-
-    - Attempted fix: I tried to adjust the terminal size, but it only resizes the actual terminal, not the allowable area for text.
-
-- When validating HTML with a semantic `section` element, the validator warns about lacking a header `h2-h6`. This is acceptable.
-
-    ![screenshot](documentation/bugs/unfixed-bug03.png)
-
-    - Attempted fix: this is a known warning and acceptable, and my section doesn't require a header since it's dynamically added via JS.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-If you legitimately cannot find any unfixed bugs or warnings, then use the following sentence:
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-> [!NOTE]  
-> There are no remaining bugs that I am aware of.
+See also the [Issues with Responsiveness section](#issues-with-responsiveness).
