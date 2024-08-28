@@ -87,6 +87,7 @@ I have tested my deployed project on multiple browsers to check for compatibilit
 | Firefox | ![screenshot](documentation/browsers/browser-firefox-home.png) | ![screenshot](documentation/browsers/browser-firefox-upcoming.png) |![screenshot](documentation/browsers/browser-firefox-participate.png) | ![screenshot](documentation/browsers/browser-firefox-contact.png) | ![screenshot](documentation/browsers/browser-firefox-newsletter.png) |  ![screenshot](documentation/browsers/browser-firefox-participate-confirmation.png)<br> ![screenshot](documentation/browsers/browser-firefox-contact-confirmation.png) <br> ![screenshot](documentation/browsers/browser-firefox-newsletter-confirmation.png) | ![screenshot](documentation/browsers/browser-firefox-404.png) |  Works as expected, with a slight difference in opacity of form placeholder text.|
 | Edge | ![screenshot](documentation/browsers/browser-edge-home.png) | ![screenshot](documentation/browsers/browser-edge-upcoming.png) |![screenshot](documentation/browsers/browser-edge-participate.png) | ![screenshot](documentation/browsers/browser-edge-contact.png) | ![screenshot](documentation/browsers/browser-edge-newsletter.png) |  ![screenshot](documentation/browsers/browser-edge-participate-confirmation.png)<br> ![screenshot](documentation/browsers/browser-edge-contact-confirmation.png) <br> ![screenshot](documentation/browsers/browser-edge-newsletter-confirmation.png) | ![screenshot](documentation/browsers/browser-edge-404.png) |  Works as expected |
 
+Note that the radio buttons in the participate and contact forms have been restyled due to accessibility reasons after taking these screenshots, these are only slight design changes and I have tested that they don't impact these results.
 
 ## Responsiveness
 
@@ -105,6 +106,7 @@ Note: For better readabilty I have not included screenshots of the form confirma
 | Lenovo X1 Extreme (Laptop) | ![screenshot](documentation/responsiveness/responsive-lenovo-home.png) | ![screenshot](documentation/responsiveness/responsive-lenovo-upcoming.png) | ![screenshot](documentation/responsiveness/responsive-lenovo-participate.png) | ![screenshot](documentation/responsiveness/responsive-lenovo-contact.png) | ![screenshot](documentation/responsiveness/responsive-lenovo-newsletter.png) | ![screenshot](documentation/responsiveness/responsive-lenovo-404.png) | Works as expected |
 | Lenovo ThinkVision P24h-10 (Monitor) | ![screenshot](documentation/responsiveness/responsive-thinkvision-home.png) | ![screenshot](documentation/responsiveness/responsive-thinkvision-upcoming.png) | ![screenshot](documentation/responsiveness/responsive-thinkvision-participate.png) | ![screenshot](documentation/responsiveness/responsive-thinkvision-contact.png) | ![screenshot](documentation/responsiveness/responsive-thinkvision-newsletter.png) | ![screenshot](documentation/responsiveness/responsive-thinkvision-404.png) | Works as expected |
 
+Note that the radio buttons in the participate and contact forms have been restyled due to accessibility reasons after taking these screenshots, these are only slight design changes and I have tested that they don't impact these results.
 
 ### Issues with Responsiveness
 
@@ -125,12 +127,15 @@ I have tested my deployed project using the Lighthouse Audit tool to check for a
 
 | Page | Mobile | Notes | Desktop | Notes |
 | --- | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/lighthouse/lighthouse-home-mobile.png) | Slower response time due to large images and layout shifts | ![screenshot](documentation/lighthouse/lighthouse-home-desktop.png) | Some minor warnings |
-| Upcoming | ![screenshot](documentation/lighthouse/lighthouse-upcoming-mobile.png) | Slower response time due to large images and layout shifts | ![screenshot](documentation/lighthouse/lighthouse-upcoming-desktop.png) | Some minor warnings |
-| Participate | ![screenshot](documentation/lighthouse/lighthouse-participate-mobile.png) | | ![screenshot](documentation/lighthouse/lighthouse-participate-desktop.png) | Slow response time due to large images |
-| Contact | ![screenshot](documentation/lighthouse/lighthouse-contact-mobile.png) | f | ![screenshot](documentation/lighthouse/lighthouse-contact-desktop.png) | Slow response time due to large images |
-| Newsletter | ![screenshot](documentation/lighthouse/lighthouse-newsletter-mobile.png) | b | ![screenshot](documentation/lighthouse/lighthouse-newsletter-desktop.png) | Slow response time due to large images |
+| Home | ![screenshot](documentation/lighthouse/lighthouse-home-mobile.png) | Slower response time due to large images and layout shifts: <br> ![screenshot](documentation/lighthouse/lighthouse-home-mobile-details.png) | ![screenshot](documentation/lighthouse/lighthouse-home-desktop.png) | Some minor warnings |
+| Upcoming | ![screenshot](documentation/lighthouse/lighthouse-upcoming-mobile.png) | Some minor warnings due to large images and layout shifts | ![screenshot](documentation/lighthouse/lighthouse-upcoming-desktop.png) | Some minor warnings |
+| Participate | ![screenshot](documentation/lighthouse/lighthouse-participate-mobile.png) | Some minor warnings in latest report. <br> An earlier report showed lower accessibility ratings: <br> ![screenshot](documentation/lighthouse/lighthouse-participate-mobile-accessibility-issue.png) <br> ![screenshot](documentation/lighthouse/lighthouse-participate-mobile-accessibility-issue-details.png) <br> This was fixed by increasing size and spacing of all form radio buttons. | ![screenshot](documentation/lighthouse/lighthouse-participate-desktop.png) | Some minor warnings |
+| Contact | ![screenshot](documentation/lighthouse/lighthouse-contact-mobile.png) | Slower response time due to large images and layout shifts. <br> The issues with the best practices score stem intirely from third party cookies from the google maps embedded in the page: <br> ![screenshot](documentation/lighthouse/lighthouse-contact-mobile-best-practices.png) | ![screenshot](documentation/lighthouse/lighthouse-contact-desktop.png) | Best practices issues same as for Mobile testing. |
+| Newsletter | ![screenshot](documentation/lighthouse/lighthouse-newsletter-mobile.png) | Some minor warnings | ![screenshot](documentation/lighthouse/lighthouse-newsletter-desktop.png) | Some minor warnings |
 
+Before performing these audits I had already converted all images to .webp using [![Cloudconvert](https://cloudconvert.com/webp-converter)](https://cloudconvert.com/webp-converter) and optimized their size using  [![Tinypng](https://tinypng.com/)](https://tinypng.com/) for a faster website. The Desktop audits show that the response time is good, there are remaining slow response time scores from the Mobile audits, which could be improved in a future release.
+
+The site got full scores for accessibility, best practices and SEO, except for issues with third party cookies in the contact page.
 
 ## User Story Testing
 
