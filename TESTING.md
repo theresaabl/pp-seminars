@@ -3,7 +3,9 @@
 > [!NOTE]  
 > Return back to the [README.md](README.md) file.
 
-## Feature-by-Feature Testing
+## Manual Testing
+
+I tested the following features of the deployed website in a manual testing process:
 
 | Feature | Expectation | Action | Outcome |
 | --- | --- | --- | --- |
