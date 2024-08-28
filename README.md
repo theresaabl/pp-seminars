@@ -17,8 +17,6 @@ source: [amiresponsive](https://ui.dev/amiresponsive?url=https://theresaabl.gith
 
 **explain design processes**
 
-### Target Audience
-
 ### Color Scheme
 
 The goal for the color scheme was to give the website a clean and scientific but also dark and mysterious look. I used [coolors.co](https://coolors.co/1d0f39-a8a8ff-f5f5f5-595492-eebb62) to generate my color palette:
@@ -84,38 +82,19 @@ Any differences between the wireframes and the final website are due to creative
 
 ### Desktop Wireframes
 
-<details>
-<summary> Click here to see the desktop wireframes </summary>
+| Page | Home | Upcoming | Participate | Archive | Contact | Newsletter | Error 404 page |
+| --- | --- | --- | --- | --- | --- | --- | --- | 
+| Wireframes | ![screenshot](documentation/wireframes/wireframe-home.png) | ![screenshot](documentation/wireframes/wireframe-upcoming.png) | ![screenshot](documentation/wireframes/wireframe-participate.png) | (see [Future Features](#future-features)) | ![screenshot](documentation/wireframes/wireframe-contact.png) | ![screenshot](documentation/wireframes/wireframe-newsletter.png) | ![screenshot](documentation/wireframes/wireframe-404.png) |
 
- - Home
-
-![screenshot](documentation/wireframes/wireframe-home.png)
-
- - Upcoming
-
-![screenshot](documentation/wireframes/wireframe-upcoming.png)
-
- - Participate
-
-![screenshot](documentation/wireframes/wireframe-participate.png)
-
- - Archive (see [Future Features](#future-features))
-
- - Contact
-
-![screenshot](documentation/wireframes/wireframe-contact.png)
-
- - Newsletter
-
-![screenshot](documentation/wireframes/wireframe-newsletter.png)
-
- - Error 404 page
-
-![screenshot](documentation/wireframes/wireframe-404.png)
-
-</details>
-
-
+| Page | Wireframes |
+| --- | --- |
+| Home | ![screenshot](documentation/wireframes/wireframe-home.png) |
+| Upcoming | ![screenshot](documentation/wireframes/wireframe-upcoming.png) |
+| Participate | ![screenshot](documentation/wireframes/wireframe-participate.png) |
+| Archive | (see [Future Features](#future-features)) |
+| Contact | ![screenshot](documentation/wireframes/wireframe-contact.png) |
+| Newsletter | ![screenshot](documentation/wireframes/wireframe-newsletter.png) |
+| Error 404 page | ![screenshot](documentation/wireframes/wireframe-404.png) | 
 
 ## Features
 
@@ -125,56 +104,20 @@ reference the specific project files that implement the features. Include screen
 
 ### Existing Features
 
-<details>
-<summary> Click here to see all existing features. </summary>
 
-- **Logo**
-
-    - The logo appears in the header across the entire website. The goal is for the user to know the site purpose at first sight. It has a clean and straight-forward look, as this is what the target audience is looking for.
-
-![screenshot](documentation/features/logo.png)
-
-- **Navbar/ Dropdown menu**
-
-    - The navigation menu must allow the user to quickly assess what content they can find on the site as well as what action they can take and where.
-
-    - The navbar shows as a dropdown menu for mobile devices (see [code inspiration source](#content))
-
-![screenshot](documentation/features/dropdown-menu-mobile-devices.png)
-
-    - Dropdown menu is open:
-
-![screenshot](documentation/features/dropdown-menu-mobile-open.png)
-
-    - For larger tablets, as well as laptops and desktops the navbar is fully visible:
-
-![screenshot](documentation/features/navbar-larger-screens.png)
-
-- **Newsletter icon**
-
-![screenshot](documentation/features/newsletter-icon.png)
-
-- **Footer**
-
-    - Details
-
-![screenshot](documentation/features/footer.png)
-
-- **Hero image section**
-
-    - Details
-
-![screenshot](documentation/features/hero-image.png)
-
-- **About section**
-
-    - Details
-
-![screenshot](documentation/features/about-mobile.png)
-
-![screenshot](documentation/features/about-laptop.png)
-
-- **Upcoming Talks**
+| Feature | Notes | Screenshot |
+| --- | --- | --- |
+| **Logo** | The logo appears in the header across the entire website. The goal is for the user to know the site purpose at first sight. It has a clean and straight-forward look, as this is what the target audience is looking for. | ![screenshot](documentation/features/logo.png) |
+| **Navbar / Dropdown menu** | The navigation menu must allow the user to quickly assess what content they can find on the site as well as what action they can take and where. The navbar shows as a dropdown menu for mobile devices (see [code inspiration source](#content)) | ![screenshot](documentation/features/dropdown-menu-mobile-devices.png) |
+| | Dropdown menu is open | ![screenshot](documentation/features/dropdown-menu-mobile-open.png) |
+| | For larger tablets, as well as laptops and desktops, the navbar is fully visible. | ![screenshot](documentation/features/navbar-larger-screens.png) |
+| **Newsletter icon** | The newsletter icon appears in the header across all pages (except the Newsletter page and Newsletter confirmation page, since it is not needed there). The goal is for the user to notice the option to sign up to the newsletter at first sight and across all pages, and to immediatly know how to do so. | ![screenshot](documentation/features/newsletter-icon.png) |
+| **Footer** | The footer appears on the bottom of the page across all pages. The goal is to show the copyright information and links to social media platforms. The social media links are icons, which show clearly which social media platforms are available related to this site. |  ![screenshot](documentation/features/footer.png) |
+| **Hero image section** | The hero image on the home page is a large image of a particle collision fitting the theme of the page perfectly. The goal is to leave a positiv visual impression and to provide a short and informative slogan through the overlayed text, as to what this website is about. | ![screenshot](documentation/features/hero-image.png) |
+| **About section** | The about section on the home page provides concise information about the two types of seminars that are organised. The goal is for the user to quickly know which types of seminars there are, when and where they take place and whether drinks and snacks are provided. | ![screenshot](documentation/features/about-mobile.png) |
+| About section for desktop devices | Flex styles are used for responsive design. | ![screenshot](documentation/features/about-laptop.png) |
+| **Upcoming Talks** | The upcoming talks page shows a list of upcoming talks, including the date, as well as the speaker or discussion chair 
+ and the title and abstract of papers presented or discussed. It also provides a link to the relevant publication. The goal is to provide this information to the users, such that they not only know which talks take place but can also look at the speakers and publications in advance to prepare for the seminar. |
 
     - Details
 
@@ -238,7 +181,6 @@ reference the specific project files that implement the features. Include screen
 
 ![screenshot](documentation/features/error-404.png)
 
-</details>
 
 ### Future Features
 
@@ -250,12 +192,9 @@ reference the specific project files that implement the features. Include screen
 
     - In the initial wireframes I included an Archive page and then decided in the planning stages that this was beyond the scope of this project. Therefore, it would be very desirable to implement an Archive page as a future feature. This page would contain details, such as dates, titles, speakers etc. of past seminars. Most notably it would include videos of all past talks. 
 
-<details>
-<summary> Click here to see the desktop wireframe for a possible Archive page.</summary>
+    ![screenshot](documentation/wireframes/wireframe-archive.png)
 
-![screenshot](documentation/wireframes/wireframe-archive.png)
 
-</details>
 
 - **Online participation sign-up**
 
@@ -277,10 +216,10 @@ reference the specific project files that implement the features. Include screen
 - [![Google Maps API](https://img.shields.io/badge/Google_Maps_API-grey?logo=googlemaps&logoColor=4285F4)](https://developers.google.com/maps) used as an interactive map on my site.
 - [![Font Awesome](https://img.shields.io/badge/Font_Awesome-grey?logo=fontawesome&logoColor=528DD7)](https://fontawesome.com) used for the icons.
 - [![ChatGPT](https://img.shields.io/badge/ChatGPT-grey?logo=chromatic&logoColor=75A99C)](https://chat.openai.com) used to help come up with an error message for the 404 page and themes for the backgrounds of the participate, contact and newsletter pages.
-- [![Cloudconvert](https://cloudconvert.com/webp-converter)](https://cloudconvert.com/webp-converter) to convert all images to webp for faster website.
-- [![Tinypng](https://tinypng.com/)](https://tinypng.com/) used to compress images for faster website.
-- [![Bitly](https://bitly.com/)](https://bitly.com/) used to shorten link for interactive map on contact site.
-- [![Favicon](https://favicon.io/emoji-favicons/atom-symbol)](https://favicon.io) used to generate favicon for the website.
+- [![Cloudconvert](https://img.shields.io/badge/Cloudconvert-grey?logo=adobecreativecloud&logoColor=B53836)](https://cloudconvert.com/webp-converter) used to convert all images to webp for faster website.
+- [![Tinypng](https://img.shields.io/badge/Tinypng-grey?logo=foodpanda&logoColor=7EB631)](https://tinypng.com) used to compress images for faster website.
+- [![Bitly](https://img.shields.io/badge/Bitly-grey?logo=bitly&logoColor=EE6123)](https://bitly.com) used to shorten link for interactive map on contact site.
+- [![Favicon](https://img.shields.io/badge/Favicon-grey?logo=fi&logoColor=209CEE)](https://favicon.io/emoji-favicons/atom-symbol) used to generate favicon for the website.
 
 
 ## Testing
@@ -333,7 +272,7 @@ You can fork this repository by using the following steps:
 
 ### Local VS Deployment
 
-any differences between the local version, and the live deployment site on GitHub Pages..
+There are no  differences between the local version, and the live deployment site on GitHub Pages..
 
 
 ## Credits

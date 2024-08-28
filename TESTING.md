@@ -25,9 +25,6 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 When validating the index.html file, one warning came up which could be easily fixed (see screenshots below). After that, all files were validated with no errors or warnings.
 
-<details>
-<summary> Click here to see screenshots of the validation results. </summary>
-
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
 |  | index.html | ![screenshot](documentation/validation/html-index.png) | On first validation, one warning was shown:<br>  ![screenshot](documentation/validation/html-index-warning.png)<br> A heading was missing in the hero image section, this was quickly fixed by adding a hidden heading and can be tracked in [this issue](https://github.com/theresaabl/pp-seminars/issues/8) .|
@@ -39,8 +36,6 @@ When validating the index.html file, one warning came up which could be easily f
 |  | newsletter.html | ![screenshot](documentation/validation/html-newsletter.png) | |
 |  | newsletter-confirmation.html | ![screenshot](documentation/validation/html-newsletter-confirmation.png) | |
 |  | 404.html | ![screenshot](documentation/validation/html-404.png) | |
-
-</details>
 
 ### CSS
 
@@ -106,7 +101,7 @@ I have tested my deployed project using the Lighthouse Audit tool to check for a
 | Contact | ![screenshot](documentation/lighthouse/lighthouse-contact-mobile.png) | Slower response time due to large images and layout shifts. <br> The issues with the best practices score stem intirely from third party cookies from the google maps embedded in the page: <br> ![screenshot](documentation/lighthouse/lighthouse-contact-mobile-best-practices.png) | ![screenshot](documentation/lighthouse/lighthouse-contact-desktop.png) | Best practices issues same as for Mobile testing. |
 | Newsletter | ![screenshot](documentation/lighthouse/lighthouse-newsletter-mobile.png) | Some minor warnings | ![screenshot](documentation/lighthouse/lighthouse-newsletter-desktop.png) | Some minor warnings |
 
-Before performing these audits I had already converted all images to .webp using [![Cloudconvert](https://cloudconvert.com/webp-converter)](https://cloudconvert.com/webp-converter) and optimized their size using  [![Tinypng](https://tinypng.com/)](https://tinypng.com/) for a faster website. The Desktop audits show that the response time is good, there are remaining slow response time scores from the Mobile audits, which could be improved in a future release.
+Before performing these audits I had already converted all images to .webp using [Cloudconvert](https://cloudconvert.com/webp-converter) and optimized their size using  [Tinypng](https://tinypng.com/) for a faster website. The Desktop audits show that the response time is good, there are remaining slow response time scores from the Mobile audits, which could be improved in a future release.
 
 The site got full scores for accessibility, best practices and SEO, except for issues with third party cookies in the contact page.
 
