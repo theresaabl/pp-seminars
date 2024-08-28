@@ -4,38 +4,13 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/theresaabl/pp-seminars)](https://github.com/theresaabl/pp-seminars/commits/main)
 [![GitHub repo size](https://img.shields.io/github/repo-size/theresaabl/pp-seminars)](https://github.com/theresaabl/pp-seminars)
 
-Particle Physics Seminars (PP Seminars) (live link can be found [here](https://theresaabl.github.io/pp-seminars)) is a website with the goal to provide information about upcoming seminars for researchers in particle physics.
+Particle Physics Seminars is a website dedicated to particle physics seminars organised by an academic research group. The goal is to provide clear and easily accessible information about upcoming talks and journal clubs for academic researchers and students in the field of particle physics. Users can quickly get information about the types of seminars provided as well as the time and location they take place in. They can access a list of upcoming talks, sign up to contribute to a seminar themselves, contact the organizers or sign up to a newsletter.
 
-**Continue describing here!** 
-
-(what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience, am i responsive screenshot)
+Plase view the live site here - [Particle Physics Seminars](https://theresaabl.github.io/pp-seminars))
 
 ![screenshot](documentation/mockup.png)
 
 source: [amiresponsive](https://ui.dev/amiresponsive?url=https://theresaabl.github.io/pp-seminars)
-
----
-
-**Delete**
-callouts:
-
-> [!NOTE]  
-> BLUE: Highlights information that users should take into account, even when skimming.
-
-> [!TIP]  
-> GREEN: Optional information to help a user be more successful.
-
-> [!IMPORTANT]  
-> PURPLE: Crucial information necessary for users to succeed.
-
-> [!WARNING]  
-> YELLOW: Critical content demanding immediate user attention due to potential risks.
-
-> [!CAUTION]  
-> RED: Negative potential consequences of an action.
-
-**Delete**
-
 
 ## UX
 
