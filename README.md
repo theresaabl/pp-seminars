@@ -4,7 +4,7 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/theresaabl/pp-seminars)](https://github.com/theresaabl/pp-seminars/commits/main)
 [![GitHub repo size](https://img.shields.io/github/repo-size/theresaabl/pp-seminars)](https://github.com/theresaabl/pp-seminars)
 
-Particle Physics Seminars is a website dedicated to particle physics seminars organised by an academic research group. The goal is to provide clear and easily accessible information about upcoming talks and journal clubs for academic researchers and students in the field of particle physics. Users can quickly get information about the types of seminars provided as well as the time and location they take place in. They can access a list of upcoming talks, sign up to contribute to a seminar themselves, contact the organizers or sign up to a newsletter.
+Particle Physics Seminars is a website dedicated to particle physics seminars organised by an academic research group. The goal is to provide clear and easily accessible information about upcoming talks and journal clubs for academic researchers and students in the field of particle physics. Users can quickly get information about the types of seminars provided as well as the time and location they take place in. They can access a list of upcoming talks, sign up to contribute to a seminar themselves, contact the organisers or sign up to a newsletter.
 
 Please view the live site here - [Particle Physics Seminars](https://theresaabl.github.io/pp-seminars)
 
@@ -105,8 +105,8 @@ Any differences between the wireframes and the final website are due to creative
 
 | Feature | Notes | Screenshot |
 | --- | --- | --- |
-| [**Logo**](index.html) | The logo appears in the header across the entire website. The goal is for the user to know the site purpose at first sight. It has a clean and straight-forward look, as this is what the target audience is looking for. | ![screenshot](documentation/features/logo.png) |
-| [**Navbar / Dropdown menu**](index.html) | The navigation menu must allow the user to quickly assess what content they can find on the site as well as what action they can take and where. The navbar shows as a dropdown menu for mobile devices (see [code inspiration source](#content)) | ![screenshot](documentation/features/dropdown-menu-mobile-devices.png) |
+| [**Logo**](index.html) | The logo appears in the header across the entire website. The goal is for the user to know the site purpose at first sight. It has a clean and straight-forward look, as this is what the target audience is looking for. Clicking the logo links back to the home page. | ![screenshot](documentation/features/logo.png) |
+| [**Navbar / Dropdown menu**](index.html) | The navigation menu must allow the user to quickly assess what content they can find on the site as well as what action they can take and where. When hovering over a navbar button or when a page is active the corresponding page title is highlighted in purple. The navbar shows as a dropdown menu for mobile devices (see [code inspiration source](#content)). | ![screenshot](documentation/features/dropdown-menu-mobile-devices.png) |
 | | Dropdown menu is open | ![screenshot](documentation/features/dropdown-menu-mobile-open.png) |
 | | For larger tablets, as well as laptops and desktops, the navbar is fully visible. | ![screenshot](documentation/features/navbar-larger-screens.png) |
 | [**Newsletter icon**](index.html) | The newsletter icon appears in the header across all pages (except the Newsletter page and Newsletter confirmation page, since it is not needed there). The goal is for the user to notice the option to sign up to the newsletter at first sight and across all pages, and to immediatly know how to do so. | ![screenshot](documentation/features/newsletter-icon.png) |
@@ -116,16 +116,16 @@ Any differences between the wireframes and the final website are due to creative
 | About section for desktop devices |   | ![screenshot](documentation/features/about-laptop.png) |
 | [**Upcoming Talks**](upcoming.html) | The upcoming talks page shows a list of upcoming talks, including the date, as well as the speaker or discussion chair and the title and abstract of papers presented or discussed. It also provides a link to the relevant publication. The goal is to provide this information to the users, such that they not only know which talks take place but can also look at the speakers and publications in advance to prepare for the seminar. The background image shows a particle collision which fits the theme of the research talks presented on this page. | ![screenshot](documentation/features/upcoming-mobile.png) |
 | Upcoming Talks for desktop devices |   | ![screenshot](documentation/features/upcoming-laptop.png) |
-| [**Participate form**](participate.html) | The participate form provides the option to sign up to contribute to a seminar. The goal is that any user that wants to participate can easily know how to sign up and then do so. They can choose whether they want to give a talk at the lunch seminar or suggest a paper for discussion at the journal club. They can also provide information about the publications they want to present or discuss and of course, enter there personal information. The background image for this page, as well as the according form confirmation page, show a blackboard with lots of physics formulas written on it. This fits the page which is about participating in research seminars. | ![screenshot](documentation/features/participate-form.png) |
+| [**Participate form**](participate.html) | The participate form provides the option to sign up to contribute to a seminar. The goal is that any user that wants to participate can easily know how to sign up and then do so. They can choose whether they want to give a talk at the lunch seminar or suggest a paper for discussion at the journal club. They can also provide information about the publications they want to present or discuss and of course, enter their personal information. The background image for this page, as well as the according form confirmation page, shows a blackboard with lots of physics formulas written on it. This fits the page which is about participating in physics seminars. | ![screenshot](documentation/features/participate-form.png) |
 | [**Participate form confirmation**](participate-confirmation.html) | Once a user submits a participate form (with valid input), a confirmation page is shown. This page includes links to the home and contact pages, and the user is redirected to the home page automatically after 10 seconds. The goal is to provide the user with clear feedback, so that they know that their message was indeed sent. | ![screenshot](documentation/features/participate-confirmation.png) |
 | [**Contact information**](contact.html) | On top of the contact page the contact information with the seminars' location is provided, including an email address to contact the organisers. | ![screenshot](documentation/features/contact-info.png) |
 | [**Interactive map**](contact.html) | Next on the contact page, is an interactive map that allows the user to directly look at the location of the seminars in Google Maps. | ![screenshot](documentation/features/interactive-map.png) |
 | [**Contact form**](contact.html) | The contact page also includes a contact form, for the user to get in touch with any message that is beyond the scope of the participate or newsletter forms. | ![screenshot](documentation/features/contact-form.png) |
 | Contact page for desktop devices | The background image for the contact page shows the cosmic web symbolising the many connections that can be made through this page. | ![screenshot](documentation/features/contact-laptop.png) |
-| [**Contact form confirmation**](contact-confirmation.html) | Once a user submits a contact form (with valid input), a confirmation page is shown. See Participate form confirmation. | ![screenshot](documentation/features/contact-confirmation.png) |
+| [**Contact form confirmation**](contact-confirmation.html) | Once a user submits a contact form (with valid input), a confirmation page is shown. See participate form confirmation. | ![screenshot](documentation/features/contact-confirmation.png) |
 | [**Newsletter sign-up form**](newsletter.html) | When the user clicks the newsletter icon (see above), the newsletter sign-up page appears. It includes a form, where users can sign up to receive weekly reminders of upcoming seminars. Users leave their personal information and can indicate which type of seminar they are interested in. The background image for the newsletter page (and the respective form confirmation page) shows a quantum wave function symbolising the messages sent out through the newsletter. | ![screenshot](documentation/features/newsletter-signup.png) |
-| [**Newsletter sign-up form confirmation**](newsletter-confirmation.html) | Once a user submits a newsletter sign-up form (with valid input), a confirmation page is shown. See Participate form confirmation. | ![screenshot](documentation/features/newsletter-confirmation.png) |
-| [**Error 404 page**](404.html) | When a page is not found on the website, an error 404 occurs and the error page shows. The goal is to provide a clear and funny message to the user to show that something went wrong and how they can get back to the website. The background image for this page is a black hole, fitting with the theme of getting lost. | ![screenshot](documentation/features/error-404.png) |
+| [**Newsletter sign-up form confirmation**](newsletter-confirmation.html) | Once a user submits a newsletter sign-up form (with valid input), a confirmation page is shown. See participate form confirmation. | ![screenshot](documentation/features/newsletter-confirmation.png) |
+| [**Error 404 page**](404.html) | When a page is not found on the website, an error 404 occurs and the error page shows. The goal is to provide a clear and humorous message to the user to show that something went wrong and how they can get back to the website. The background image for this page is a black hole, fitting the theme of getting lost. | ![screenshot](documentation/features/error-404.png) |
 
 ### Future Features
 
@@ -133,9 +133,9 @@ Any differences between the wireframes and the final website are due to creative
 
     It would be interesting to include an interactive calendar in the upcoming talks page to display all past and upcoming seminars and export calender entries to personal calendars.
 
-- **Archive**
+- **Archive page**
 
-    In the initial wireframes I included an Archive page (see below) and then decided in the planning stages that this was beyond the scope of this project. Therefore, it would be very desirable to implement an Archive page as a future feature. This page would contain details, such as dates, titles, speakers etc. of past seminars. Most notably it would include videos of all past talks. 
+    In the initial wireframes I included an archive page (see below) and then decided in the planning stages that this was beyond the scope of this project. Therefore, it would be very desirable to implement an archive page as a future feature. This page would contain details, such as dates, titles, speakers etc. of past seminars. Most notably it would include videos of all past talks. 
 
     ![screenshot](documentation/wireframes/wireframe-archive.png)
 
@@ -229,13 +229,13 @@ There are no known differences between the local version in Gitpod and the live 
 | --- | --- | --- | --- |
 | [Twemoji](https://github.com/twitter/twemoji/blob/master/assets/svg/269b.svg) | entire page | image | favicon on all pages |
 | [Popular Mechanics](https://hips.hearstapps.com/hmg-prod/images/higgs-boson-conceptual-illustration-royalty-free-illustration-1659096743.jpg) | home page | image | hero image background |
-| [The University of Tokyo](https://www.u-tokyo.ac.jp/content/400117925.jpg) | home page | image | about section background for lunch seminar div |
-| [ontesol](https://cdn-ontesol.pressidium.com/wp-content/uploads/2014/06/iStock_000021014694Small.jpg) | home page | image | about section background for journal club div |
+| [The University of Tokyo](https://www.u-tokyo.ac.jp/content/400117925.jpg) | home page | image | about section background for lunch seminar ```div``` |
+| [ontesol](https://cdn-ontesol.pressidium.com/wp-content/uploads/2014/06/iStock_000021014694Small.jpg) | home page | image | about section background for journal club ```div``` |
 | [MrWallpaper](https://mrwallpaper.com/images/hd/quantum-particle-collision-in-high-energy-physics-7456mziexm479eca.jpg) | upcoming page | image | background |
 | [Spektrum](https://static.spektrum.de/fm/912/f2000x857/iStock-936903524_i000pixels.jpg) | participate and participate confirmation pages | image | background |
 | [Space.com](https://cdn.mos.cms.futurecdn.net/P6zNb5J9FM6V2KjLJTGVQS.jpg) | contact and contact confirmation pages | image | background |
 | [Caltech Science Exchange](https://caltechsites-prod.s3.amazonaws.com/scienceexchange/images/Quantum_Physics-HeaderImage-F.2e16d0ba.fill-933x525-c100.jpg) | newsletter and newsletter confirmation pages | image | background |
-| [Nasa Science](https://smd-cms.nasa.gov/wp-content/uploads/2023/06/PIA16695_large-jpg.webp) | error page | image | background |
+| [Nasa Science](https://smd-cms.nasa.gov/wp-content/uploads/2023/06/PIA16695_large-jpg.webp) | error 404 page | image | background |
 
 ### Acknowledgements
 
