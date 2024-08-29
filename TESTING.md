@@ -10,36 +10,36 @@ I tested the following features of the deployed website in a manual testing proc
 | Feature | Expectation | Action | Outcome |
 | --- | --- | --- | --- |
 | **Logo** | When clicked the home page will open | Click the logo | Home page opened when clicked |
-| **Home navbar button** | When clicked the home page will open | Click the logo | Home page opened when clicked |
-| **Upcoming navbar button** | When clicked the upcoming talks page will open | Click the Home nav button | Upcoming talks page opened when clicked |
-| **Participate navbar button** | When clicked the participate page will open | Click the Participate nav button | Participate page opened when clicked |
-| **Contact navbar button** | When clicked the contact page will open | Click the Contact nav button | Contact page opened when clicked |
+| **Home navbar button** | When clicked the home page will open | Click the Home navbar button | Home page opened when clicked |
+| **Upcoming navbar button** | When clicked the upcoming talks page will open | Click the Upcoming navbar button | Upcoming talks page opened when clicked |
+| **Participate navbar button** | When clicked the participate page will open | Click the Participate navbar button | Participate page opened when clicked |
+| **Contact navbar button** | When clicked the contact page will open | Click the Contact navbar button | Contact page opened when clicked |
 | **Dropdown menu for mobile devices** | When clicked the dropdown menu opens |  Click the burger icon |  Dropdown menu opens |
 |   | When clicked again the dropdown menu closes |  Click the burger icon again |   Dropdown menu closes |
 | **Newsletter icon button** | When clicked the newsletter sign-up page will open | Click the newsletter icon button | Newsletter sign-up page opened when clicked |
-| **Social media icons in footer** | When clicked the social media pages will open in new tab | Click the social media icons | Social media pages are opened in new tab when clicked |
-| **Links in the about section** | When clicked the contact page will open | Click the links in the about section | The contact page opens when clicked |
-| **Links in the upcoming talks section** | When clicked correct page opens in new tab | Click the links in the upcoming talks section | The correct page opens when clicked |
-| **Participate form name and email fields** | When active autocomplete suggestions show | Activate the name and email fields | The name and email fields show autocomplete suggestions when active |
-| **Participate form reset button** | When clicked the form will be reset | Click the form reset button | The form is reset when the reset button is clicked |
-| **Participate form submit button** | When clicked with valid input the form will send and the participate confirmation page will show  | Click the submit button  | The form sends and the confirmation page shows when submit button is clicked with valid input | 
-|  | When clicked with invalid input or empty fields a warning will show | Click the submit button |  A warning shows when there is invalid input or empty fields |
-| **Participate confirmation page** | After 10 seconds the home page shows | Wait 10 seconds | The home page shows after 10 seconds |
-| **Links on the Participate confirmation page** | When clicked the contact page or home page will show respectively | Click the contact or home page links | The contact or home page show when the respective link is clicked |
-| **Contact form name and email fields** | When active autocomplete suggestions show | Activate the name and email fields | The name and email fields show autocomplete suggestions when active |
-| **Contact form reset button** | When clicked the form will be reset | Click the form reset button | The form is reset when the reset button is clicked |
-| **Contact form submit button** | When clicked with valid input the form will send and the contact confirmation page will show | Click the submit button | The form sends and the confirmation page shows when submit button is clicked with valid input |
-| |  When clicked with invalid input or empty fields a warning will show | Click the submit button | A warning shows when there is invalid input or empty fields |
+| **Social media icons in footer** | When clicked the social media pages will open in new tab | Click the social media icons | Social media pages opened in new tab when clicked |
+| **Links in the about section** | When clicked the contact page will open | Click the links in the about section | The contact page opened when clicked |
+| **Links in the upcoming talks section** | When clicked correct page opens in new tab | Click the links in the upcoming talks section | The correct page opened when clicked |
+| **Participate form name and email fields** | When active autocomplete suggestions show | Activate the name and email fields | The name and email fields showed autocomplete suggestions when active |
+| **Participate form reset button** | When clicked the form will be reset | Click the form reset button | The form was reset when the reset button was clicked |
+| **Participate form submit button** | When clicked with valid input the form will send and the participate confirmation page will show  | Click the submit button  | The form sent and the confirmation page showed when submit button was clicked with valid input | 
+|  | When clicked with invalid input or empty fields a warning will show | Click the submit button |  A warning showed when there was invalid input or empty fields |
+| **Participate confirmation page** | After 10 seconds the home page will show | Wait 10 seconds | The home page showed after 10 seconds |
+| **Links on the Participate confirmation page** | When clicked the contact page or home page will show respectively | Click the contact or home page links | The contact or home page showed when the respective link was clicked |
+| **Contact form name and email fields** | When active autocomplete suggestions will show | Activate the name and email fields | The name and email fields showed autocomplete suggestions when active |
+| **Contact form reset button** | When clicked the form will be reset | Click the form reset button | The form was reset when the reset button was clicked |
+| **Contact form submit button** | When clicked with valid input the form will send and the contact confirmation page will show | Click the submit button | The form sent and the confirmation page showed when submit button was clicked with valid input |
+| |  When clicked with invalid input or empty fields a warning will show | Click the submit button | A warning showed when there was invalid input or empty fields |
 | **Contact confirmation page** | After 10 seconds the home page shows | Wait 10 seconds | The home page shows after 10 seconds |
-| **Links on the Contact confirmation page** | When clicked the contact page or home page will show respectively | Click the contact or home page links | The contact or home page show when the respective link is clicked |
-| **Newsletter form name and email fields** | When active autocomplete suggestions show | Activate the name and email fields | The name and email fields show autocomplete suggestions when active |
-| **Newsletter form reset button** | When clicked the form will be reset | Click the form reset button | The form is reset when the reset button is clicked |
-| **Newsletter form submit button** | When clicked with valid input the form will send and the newsletter confirmation page will show | Click the submit button | The form sends and the confirmation page shows when submit button is clicked with valid input |
-| | When clicked with invalid input or empty fields a warning will show | Click the submit button | A warning shows when there is invalid input or empty fields |
-| **Newsletter confirmation page** | After 10 seconds the home page shows | Wait 10 seconds | The home page shows after 10 seconds |
-| **Link on the Newsletter confirmation page** | When clicked the home page will show | Click the home page link | The home page shows when the link is clicked |
-| **Error 404 page** | When entering a URL to a page that does not exist on this website an error page will show | Enter a URL to a page that does not exist on this website | An error page shows when entering a URL to a page that does not exist on this website |
-| **Link on the error 404 page** | When clicked the home page will show | Click the link on the error 404 page | The home page shows when the link is clicked |
+| **Links on the Contact confirmation page** | When clicked the contact page or home page will show respectively | Click the contact or home page links | The contact or home page showed when the respective link was clicked |
+| **Newsletter form name and email fields** | When active autocomplete suggestions will show | Activate the name and email fields | The name and email fields showed autocomplete suggestions when active |
+| **Newsletter form reset button** | When clicked the form will be reset | Click the form reset button | The form was reset when the reset button was clicked |
+| **Newsletter form submit button** | When clicked with valid input the form will send and the newsletter confirmation page will show | Click the submit button | The form sent and the confirmation page showed when submit button was clicked with valid input |
+| | When clicked with invalid input or empty fields a warning will show | Click the submit button | A warning showed when there was invalid input or empty fields |
+| **Newsletter confirmation page** | After 10 seconds the home page will show | Wait 10 seconds | The home page showed after 10 seconds |
+| **Link on the Newsletter confirmation page** | When clicked the home page will show | Click the home page link | The home page showed when clicked |
+| **Error 404 page** | When entering a URL to a page that does not exist on this website an error page will show | Enter a URL to a page that does not exist on this website | An error page showed when entering a URL to a page that does not exist on this website |
+| **Link on the error 404 page** | When clicked the home page will show | Click the link on the error 404 page | The home page showed when the link is clicked |
 
 ## Code Validation
 
@@ -91,7 +91,7 @@ Note: For better readabilty I have not included screenshots of the form confirma
 | Device | Home | Upcoming | Participate | Contact | Newsletter | 404 page | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Mobile (DevTools Samsung Galaxy S8+) | ![screenshot](documentation/responsiveness/responsive-mobile-home.png) | ![screenshot](documentation/responsiveness/responsive-mobile-upcoming.png) | ![screenshot](documentation/responsiveness/responsive-mobile-participate.png) | ![screenshot](documentation/responsiveness/responsive-mobile-contact.png) | ![screenshot](documentation/responsiveness/responsive-mobile-newsletter.png) | ![screenshot](documentation/responsiveness/responsive-mobile-404.png) | Works as expected |
-| Tablet (iPad Mini) (DevTools) | ![screenshot](documentation/responsiveness/responsive-tablet-home.png) | ![screenshot](documentation/responsiveness/responsive-tablet-upcoming.png) | ![screenshot](documentation/responsiveness/responsive-tablet-participate.png) | ![screenshot](documentation/responsiveness/responsive-tablet-contact.png) | ![screenshot](documentation/responsiveness/responsive-tablet-newsletter.png) | ![screenshot](documentation/responsiveness/responsive-tablet-404.png) | Works as expected |
+| Tablet (DevTools iPad Mini) | ![screenshot](documentation/responsiveness/responsive-tablet-home.png) | ![screenshot](documentation/responsiveness/responsive-tablet-upcoming.png) | ![screenshot](documentation/responsiveness/responsive-tablet-participate.png) | ![screenshot](documentation/responsiveness/responsive-tablet-contact.png) | ![screenshot](documentation/responsiveness/responsive-tablet-newsletter.png) | ![screenshot](documentation/responsiveness/responsive-tablet-404.png) | Works as expected |
 | Desktop (DevTools Laptop L) | ![screenshot](documentation/responsiveness/responsive-laptop-home.png) | ![screenshot](documentation/responsiveness/responsive-laptop-upcoming.png) | ![screenshot](documentation/responsiveness/responsive-laptop-participate.png) | ![screenshot](documentation/responsiveness/responsive-laptop-contact.png) | ![screenshot](documentation/responsiveness/responsive-laptop-newsletter.png) | ![screenshot](documentation/responsiveness/responsive-laptop-404.png) | Works as expected |
 | XL Monitor (DevTools 4K) | ![screenshot](documentation/responsiveness/responsive-monitor-home.png) | ![screenshot](documentation/responsiveness/responsive-monitor-upcoming.png) | ![screenshot](documentation/responsiveness/responsive-monitor-participate.png) | ![screenshot](documentation/responsiveness/responsive-monitor-contact.png) | ![screenshot](documentation/responsiveness/responsive-monitor-newsletter.png) | ![screenshot](documentation/responsiveness/responsive-monitor-404.png) | Works as expected |
 | Samsung Galaxy A41 (Mobile) | ![screenshot](documentation/responsiveness/responsive-galaxy-home.jpg) | ![screenshot](documentation/responsiveness/responsive-galaxy-upcoming.jpg) | ![screenshot](documentation/responsiveness/responsive-galaxy-participate.jpg) | ![screenshot](documentation/responsiveness/responsive-galaxy-contact.jpg) | ![screenshot](documentation/responsiveness/responsive-galaxy-newsletter.jpg) | ![screenshot](documentation/responsiveness/responsive-galaxy-404.jpg) | Works as expected |
@@ -123,7 +123,7 @@ I have tested my deployed project using the Lighthouse Audit tool to check for a
 | Home | ![screenshot](documentation/lighthouse/lighthouse-home-mobile.png) | Slower response time due to large images and layout shifts: <br> ![screenshot](documentation/lighthouse/lighthouse-home-mobile-details.png) | ![screenshot](documentation/lighthouse/lighthouse-home-desktop.png) | Some minor warnings |
 | Upcoming | ![screenshot](documentation/lighthouse/lighthouse-upcoming-mobile.png) | Some minor warnings due to large images and layout shifts | ![screenshot](documentation/lighthouse/lighthouse-upcoming-desktop.png) | Some minor warnings |
 | Participate | ![screenshot](documentation/lighthouse/lighthouse-participate-mobile.png) | Some minor warnings in latest report. <br> An earlier report showed lower accessibility ratings: <br> ![screenshot](documentation/lighthouse/lighthouse-participate-mobile-accessibility-issue.png) <br> ![screenshot](documentation/lighthouse/lighthouse-participate-mobile-accessibility-issue-details.png) <br> This was fixed by increasing size and spacing of all form radio buttons. | ![screenshot](documentation/lighthouse/lighthouse-participate-desktop.png) | Some minor warnings |
-| Contact | ![screenshot](documentation/lighthouse/lighthouse-contact-mobile.png) | Slower response time due to large images and layout shifts. <br> The issues with the best practices score stem intirely from third party cookies from the google maps embedded in the page: <br> ![screenshot](documentation/lighthouse/lighthouse-contact-mobile-best-practices.png) | ![screenshot](documentation/lighthouse/lighthouse-contact-desktop.png) | Best practices issues same as for Mobile testing. |
+| Contact | ![screenshot](documentation/lighthouse/lighthouse-contact-mobile.png) | Slower response time due to large images and layout shifts. <br> The issues with the best practices score stem intirely from third party cookies from the google map embedded in the page: <br> ![screenshot](documentation/lighthouse/lighthouse-contact-mobile-best-practices.png) | ![screenshot](documentation/lighthouse/lighthouse-contact-desktop.png) | Best practices issues same as for mobile testing. |
 | Newsletter | ![screenshot](documentation/lighthouse/lighthouse-newsletter-mobile.png) | Some minor warnings | ![screenshot](documentation/lighthouse/lighthouse-newsletter-desktop.png) | Some minor warnings |
 
 Before performing these audits I had already converted all images to .webp using [Cloudconvert](https://cloudconvert.com/webp-converter) and optimized their size using  [Tinypng](https://tinypng.com/) for a faster website. The Desktop audits show that the response time is good, there are remaining slow response time scores from the Mobile audits, which could be improved in a future release.
@@ -132,13 +132,13 @@ The site got full scores for accessibility, best practices and SEO, except for i
 
 ## User Story Testing
 
-The user stories were presented in the [README.md](README.md) file. To test them, I checked whether there is a feature that clearly fulfills the users goal for each of the user stories.
+The user stories were presented in the [README.md](README.md) file. To test them, I checked that there is a feature that clearly fulfills the users goal for each of the user stories.
 
 | User Story | Screenshot |
 | --- | --- |
 |As an internal researcher, I would like to see an overview of upcoming talks, so that I can attend seminars and stay up-to-date on latest research developments. | ![screenshot](documentation/features/upcoming-laptop.png) |
 |As an internal researcher, I would like to see details of upcoming talks, so that I can prepare myself before attending. | ![screenshot](documentation/features/upcoming-laptop.png) |
-|As an internal researcher, I would like to sign up to a weekly newsletter with details on upcoming talks, so that I can attend seminars regularly without having to look up details every week. | ![screenshot](documentation/features/newsletter-form.png) |
+|As an internal researcher, I would like to sign up to a weekly newsletter with details on upcoming talks, so that I can attend seminars regularly without having to look up details every week. | ![screenshot](documentation/features/newsletter-signup.png) |
 |As an internal researcher, I would like to sign up to give a talk in the lunch seminar, so that I can promote my own research or find possible collaborators. | ![screenshot](documentation/features/participate-form.png) |
 |As an internal researcher, I would like to sign up to suggest a paper for the journal club, so that I can discuss recent developments and get input from my peers. | ![screenshot](documentation/features/participate-form.png) |
 |As an internal researcher, I would like to access information about external speakers of upcoming talks, so that I can find new talent to hire. | ![screenshot](documentation/features/upcoming-laptop.png) |
@@ -152,7 +152,7 @@ The user stories were presented in the [README.md](README.md) file. To test them
 |As a student, I would like to see an overview of upcoming talks, so that I can attend seminars and stay up-to-date on latest research developments. | ![screenshot](documentation/features/upcoming-laptop.png) |
 |As a student, I would like to see an overview of upcoming talks, so that I can attend seminars to network with researchers and find someone to hire me. | ![screenshot](documentation/features/upcoming-laptop.png) |
 |As a student, I would like to see details of upcoming talks, so that I can prepare myself before attending. | ![screenshot](documentation/features/upcoming-laptop.png) |
-|As a student, I would like to sign up to a weekly newsletter with details on upcoming talks, so that I can attend seminars regularly without having to look up details every week. | ![screenshot](documentation/features/newsletter-form.png) |
+|As a student, I would like to sign up to a weekly newsletter with details on upcoming talks, so that I can attend seminars regularly without having to look up details every week. | ![screenshot](documentation/features/newsletter-signup.png) |
 |As a student, I would like to acces contact information, so that I can contact the organisers with any questions. | ![screenshot](documentation/features/contact-laptop.png) |
 
 ## Bugs
